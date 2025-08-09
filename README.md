@@ -62,11 +62,20 @@ L'application web, basée sur FastAPI, sert à visualiser les données collecté
 #### Lancer localement
 
 1.  Assurez-vous d'avoir installé les dépendances (`pip install -r requirements.txt`).
-2.  Lancez le serveur de développement Uvicorn depuis le dossier racine :
+2.  Lancez le serveur de développement Flask depuis le dossier racine.
+
+    Sur macOS ou Linux :
     ```bash
-    uvicorn webapp.main:app --reload
+    export FLASK_APP=webapp.main
+    flask run
     ```
-3.  Ouvrez votre navigateur et allez à l'adresse `http://127.0.0.1:8000`.
+
+    Sur Windows (Command Prompt) :
+    ```bash
+    set FLASK_APP=webapp.main
+    flask run
+    ```
+3.  Ouvrez votre navigateur et allez à l'adresse `http://127.0.0.1:5000` (Flask utilise le port 5000 par défaut).
 
 #### Déploiement sur PythonAnywhere
 
