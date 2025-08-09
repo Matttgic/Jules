@@ -23,12 +23,12 @@ def get_odds_for_fixture(fixture_id):
         return None
 
     # --- Parsing Logic ---
-    # We'll try to find a specific bookmaker, e.g., 'Bet365', as a default.
-    # The structure is a big assumption.
+    # We'll try to find the specific bookmaker requested by the user (ID 8 for Bet365).
+    # The structure is based on the sample response provided.
     try:
         bookmaker_data = next(
-            (b for b in response['response'][0]['bookmakers'] if b['name'] == 'Bet365'),
-            response['response'][0]['bookmakers'][0]  # Fallback to the first bookmaker
+            (b for b in response['response'][0]['bookmakers'] if b['id'] == 8),
+            response['response'][0]['bookmakers'][0]  # Fallback to the first available bookmaker
         )
 
         odds = {}
@@ -39,7 +39,7 @@ def get_odds_for_fixture(fixture_id):
                     'draw': float(next(v['odd'] for v in market['values'] if v['value'] == 'Draw')),
                     'away': float(next(v['odd'] for v in market['values'] if v['value'] == 'Away')),
                 }
-            elif market['name'] == 'Over/Under':
+            elif market['name'] == 'Goals Over/Under':
                 # Find the 2.5 goal line
                 ou_2_5 = next((v for v in market['values'] if v['value'] == 'Over 2.5'), None)
                 if ou_2_5:
@@ -49,7 +49,7 @@ def get_odds_for_fixture(fixture_id):
                     if under_2_5:
                         odds['ou_2_5']['under'] = float(under_2_5['odd'])
 
-            elif market['name'] == 'Both Teams To Score':
+            elif market['name'] == 'Both Teams Score':
                 odds['btts'] = {
                     'yes': float(next(v['odd'] for v in market['values'] if v['value'] == 'Yes')),
                     'no': float(next(v['odd'] for v in market['values'] if v['value'] == 'No')),
