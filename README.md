@@ -1,102 +1,64 @@
 # Algorithme de Paris Sportifs sur le Football
 
-Ce projet est un script Python qui recherche les meilleurs paris sportifs pour les matchs de football du jour en se basant sur un modèle statistique (Distribution de Poisson) pour identifier les "value bets".
+Ce projet est une application web qui recherche et affiche les meilleurs paris sportifs pour les matchs de football du jour, en se basant sur un modèle statistique (Distribution de Poisson) pour identifier les "value bets".
 
-## Fonctionnalités
+L'application est construite avec **Streamlit** et est conçue pour être déployée sur **Streamlit Cloud**. L'analyse des données est effectuée automatiquement chaque jour via **GitHub Actions**.
 
-- **Analyse Quotidienne** : Récupère automatiquement les matchs de football du jour.
-- **Modèle Statistique (Poisson)** : Calcule la probabilité de chaque score possible pour un match.
-- **Calcul de Probabilités** : Détermine les probabilités pour les marchés de paris populaires :
-    - Résultat du Match (1X2)
-    - Plus/Moins de 2.5 Buts (Over/Under 2.5)
-    - Les Deux Équipes Marquent (BTTS)
-- **Identification de "Value Bets"** : Compare les probabilités du modèle avec les cotes des bookmakers pour trouver des paris où les chances de gagner sont potentiellement sous-estimées.
+## Architecture
 
-## Installation
+Ce projet utilise une architecture moderne en deux parties pour garantir une performance optimale :
 
-1.  **Clonez le projet** (si vous l'utilisez via git) ou téléchargez les fichiers dans un dossier.
+1.  **Collecte de Données (via GitHub Actions)** :
+    *   Un script (`data_collector.py`) s'exécute automatiquement une fois par jour.
+    *   Il contacte l'API de paris sportifs, analyse les matchs, et identifie les "value bets".
+    *   Il sauvegarde les résultats dans un fichier `results.json` directement dans ce dépôt Git.
 
-2.  **Créez un environnement virtuel** (recommandé) :
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # Sur Windows: venv\Scripts\activate
-    ```
+2.  **Interface Utilisateur (via Streamlit Cloud)** :
+    *   Une application Streamlit (`streamlit_app.py`) lit le fichier `results.json`.
+    *   Elle affiche les résultats dans une interface web claire, rapide et interactive.
+    *   L'application elle-même n'effectue aucun calcul lourd, ce qui la rend très rapide à charger.
 
-3.  **Installez les dépendances** :
-    ```bash
-    pip install -r requirements.txt
-    ```
+## Déploiement (de A à Z)
 
-## Configuration
+Pour avoir votre propre version de cette application en ligne, suivez ces étapes.
 
-Le script a besoin d'une clé API pour accéder aux données des matchs et des cotes via RapidAPI.
+### Étape 1 : Forker le Dépôt
 
-1.  **Obtenez votre clé API** :
-    -   Abonnez-vous à l'API [API-Football sur RapidAPI](https://rapidapi.com/api-sports/api/api-football).
-    -   Allez dans la section "Endpoints" et vous trouverez votre clé `X-RapidAPI-Key` dans les exemples de code.
+Cliquez sur le bouton **"Fork"** en haut à droite de cette page pour créer votre propre copie de ce projet sur votre compte GitHub.
 
-2.  **Créez le fichier de configuration** :
-    -   Dans le dossier racine du projet, créez un fichier nommé `.env`.
-    -   Ouvrez ce fichier et ajoutez votre clé API comme suit :
-    ```
-    API_KEY=votre_cle_api_ici_123456789
-    ```
-    -   Remplacez `votre_cle_api_ici_123456789` par votre véritable clé RapidAPI.
+### Étape 2 : Configurer la Clé API (Secret GitHub)
 
-## Utilisation
+L'action GitHub a besoin de votre clé API RapidAPI pour fonctionner. Vous devez la configurer comme un "secret" dans votre nouveau dépôt.
 
-Ce projet a deux modes d'utilisation : un script de collecte de données et une application web pour visualiser les résultats.
+1.  Sur la page de **votre dépôt forké**, allez dans **"Settings"** (Paramètres).
+2.  Dans le menu de gauche, allez à **"Secrets and variables"** > **"Actions"**.
+3.  Cliquez sur le bouton **"New repository secret"**.
+    *   **Name** : `API_KEY`
+    *   **Secret** : Collez ici votre clé API RapidAPI.
+4.  Cliquez sur **"Add secret"**.
 
-### 1. Collecte des Données
+### Étape 3 : Activer et Lancer le Workflow GitHub
 
-Le script `data_collector.py` est conçu pour être exécuté périodiquement (par exemple, une fois par jour via une tâche planifiée) pour peupler la base de données.
+1.  Allez dans l'onglet **"Actions"** de votre dépôt.
+2.  Vous verrez un workflow nommé **"Daily Betting Analysis"**. Cliquez dessus.
+3.  Il y aura un message vous demandant d'activer les workflows. Cliquez sur le bouton pour les activer.
+4.  Pour peupler les données immédiatement sans attendre le prochain cycle, vous pouvez lancer le workflow manuellement.
+    *   Sur la page du workflow, cliquez sur le menu déroulant **"Run workflow"**.
+    *   Cliquez sur le bouton vert **"Run workflow"**.
+    *   Attendez quelques minutes que l'exécution se termine (le point orange deviendra une coche verte).
 
-```bash
-python data_collector.py
-```
+### Étape 4 : Déployer sur Streamlit Cloud
 
-### 2. Application Web
+1.  Allez sur [share.streamlit.io](https://share.streamlit.io) et connectez-vous avec votre compte GitHub.
+2.  Cliquez sur **"New app"**.
+3.  **Repository** : Choisissez votre dépôt forké.
+4.  **Branch** : `main` (ou le nom de votre branche par défaut).
+5.  **Main file path** : `streamlit_app.py`.
+6.  Cliquez sur **"Deploy!"**.
 
-L'application web, basée sur FastAPI, sert à visualiser les données collectées.
-
-#### Lancer localement
-
-1.  Assurez-vous d'avoir installé les dépendances (`pip install -r requirements.txt`).
-2.  Lancez le serveur de développement Flask depuis le dossier racine.
-
-    Sur macOS ou Linux :
-    ```bash
-    export FLASK_APP=webapp.main
-    flask run
-    ```
-
-    Sur Windows (Command Prompt) :
-    ```bash
-    set FLASK_APP=webapp.main
-    flask run
-    ```
-3.  Ouvrez votre navigateur et allez à l'adresse `http://127.0.0.1:5000` (Flask utilise le port 5000 par défaut).
-
-#### Déploiement sur PythonAnywhere
-
-1.  **Uploadez votre code** sur votre compte PythonAnywhere.
-2.  **Configuration de l'Application Web** :
-    -   Allez dans l'onglet "Web".
-    -   Créez une nouvelle application web. Choisissez "Manual configuration" et la version de Python correspondante.
-    -   Dans la section "Code", spécifiez le chemin vers votre fichier `wsgi.py`.
-    -   Modifiez le fichier `wsgi.py` pour y mettre le chemin correct vers votre projet sur PythonAnywhere.
-3.  **Variables d'Environnement** :
-    -   Dans la configuration de l'application web, allez à la section "Environment variables".
-    -   Ajoutez votre clé API : `API_KEY=votre_nouvelle_cle_securisee`.
-4.  **Tâche Planifiée (Scheduled Task)** :
-    -   Allez dans l'onglet "Tasks".
-    -   Créez une nouvelle tâche pour exécuter le collecteur de données une fois par jour. La commande sera similaire à :
-      ```bash
-      python /home/YourUserName/path/to/your/project/data_collector.py
-      ```
-5.  **Rechargez l'application web** depuis l'onglet "Web" et visitez votre URL `votrenomdutilisateur.pythonanywhere.com`.
+Après quelques instants, votre application sera en ligne et accessible à tous !
 
 ## Avertissement
 
 -   Ce script est un outil d'analyse statistique et **ne garantit en aucun cas des gains**. Les paris sportifs comportent des risques.
--   La logique de récupération des données (statistiques, cotes) est basée sur une structure probable de l'API. Si le fournisseur de l'API modifie sa structure, des ajustements dans le code (notamment dans `src/model.py` et `src/value_finder.py`) pourraient être nécessaires.
+-   La logique de récupération des données est basée sur une structure probable de l'API. Si le fournisseur de l'API modifie sa structure, des ajustements dans le code pourraient être nécessaires.
