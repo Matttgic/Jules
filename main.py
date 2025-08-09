@@ -1,5 +1,21 @@
 import datetime
+import json
 from src import api_client, model, probabilities, value_finder
+
+def load_allowed_leagues():
+    """Loads the list of allowed league IDs from the config file."""
+    try:
+        with open("config/leagues.json", "r") as f:
+            leagues_data = json.load(f)
+            # We only need the IDs, so we extract the values.
+            # Using a set for faster lookups.
+            return set(leagues_data.values())
+    except FileNotFoundError:
+        print("Warning: config/leagues.json not found. No league filter will be applied.")
+        return None
+    except json.JSONDecodeError:
+        print("Warning: Could not decode config/leagues.json. No league filter will be applied.")
+        return None
 
 def get_daily_fixtures():
     """
@@ -76,9 +92,21 @@ if __name__ == "__main__":
         print("Please create a .env file in the root directory with your RapidAPI key:")
         print("API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
     else:
+        allowed_league_ids = load_allowed_leagues()
         fixtures = get_daily_fixtures()
+
         if fixtures:
-            print(f"Found {len(fixtures)} matches to analyze.")
-            for fixture_data in fixtures:
+            print(f"Found {len(fixtures)} total matches for today.")
+
+            if allowed_league_ids:
+                filtered_fixtures = [
+                    f for f in fixtures if f.get('league', {}).get('id') in allowed_league_ids
+                ]
+                print(f"Applying league filter. Analyzing {len(filtered_fixtures)} matches from your allowed list.")
+            else:
+                # If the config file was not found or was empty, analyze all fixtures
+                filtered_fixtures = fixtures
+
+            for fixture_data in filtered_fixtures:
                 analyze_fixture(fixture_data)
         print("\nAnalysis complete.")
