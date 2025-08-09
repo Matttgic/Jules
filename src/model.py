@@ -61,21 +61,24 @@ def calculate_poisson_probabilities(home_team_id, away_team_id, league_id, seaso
     try:
         home_goals_scored = home_stats_raw['goals']['for']['total']['home']
         home_goals_conceded = home_stats_raw['goals']['against']['total']['home']
-        # Assuming number of matches is available, e.g., home_stats_raw['fixtures']['played']['home']
-        # For simplicity, we'll assume the API gives us per-game averages, or we use a fixed number.
-        # Let's assume stats are for a 38-game season, 19 home games.
-        num_matches_home = 19
+        num_matches_home = home_stats_raw['fixtures']['played']['home']
+        if num_matches_home == 0: num_matches_home = 1 # Avoid division by zero
 
         away_goals_scored = away_stats_raw['goals']['for']['total']['away']
         away_goals_conceded = away_stats_raw['goals']['against']['total']['away']
-        num_matches_away = 19
+        num_matches_away = away_stats_raw['fixtures']['played']['away']
+        if num_matches_away == 0: num_matches_away = 1 # Avoid division by zero
 
         home_avg_scored = home_goals_scored / num_matches_home
         home_avg_conceded = home_goals_conceded / num_matches_home
         away_avg_scored = away_goals_scored / num_matches_away
         away_avg_conceded = away_goals_conceded / num_matches_away
     except KeyError as e:
-        print(f"Could not parse team stats from API response. Missing key: {e}")
+        print(f"DEBUG: Could not parse team stats from API response. Missing key: {e}")
+        if 'home_stats_raw' in locals() and home_stats_raw:
+            print(f"DEBUG: Available keys in home_stats_raw: {list(home_stats_raw.keys())}")
+        if 'away_stats_raw' in locals() and away_stats_raw:
+            print(f"DEBUG: Available keys in away_stats_raw: {list(away_stats_raw.keys())}")
         return None
 
     # --- Calculate Attack/Defense Strength ---
