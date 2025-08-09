@@ -23,12 +23,12 @@ def get_odds_for_fixture(fixture_id):
         return None
 
     # --- Parsing Logic ---
-    # We'll try to find a specific bookmaker, e.g., 'Bet365', as a default.
-    # The structure is a big assumption.
+    # We'll try to find the specific bookmaker requested by the user (ID 8 for Bet365).
+    # The structure is based on the sample response provided.
     try:
         bookmaker_data = next(
-            (b for b in response['response'][0]['bookmakers'] if b['name'] == 'Bet365'),
-            response['response'][0]['bookmakers'][0]  # Fallback to the first bookmaker
+            (b for b in response['response'][0]['bookmakers'] if b['id'] == 8),
+            response['response'][0]['bookmakers'][0]  # Fallback to the first available bookmaker
         )
 
         odds = {}
