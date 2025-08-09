@@ -49,16 +49,23 @@ def calculate_poisson_probabilities(home_team_id, away_team_id, league_id, seaso
         print("Could not get league average stats. Aborting.")
         return None
 
-    home_stats_raw = get_team_stats(home_team_id, league_id, season)
-    away_stats_raw = get_team_stats(away_team_id, league_id, season)
+    home_stats_response = get_team_stats(home_team_id, league_id, season)
+    away_stats_response = get_team_stats(away_team_id, league_id, season)
 
-    if not home_stats_raw or not away_stats_raw:
+    if not home_stats_response or not away_stats_response:
         print("Could not retrieve team stats. Aborting calculation.")
         return None
 
-    # --- Data parsing (highly dependent on actual API response structure) ---
-    # These paths are illustrative based on a potential API response.
+    # --- Data parsing ---
+    # Based on debug logs, the actual data is in the 'response' key.
     try:
+        if not home_stats_response.get('response') or not away_stats_response.get('response'):
+            print("API response for team stats is empty.")
+            return None
+
+        home_stats_raw = home_stats_response['response']
+        away_stats_raw = away_stats_response['response']
+
         home_goals_scored = home_stats_raw['goals']['for']['total']['home']
         home_goals_conceded = home_stats_raw['goals']['against']['total']['home']
         num_matches_home = home_stats_raw['fixtures']['played']['home']
@@ -73,12 +80,8 @@ def calculate_poisson_probabilities(home_team_id, away_team_id, league_id, seaso
         home_avg_conceded = home_goals_conceded / num_matches_home
         away_avg_scored = away_goals_scored / num_matches_away
         away_avg_conceded = away_goals_conceded / num_matches_away
-    except KeyError as e:
-        print(f"DEBUG: Could not parse team stats from API response. Missing key: {e}")
-        if 'home_stats_raw' in locals() and home_stats_raw:
-            print(f"DEBUG: Available keys in home_stats_raw: {list(home_stats_raw.keys())}")
-        if 'away_stats_raw' in locals() and away_stats_raw:
-            print(f"DEBUG: Available keys in away_stats_raw: {list(away_stats_raw.keys())}")
+    except (KeyError, TypeError) as e:
+        print(f"ERROR: Could not parse team stats from API response. Missing key or wrong type: {e}")
         return None
 
     # --- Calculate Attack/Defense Strength ---
