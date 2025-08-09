@@ -45,16 +45,47 @@ Le script a besoin d'une clé API pour accéder aux données des matchs et des c
 
 ## Utilisation
 
-Une fois l'installation et la configuration terminées, lancez le script principal depuis le dossier racine du projet :
+Ce projet a deux modes d'utilisation : un script de collecte de données et une application web pour visualiser les résultats.
+
+### 1. Collecte des Données
+
+Le script `data_collector.py` est conçu pour être exécuté périodiquement (par exemple, une fois par jour via une tâche planifiée) pour peupler la base de données.
 
 ```bash
-python main.py
+python data_collector.py
 ```
 
-Le script va :
-1.  Récupérer les matchs du jour.
-2.  Analyser chaque match un par un.
-3.  Afficher dans la console les "value bets" trouvés, avec le marché, le pari, la probabilité calculée par le modèle et la cote du bookmaker.
+### 2. Application Web
+
+L'application web, basée sur FastAPI, sert à visualiser les données collectées.
+
+#### Lancer localement
+
+1.  Assurez-vous d'avoir installé les dépendances (`pip install -r requirements.txt`).
+2.  Lancez le serveur de développement Uvicorn depuis le dossier racine :
+    ```bash
+    uvicorn webapp.main:app --reload
+    ```
+3.  Ouvrez votre navigateur et allez à l'adresse `http://127.0.0.1:8000`.
+
+#### Déploiement sur PythonAnywhere
+
+1.  **Uploadez votre code** sur votre compte PythonAnywhere.
+2.  **Configuration de l'Application Web** :
+    -   Allez dans l'onglet "Web".
+    -   Créez une nouvelle application web. Choisissez "Manual configuration" et la version de Python correspondante.
+    -   Dans la section "Code", spécifiez le chemin vers votre fichier `wsgi.py`.
+    -   Modifiez le fichier `wsgi.py` pour y mettre le chemin correct vers votre projet sur PythonAnywhere.
+3.  **Variables d'Environnement** :
+    -   Dans la configuration de l'application web, allez à la section "Environment variables".
+    -   Ajoutez votre clé API : `API_KEY=votre_nouvelle_cle_securisee`.
+4.  **Tâche Planifiée (Scheduled Task)** :
+    -   Allez dans l'onglet "Tasks".
+    -   Créez une nouvelle tâche pour exécuter le collecteur de données une fois par jour. La commande sera similaire à :
+      ```bash
+      python /home/YourUserName/path/to/your/project/data_collector.py
+      ```
+5.  **Rechargez l'application web** depuis l'onglet "Web" et visitez votre URL `votrenomdutilisateur.pythonanywhere.com`.
 
 ## Avertissement
 
