@@ -1,6 +1,5 @@
 requests
 python-decouple
 numpy
-flask
-sqlalchemy
-jinja2
+streamlit
+pandas
