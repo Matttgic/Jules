@@ -11,51 +11,87 @@ st.set_page_config(
     layout="wide"
 )
 
-# --- Title ---
-st.title("⚽ Value Bets du Jour")
-st.markdown("Voici les paris de valeur identifiés par l'algorithme pour les matchs à venir.")
-
 # --- Data Loading ---
 @st.cache_data(ttl=3600) # Cache data for 1 hour
 def load_data():
     if not os.path.exists("results.json"):
-        return pd.DataFrame(), None
-
+        return pd.DataFrame()
     with open("results.json", "r") as f:
         data = json.load(f)
-
     if not data:
-        return pd.DataFrame(), None
+        return pd.DataFrame()
+    return pd.DataFrame(data)
 
-    df = pd.DataFrame(data)
+# --- Main App ---
+st.title("⚽ Value Bets du Jour")
+st.markdown("Voici les paris de valeur identifiés par l'algorithme pour les matchs à venir.")
 
-    # Get the timestamp of the last update from the first record
-    last_update_str = df["timestamp"].max()
-    last_update_dt = datetime.fromisoformat(last_update_str)
+df = load_data()
 
-    return df, last_update_dt
-
-df, last_update = load_data()
-
-# --- Display Logic ---
 if df.empty:
     st.warning("Aucune donnée de pari disponible pour le moment. L'analyse automatique tourne une fois par jour. Veuillez réessayer plus tard.")
 else:
-    # --- Display Last Update Time ---
-    st.info(f"Dernière mise à jour des données : {last_update.strftime('%d/%m/%Y à %H:%M:%S')} UTC")
+    # --- Sidebar for Filters and Sorting ---
+    st.sidebar.header("Filtres et Options")
 
-    # --- Data Display ---
-    st.subheader("Paris Identifiés")
+    # Get unique leagues for the filter
+    leagues = sorted(df['league'].unique())
+    selected_leagues = st.sidebar.multiselect(
+        "Filtrer par ligue :",
+        options=leagues,
+        default=leagues
+    )
 
-    # Format dataframe for display
-    display_df = df[[
+    # Search bar
+    search_query = st.sidebar.text_input("Rechercher une équipe :")
+
+    # Sorting options
+    sort_options = {
+        "Valeur (décroissant)": ("value", False),
+        "Probabilité (décroissant)": ("probability", False),
+        "Cote (croissant)": ("odds", True),
+        "Date (plus récent)": ("timestamp", False)
+    }
+    sort_by_label = st.sidebar.selectbox(
+        "Trier par :",
+        options=list(sort_options.keys())
+    )
+    sort_by_col, sort_ascending = sort_options[sort_by_label]
+
+    # --- Filtering and Sorting Data ---
+    filtered_df = df[df['league'].isin(selected_leagues)]
+
+    if search_query:
+        filtered_df = filtered_df[filtered_df['match'].str.contains(search_query, case=False, na=False)]
+
+    sorted_df = filtered_df.sort_values(by=sort_by_col, ascending=sort_ascending)
+
+    # --- Display Logic ---
+    last_update_str = sorted_df["timestamp"].max()
+    last_update_dt = datetime.fromisoformat(last_update_str)
+    st.info(f"Dernière mise à jour des données : {last_update_dt.strftime('%d/%m/%Y à %H:%M:%S')} UTC")
+
+    # --- Key Metrics ---
+    total_bets = len(sorted_df)
+    avg_value = sorted_df['value'].mean()
+    num_leagues = sorted_df['league'].nunique()
+
+    col1, col2, col3 = st.columns(3)
+    col1.metric("Paris Trouvés", total_bets)
+    col2.metric("Valeur Moyenne", f"{avg_value:.2f}")
+    col3.metric("Ligues Concernées", num_leagues)
+
+    st.subheader(f"Détail des {total_bets} paris")
+
+    # --- DataFrame Styling ---
+    def style_value(v):
+        color = 'green' if v > 1.1 else 'orange' if v > 1.05 else 'black'
+        return f'color: {color}; font-weight: bold;'
+
+    display_df = sorted_df[[
         "match", "league", "market", "bet_value", "probability", "odds", "value"
-    ]].copy() # Create a copy to avoid SettingWithCopyWarning
+    ]].copy()
 
-    display_df["probability"] = display_df["probability"].map(lambda p: f"{p:.2%}")
-    display_df["value"] = display_df["value"].map(lambda v: f"{v:.2f}")
-
-    # Rename columns for clarity in French
     display_df.rename(columns={
         "match": "Match",
         "league": "Ligue",
@@ -66,7 +102,16 @@ else:
         "value": "Valeur"
     }, inplace=True)
 
-    st.dataframe(display_df, use_container_width=True, hide_index=True)
+    st.dataframe(
+        display_df.style
+            .format({
+                "Notre Prob.": "{:.2%}",
+                "Valeur": "{:.2f}"
+            })
+            .applymap(style_value, subset=['Valeur']),
+        use_container_width=True,
+        hide_index=True
+    )
 
 # --- Sidebar for Explanations ---
 st.sidebar.header("Comment ça marche ?")
