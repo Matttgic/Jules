@@ -1,14 +1,10 @@
 import numpy as np
-import math
+from scipy.stats import poisson
 from . import api_client
 
 # NOTE: As the API documentation could not be accessed, the endpoint names and
 # parameter names used in this module are based on common API design patterns
 # and may need to be adjusted.
-
-def _poisson_pmf(k, lam):
-    """Poisson probability mass function."""
-    return (lam**k * math.exp(-lam)) / math.factorial(k)
 
 def get_team_stats(team_id, league_id, season):
     """
@@ -95,17 +91,21 @@ def calculate_poisson_probabilities(home_team_id, away_team_id, league_id, seaso
     away_lambda = away_attack_strength * home_defense_strength * league_averages['avg_goals_scored_away']
 
     # --- Poisson Calculation ---
-    max_goals = 5
-    score_matrix = np.zeros((max_goals + 1, max_goals + 1))
+    # Dynamic truncation based on quantile to avoid fixed max_goals
+    # We find the number of goals that covers 99.99% of the probability mass
+    max_goals_home = int(poisson.ppf(0.9999, home_lambda))
+    max_goals_away = int(poisson.ppf(0.9999, away_lambda))
 
-    for i in range(max_goals + 1):  # Home goals
-        for j in range(max_goals + 1):  # Away goals
-            prob_home = _poisson_pmf(k=i, lam=home_lambda)
-            prob_away = _poisson_pmf(k=j, lam=away_lambda)
+    score_matrix = np.zeros((max_goals_home + 1, max_goals_away + 1))
+
+    for i in range(max_goals_home + 1):  # Home goals
+        for j in range(max_goals_away + 1):  # Away goals
+            prob_home = poisson.pmf(k=i, mu=home_lambda)
+            prob_away = poisson.pmf(k=j, mu=away_lambda)
             score_matrix[i, j] = prob_home * prob_away
 
     # The sum of probabilities in the matrix might not be 1 because we cap at max_goals.
     # For more accuracy, we could normalize it, but for now, this is sufficient.
     # print(f"Sum of matrix probabilities: {np.sum(score_matrix)}")
 
-    return score_matrix
+    return score_matrix, home_lambda, away_lambda

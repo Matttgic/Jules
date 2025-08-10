@@ -3,3 +3,4 @@ python-decouple
 numpy
 streamlit
 pandas
+scipy

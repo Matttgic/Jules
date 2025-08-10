@@ -1,28 +1,25 @@
 import numpy as np
+from scipy.stats import skellam
 
-def calculate_1x2_probs(score_matrix):
+def calculate_1x2_probs_skellam(home_lambda, away_lambda):
     """
-    Calculates Home Win (1), Draw (X), and Away Win (2) probabilities.
-
-    Args:
-        score_matrix (np.array): A 2D numpy array of score probabilities.
-
-    Returns:
-        dict: Probabilities for {'home_win', 'draw', 'away_win'}.
+    Calculates Home Win (1), Draw (X), and Away Win (2) probabilities
+    using the Skellam distribution. This is more accurate than matrix summation.
     """
-    home_win_prob = np.sum(np.tril(score_matrix, k=-1))
-    draw_prob = np.sum(np.diag(score_matrix))
-    away_win_prob = np.sum(np.triu(score_matrix, k=1))
+    # The difference of two Poisson variables is a Skellam distribution.
+    # We are interested in the difference k = home_goals - away_goals.
+    # P(home win) = P(k > 0), P(draw) = P(k = 0), P(away win) = P(k < 0)
 
-    # Normalize probabilities to sum to 1, accounting for the capped max_goals
-    total_prob = home_win_prob + draw_prob + away_win_prob
-    if total_prob == 0: return {'home_win': 0, 'draw': 0, 'away_win': 0}
+    draw_prob = skellam.pmf(0, mu1=home_lambda, mu2=away_lambda)
+    home_win_prob = skellam.sf(0, mu1=home_lambda, mu2=away_lambda) # P(k > 0)
+    away_win_prob = skellam.cdf(-1, mu1=home_lambda, mu2=away_lambda) # P(k < 0)
 
     return {
-        "home_win": home_win_prob / total_prob,
-        "draw": draw_prob / total_prob,
-        "away_win": away_win_prob / total_prob,
+        "home_win": home_win_prob,
+        "draw": draw_prob,
+        "away_win": away_win_prob,
     }
+
 
 def calculate_over_under_probs(score_matrix, threshold=2.5):
     """
@@ -80,7 +77,7 @@ def calculate_btts_probs(score_matrix):
         "btts_no": btts_no_prob,
     }
 
-def get_market_probabilities(score_matrix):
+def get_market_probabilities(score_matrix, home_lambda, away_lambda):
     """
     A wrapper function to get probabilities for all target markets.
     """
@@ -88,7 +85,7 @@ def get_market_probabilities(score_matrix):
         return None
 
     return {
-        "1x2": calculate_1x2_probs(score_matrix),
+        "1x2": calculate_1x2_probs_skellam(home_lambda, away_lambda),
         "ou_2_5": calculate_over_under_probs(score_matrix, threshold=2.5),
         "btts": calculate_btts_probs(score_matrix)
     }
