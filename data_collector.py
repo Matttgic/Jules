@@ -61,7 +61,7 @@ def run_analysis():
 
             print(f"\nAnalyzing: {home_team_name} vs {away_team_name}")
 
-            score_matrix = model.calculate_poisson_probabilities(
+            score_matrix, home_lambda, away_lambda = model.calculate_poisson_probabilities(
                 fixture_data['teams']['home']['id'],
                 fixture_data['teams']['away']['id'],
                 fixture_data['league']['id'],
@@ -69,7 +69,7 @@ def run_analysis():
             )
             if score_matrix is None: continue
 
-            our_probs = probabilities.get_market_probabilities(score_matrix)
+            our_probs = probabilities.get_market_probabilities(score_matrix, home_lambda, away_lambda)
             if not our_probs: continue
 
             bookmaker_odds = value_finder.get_odds_for_fixture(fixture_id)
