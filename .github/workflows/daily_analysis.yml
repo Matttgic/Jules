@@ -27,13 +27,5 @@ jobs:
       - name: Run data collector
         env:
           API_KEY: ${{ secrets.API_KEY }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
         run: python data_collector.py
-
-      - name: Commit results
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "chore: Update daily betting results"
-          file_pattern: "results.json"
-          commit_user_name: "GitHub Actions"
-          commit_user_email: "actions@github.com"
-          commit_author: "GitHub Actions <actions@github.com>"
