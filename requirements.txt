@@ -4,3 +4,4 @@ numpy
 streamlit
 pandas
 scipy
+psycopg2-binary
