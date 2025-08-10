@@ -4,380 +4,370 @@
         "league": "Liga Pro",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.7568826561322547,
+        "probability": 0.7775743539428591,
         "odds": 1.62,
-        "value": 1.2261499029342526,
-        "timestamp": "2025-08-10T12:32:04.969446"
+        "value": 1.2596704533874319,
+        "timestamp": "2025-08-10T14:25:57.782568"
     },
     {
         "match": "Manta FC vs Independiente del Valle",
         "league": "Liga Pro",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.7450317436215087,
+        "probability": 0.767320103144262,
         "odds": 1.85,
-        "value": 1.3783087256997912,
-        "timestamp": "2025-08-10T12:32:04.969458"
+        "value": 1.4195421908168848,
+        "timestamp": "2025-08-10T14:25:57.782580"
     },
     {
         "match": "Manta FC vs Independiente del Valle",
         "league": "Liga Pro",
         "market": "BTTS",
         "bet_value": "Yes",
-        "probability": 0.6010086080261173,
+        "probability": 0.6041113826765165,
         "odds": 1.83,
-        "value": 1.0998457526877947,
-        "timestamp": "2025-08-10T12:32:04.969460"
+        "value": 1.1055238302980253,
+        "timestamp": "2025-08-10T14:25:57.782582"
     },
     {
         "match": "Bahia vs Fluminense",
         "league": "Serie A",
         "market": "1X2",
         "bet_value": "Home",
-        "probability": 0.6250524475736884,
+        "probability": 0.6326293080682724,
         "odds": 1.65,
-        "value": 1.0313365384965858,
-        "timestamp": "2025-08-10T12:32:05.792075"
+        "value": 1.0438383583126494,
+        "timestamp": "2025-08-10T14:25:58.515888"
     },
     {
         "match": "Bahia vs Fluminense",
         "league": "Serie A",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.590841300959617,
+        "probability": 0.5996538680507282,
         "odds": 2.2,
-        "value": 1.2998508621111573,
-        "timestamp": "2025-08-10T12:32:05.792087"
+        "value": 1.3192385097116022,
+        "timestamp": "2025-08-10T14:25:58.515900"
     },
     {
         "match": "Bahia vs Fluminense",
         "league": "Serie A",
         "market": "BTTS",
         "bet_value": "Yes",
-        "probability": 0.5501384645929189,
+        "probability": 0.551922408416357,
         "odds": 2.1,
-        "value": 1.1552907756451298,
-        "timestamp": "2025-08-10T12:32:05.792089"
+        "value": 1.1590370576743496,
+        "timestamp": "2025-08-10T14:25:58.515903"
     },
     {
         "match": "Austin vs Houston Dynamo",
         "league": "Major League Soccer",
         "market": "1X2",
         "bet_value": "Draw",
-        "probability": 0.310300989596452,
+        "probability": 0.3099341216038031,
         "odds": 3.6,
-        "value": 1.1170835625472273,
-        "timestamp": "2025-08-10T12:32:06.647534"
+        "value": 1.1157628377736912,
+        "timestamp": "2025-08-10T14:25:59.636586"
     },
     {
         "match": "Austin vs Houston Dynamo",
         "league": "Major League Soccer",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.39213732393799683,
+        "probability": 0.3925270181156475,
         "odds": 3.75,
-        "value": 1.4705149647674882,
-        "timestamp": "2025-08-10T12:32:06.647546"
+        "value": 1.4719763179336782,
+        "timestamp": "2025-08-10T14:25:59.636599"
     },
     {
         "match": "Austin vs Houston Dynamo",
         "league": "Major League Soccer",
         "market": "O/U 2.5",
         "bet_value": "Under",
-        "probability": 0.6866664282680147,
+        "probability": 0.6858940428357637,
         "odds": 1.85,
-        "value": 1.2703328922958272,
-        "timestamp": "2025-08-10T12:32:06.647548"
+        "value": 1.268903979246163,
+        "timestamp": "2025-08-10T14:25:59.636601"
     },
     {
         "match": "Austin vs Houston Dynamo",
         "league": "Major League Soccer",
         "market": "BTTS",
         "bet_value": "No",
-        "probability": 0.6116437440031551,
+        "probability": 0.611396988938128,
         "odds": 1.95,
-        "value": 1.1927053008061526,
-        "timestamp": "2025-08-10T12:32:06.647550"
+        "value": 1.1922241284293496,
+        "timestamp": "2025-08-10T14:25:59.636603"
     },
     {
         "match": "Chicago Fire vs Los Angeles FC",
         "league": "Major League Soccer",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.48897681929460296,
+        "probability": 0.4976518320080209,
         "odds": 3.1,
-        "value": 1.5158281398132691,
-        "timestamp": "2025-08-10T12:32:07.391581"
+        "value": 1.5427206792248647,
+        "timestamp": "2025-08-10T14:26:00.725992"
     },
     {
         "match": "Chicago Fire vs Los Angeles FC",
         "league": "Major League Soccer",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.730439674589072,
+        "probability": 0.7388040095821998,
         "odds": 1.67,
-        "value": 1.21983425656375,
-        "timestamp": "2025-08-10T12:32:07.391596"
+        "value": 1.2338026960022737,
+        "timestamp": "2025-08-10T14:26:00.726003"
     },
     {
         "match": "Chicago Fire vs Los Angeles FC",
         "league": "Major League Soccer",
         "market": "BTTS",
         "bet_value": "Yes",
-        "probability": 0.7161157005828473,
+        "probability": 0.7195812241782634,
         "odds": 1.57,
-        "value": 1.1243016499150704,
-        "timestamp": "2025-08-10T12:32:07.391600"
+        "value": 1.1297425219598736,
+        "timestamp": "2025-08-10T14:26:00.726005"
     },
     {
         "match": "FC Dallas vs Portland Timbers",
         "league": "Major League Soccer",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.46480924773697857,
+        "probability": 0.46878801172789364,
         "odds": 3.4,
-        "value": 1.580351442305727,
-        "timestamp": "2025-08-10T12:32:08.762710"
+        "value": 1.5938792398748383,
+        "timestamp": "2025-08-10T14:26:01.873608"
     },
     {
         "match": "FC Dallas vs Portland Timbers",
         "league": "Major League Soccer",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.6140734194589829,
+        "probability": 0.6192412505456997,
         "odds": 1.73,
-        "value": 1.0623470156640404,
-        "timestamp": "2025-08-10T12:32:08.762722"
+        "value": 1.0712873634440605,
+        "timestamp": "2025-08-10T14:26:01.873620"
     },
     {
         "match": "FC Dallas vs Portland Timbers",
         "league": "Major League Soccer",
         "market": "BTTS",
         "bet_value": "Yes",
-        "probability": 0.6264949258688732,
+        "probability": 0.6284461628064852,
         "odds": 1.62,
-        "value": 1.0149217799075747,
-        "timestamp": "2025-08-10T12:32:08.762724"
+        "value": 1.018082783746506,
+        "timestamp": "2025-08-10T14:26:01.873622"
     },
     {
         "match": "St. Louis City vs Nashville SC",
         "league": "Major League Soccer",
         "market": "1X2",
         "bet_value": "Home",
-        "probability": 0.3389444765803406,
+        "probability": 0.3390794700683226,
         "odds": 3.1,
-        "value": 1.0507278773990558,
-        "timestamp": "2025-08-10T12:32:09.573469"
+        "value": 1.0511463572118,
+        "timestamp": "2025-08-10T14:26:03.485739"
     },
     {
         "match": "St. Louis City vs Nashville SC",
         "league": "Major League Soccer",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.6272261284450458,
+        "probability": 0.6322406458989953,
         "odds": 1.6,
-        "value": 1.0035618055120732,
-        "timestamp": "2025-08-10T12:32:09.573479"
+        "value": 1.0115850334383925,
+        "timestamp": "2025-08-10T14:26:03.485751"
     },
     {
         "match": "Bucaramanga vs Santa Fe",
         "league": "Primera A",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.44481955694452696,
+        "probability": 0.44653431501204055,
         "odds": 3.7,
-        "value": 1.6458323606947498,
-        "timestamp": "2025-08-10T12:32:10.776909"
+        "value": 1.6521769655445502,
+        "timestamp": "2025-08-10T14:26:07.363244"
     },
     {
         "match": "Bucaramanga vs Santa Fe",
         "league": "Primera A",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.4814279994490716,
+        "probability": 0.48409431160689,
         "odds": 2.35,
-        "value": 1.1313557987053182,
-        "timestamp": "2025-08-10T12:32:10.776920"
+        "value": 1.1376216322761914,
+        "timestamp": "2025-08-10T14:26:07.363256"
     },
     {
         "match": "Bucaramanga vs Santa Fe",
         "league": "Primera A",
         "market": "BTTS",
         "bet_value": "Yes",
-        "probability": 0.5230417252851094,
+        "probability": 0.5239525401274288,
         "odds": 2.0,
-        "value": 1.0460834505702188,
-        "timestamp": "2025-08-10T12:32:10.776922"
+        "value": 1.0479050802548575,
+        "timestamp": "2025-08-10T14:26:07.363257"
     },
     {
         "match": "Sporting Kansas City vs San Diego",
         "league": "Major League Soccer",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.7097692379820605,
+        "probability": 0.7633525123765849,
         "odds": 2.0,
-        "value": 1.419538475964121,
-        "timestamp": "2025-08-10T12:32:12.421921"
+        "value": 1.5267050247531697,
+        "timestamp": "2025-08-10T14:26:08.290052"
     },
     {
         "match": "Sporting Kansas City vs San Diego",
         "league": "Major League Soccer",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.9010684069349248,
+        "probability": 0.9220835014336484,
         "odds": 1.44,
-        "value": 1.2975385059862918,
-        "timestamp": "2025-08-10T12:32:12.421932"
+        "value": 1.3278002420644537,
+        "timestamp": "2025-08-10T14:26:08.290063"
     },
     {
         "match": "Sporting Kansas City vs San Diego",
         "league": "Major League Soccer",
         "market": "BTTS",
         "bet_value": "Yes",
-        "probability": 0.802736462014506,
+        "probability": 0.8084068913724884,
         "odds": 1.4,
-        "value": 1.1238310468203083,
-        "timestamp": "2025-08-10T12:32:12.421934"
+        "value": 1.1317696479214838,
+        "timestamp": "2025-08-10T14:26:08.290065"
     },
     {
         "match": "Club America vs Club Queretaro",
         "league": "Liga MX",
         "market": "1X2",
         "bet_value": "Home",
-        "probability": 0.869238354202731,
+        "probability": 0.873754551554001,
         "odds": 1.25,
-        "value": 1.0865479427534137,
-        "timestamp": "2025-08-10T12:32:13.030586"
+        "value": 1.0921931894425012,
+        "timestamp": "2025-08-10T14:26:09.014981"
     },
     {
         "match": "Club America vs Club Queretaro",
         "league": "Liga MX",
         "market": "O/U 2.5",
         "bet_value": "Under",
-        "probability": 0.5546691513818935,
+        "probability": 0.5355440308242191,
         "odds": 2.15,
-        "value": 1.1925386754710712,
-        "timestamp": "2025-08-10T12:32:13.030601"
+        "value": 1.151419666272071,
+        "timestamp": "2025-08-10T14:26:09.014992"
     },
     {
         "match": "Club America vs Club Queretaro",
         "league": "Liga MX",
         "market": "BTTS",
         "bet_value": "No",
-        "probability": 0.8728696912896117,
+        "probability": 0.8724203335712826,
         "odds": 1.57,
-        "value": 1.3704054153246903,
-        "timestamp": "2025-08-10T12:32:13.030603"
+        "value": 1.3696999237069136,
+        "timestamp": "2025-08-10T14:26:09.014994"
     },
     {
         "match": "San Jose Earthquakes vs Vancouver Whitecaps",
         "league": "Major League Soccer",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.4196079934070043,
+        "probability": 0.424071690517538,
         "odds": 2.45,
-        "value": 1.0280395838471605,
-        "timestamp": "2025-08-10T12:32:13.736736"
+        "value": 1.0389756417679683,
+        "timestamp": "2025-08-10T14:26:09.792086"
     },
     {
         "match": "San Jose Earthquakes vs Vancouver Whitecaps",
         "league": "Major League Soccer",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.7242352223730792,
+        "probability": 0.7315675056497613,
         "odds": 1.53,
-        "value": 1.1080798902308113,
-        "timestamp": "2025-08-10T12:32:13.736747"
+        "value": 1.1192982836441348,
+        "timestamp": "2025-08-10T14:26:09.792098"
     },
     {
         "match": "San Jose Earthquakes vs Vancouver Whitecaps",
         "league": "Major League Soccer",
         "market": "BTTS",
         "bet_value": "Yes",
-        "probability": 0.7193295825442364,
+        "probability": 0.7227296122334393,
         "odds": 1.44,
-        "value": 1.0358345988637003,
-        "timestamp": "2025-08-10T12:32:13.736749"
+        "value": 1.0407306416161526,
+        "timestamp": "2025-08-10T14:26:09.792100"
     },
     {
         "match": "Mazatl\u00e1n vs Club Tijuana",
         "league": "Liga MX",
         "market": "1X2",
         "bet_value": "Home",
-        "probability": 0.6193097631188487,
+        "probability": 0.6658565324414885,
         "odds": 2.88,
-        "value": 1.7836121177822841,
-        "timestamp": "2025-08-10T12:32:16.180932"
+        "value": 1.9176668134314867,
+        "timestamp": "2025-08-10T14:26:11.028901"
     },
     {
         "match": "Mazatl\u00e1n vs Club Tijuana",
         "league": "Liga MX",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.9022097376648283,
+        "probability": 0.9185731375352907,
         "odds": 1.85,
-        "value": 1.6690880146799323,
-        "timestamp": "2025-08-10T12:32:16.180943"
+        "value": 1.6993603044402878,
+        "timestamp": "2025-08-10T14:26:11.028913"
     },
     {
         "match": "Mazatl\u00e1n vs Club Tijuana",
         "league": "Liga MX",
         "market": "BTTS",
         "bet_value": "Yes",
-        "probability": 0.8394864107878202,
+        "probability": 0.8461896103295384,
         "odds": 1.67,
-        "value": 1.4019423060156595,
-        "timestamp": "2025-08-10T12:32:16.180945"
+        "value": 1.4131366492503292,
+        "timestamp": "2025-08-10T14:26:11.028916"
     },
     {
         "match": "Atlas vs Pachuca",
         "league": "Liga MX",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.9519612470183095,
+        "probability": 0.9913266907269307,
         "odds": 1.9,
-        "value": 1.808726369334788,
-        "timestamp": "2025-08-10T12:32:18.099282"
+        "value": 1.8835207123811681,
+        "timestamp": "2025-08-10T14:26:12.293599"
     },
     {
         "match": "Atlas vs Pachuca",
         "league": "Liga MX",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.9709499994980667,
+        "probability": 0.9949160920768322,
         "odds": 1.73,
-        "value": 1.6797434991316553,
-        "timestamp": "2025-08-10T12:32:18.099292"
+        "value": 1.7212048392929196,
+        "timestamp": "2025-08-10T14:26:12.293611"
     },
     {
         "match": "Atlas vs Pachuca",
         "league": "Liga MX",
         "market": "BTTS",
         "bet_value": "Yes",
-        "probability": 0.6561414477420386,
+        "probability": 0.6572915191277595,
         "odds": 1.67,
-        "value": 1.0957562177292044,
-        "timestamp": "2025-08-10T12:32:18.099294"
-    },
-    {
-        "match": "Obolon'-Brovar vs Oleksandria",
-        "league": "Premier League",
-        "market": "1X2",
-        "bet_value": "Home",
-        "probability": 0.7595003124239808,
-        "odds": 3.2,
-        "value": 2.4304009997567384,
-        "timestamp": "2025-08-10T12:32:20.699454"
+        "value": 1.0976768369433583,
+        "timestamp": "2025-08-10T14:26:12.293613"
     },
     {
         "match": "Obolon'-Brovar vs Oleksandria",
         "league": "Premier League",
         "market": "O/U 2.5",
         "bet_value": "Under",
-        "probability": 0.829478514292801,
+        "probability": 0.8265672781590937,
         "odds": 1.5,
-        "value": 1.2442177714392013,
-        "timestamp": "2025-08-10T12:32:20.699465"
+        "value": 1.2398509172386405,
+        "timestamp": "2025-08-10T14:26:14.430947"
     },
     {
         "match": "Obolon'-Brovar vs Oleksandria",
@@ -387,17 +377,7 @@
         "probability": 0.9999999999999999,
         "odds": 1.67,
         "value": 1.6699999999999997,
-        "timestamp": "2025-08-10T12:32:20.699467"
-    },
-    {
-        "match": "PEC Zwolle vs Twente",
-        "league": "Eredivisie",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 3.7,
-        "value": 3.7,
-        "timestamp": "2025-08-10T12:32:21.573447"
+        "timestamp": "2025-08-10T14:26:14.430959"
     },
     {
         "match": "PEC Zwolle vs Twente",
@@ -407,7 +387,7 @@
         "probability": 1.0,
         "odds": 2.08,
         "value": 2.08,
-        "timestamp": "2025-08-10T12:32:21.573458"
+        "timestamp": "2025-08-10T14:26:16.872392"
     },
     {
         "match": "PEC Zwolle vs Twente",
@@ -417,47 +397,27 @@
         "probability": 1.0,
         "odds": 2.1,
         "value": 2.1,
-        "timestamp": "2025-08-10T12:32:21.573460"
-    },
-    {
-        "match": "RAAL La Louvi\u00e8re vs Charleroi",
-        "league": "Jupiler Pro League",
-        "market": "1X2",
-        "bet_value": "Away",
-        "probability": 0.9685988465322755,
-        "odds": 2.2,
-        "value": 2.130917462371006,
-        "timestamp": "2025-08-10T12:32:22.403673"
+        "timestamp": "2025-08-10T14:26:16.872403"
     },
     {
         "match": "RAAL La Louvi\u00e8re vs Charleroi",
         "league": "Jupiler Pro League",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.6468019019043545,
+        "probability": 0.7036313452180869,
         "odds": 2.05,
-        "value": 1.3259438989039265,
-        "timestamp": "2025-08-10T12:32:22.403684"
+        "value": 1.442444257697078,
+        "timestamp": "2025-08-10T14:26:17.684753"
     },
     {
         "match": "RAAL La Louvi\u00e8re vs Charleroi",
         "league": "Jupiler Pro League",
         "market": "BTTS",
         "bet_value": "No",
-        "probability": 1.0,
+        "probability": 0.9999999999999999,
         "odds": 1.95,
-        "value": 1.95,
-        "timestamp": "2025-08-10T12:32:22.403686"
-    },
-    {
-        "match": "Aberdeen vs Celtic",
-        "league": "Premiership",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 5.0,
-        "value": 5.0,
-        "timestamp": "2025-08-10T12:32:23.123709"
+        "value": 1.9499999999999997,
+        "timestamp": "2025-08-10T14:26:17.684767"
     },
     {
         "match": "Aberdeen vs Celtic",
@@ -467,7 +427,7 @@
         "probability": 1.0,
         "odds": 3.0,
         "value": 3.0,
-        "timestamp": "2025-08-10T12:32:23.123723"
+        "timestamp": "2025-08-10T14:26:18.946321"
     },
     {
         "match": "Aberdeen vs Celtic",
@@ -477,27 +437,7 @@
         "probability": 1.0,
         "odds": 2.05,
         "value": 2.05,
-        "timestamp": "2025-08-10T12:32:23.123727"
-    },
-    {
-        "match": "VfL Bochum vs SV Elversberg",
-        "league": "2. Bundesliga",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 3.9,
-        "value": 3.9,
-        "timestamp": "2025-08-10T12:32:23.815003"
-    },
-    {
-        "match": "VfL Bochum vs SV Elversberg",
-        "league": "2. Bundesliga",
-        "market": "O/U 2.5",
-        "bet_value": "Under",
-        "probability": 1.0,
-        "odds": 2.25,
-        "value": 2.25,
-        "timestamp": "2025-08-10T12:32:23.815014"
+        "timestamp": "2025-08-10T14:26:18.946332"
     },
     {
         "match": "VfL Bochum vs SV Elversberg",
@@ -507,17 +447,7 @@
         "probability": 1.0,
         "odds": 2.25,
         "value": 2.25,
-        "timestamp": "2025-08-10T12:32:23.815016"
-    },
-    {
-        "match": "Hertha BSC vs Karlsruher SC",
-        "league": "2. Bundesliga",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 4.0,
-        "value": 4.0,
-        "timestamp": "2025-08-10T12:32:24.417634"
+        "timestamp": "2025-08-10T14:26:20.085835"
     },
     {
         "match": "Hertha BSC vs Karlsruher SC",
@@ -527,7 +457,7 @@
         "probability": 1.0,
         "odds": 2.35,
         "value": 2.35,
-        "timestamp": "2025-08-10T12:32:24.417648"
+        "timestamp": "2025-08-10T14:26:22.201125"
     },
     {
         "match": "Hertha BSC vs Karlsruher SC",
@@ -537,107 +467,87 @@
         "probability": 1.0,
         "odds": 2.38,
         "value": 2.38,
-        "timestamp": "2025-08-10T12:32:24.417652"
-    },
-    {
-        "match": "Holstein Kiel vs Arminia Bielefeld",
-        "league": "2. Bundesliga",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 3.6,
-        "value": 3.6,
-        "timestamp": "2025-08-10T12:32:25.296104"
+        "timestamp": "2025-08-10T14:26:22.201137"
     },
     {
         "match": "Holstein Kiel vs Arminia Bielefeld",
         "league": "2. Bundesliga",
         "market": "O/U 2.5",
-        "bet_value": "Under",
-        "probability": 1.0,
-        "odds": 2.25,
-        "value": 2.25,
-        "timestamp": "2025-08-10T12:32:25.296115"
+        "bet_value": "Over",
+        "probability": 0.7036313452180869,
+        "odds": 1.7,
+        "value": 1.1961732868707478,
+        "timestamp": "2025-08-10T14:26:23.229520"
     },
     {
         "match": "Holstein Kiel vs Arminia Bielefeld",
         "league": "2. Bundesliga",
         "market": "BTTS",
         "bet_value": "No",
-        "probability": 1.0,
-        "odds": 2.38,
-        "value": 2.38,
-        "timestamp": "2025-08-10T12:32:25.296117"
+        "probability": 0.9999999999999999,
+        "odds": 2.25,
+        "value": 2.2499999999999996,
+        "timestamp": "2025-08-10T14:26:23.229532"
     },
     {
         "match": "AIK Stockholm vs Djurgardens IF",
         "league": "Allsvenskan",
         "market": "1X2",
         "bet_value": "Home",
-        "probability": 0.6149980600961276,
+        "probability": 0.6170611395465152,
         "odds": 2.62,
-        "value": 1.6112949174518543,
-        "timestamp": "2025-08-10T12:32:26.026398"
+        "value": 1.61670018561187,
+        "timestamp": "2025-08-10T14:26:24.053817"
     },
     {
         "match": "AIK Stockholm vs Djurgardens IF",
         "league": "Allsvenskan",
         "market": "BTTS",
         "bet_value": "No",
-        "probability": 0.6579162764759026,
+        "probability": 0.6574260268525638,
         "odds": 1.67,
-        "value": 1.0987201817147572,
-        "timestamp": "2025-08-10T12:32:26.026410"
+        "value": 1.0979014648437815,
+        "timestamp": "2025-08-10T14:26:24.053829"
     },
     {
         "match": "Degerfors IF vs BK Hacken",
         "league": "Allsvenskan",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.6712830910235842,
+        "probability": 0.6740275891390413,
         "odds": 2.45,
-        "value": 1.6446435730077813,
-        "timestamp": "2025-08-10T12:32:28.602483"
+        "value": 1.6513675933906513,
+        "timestamp": "2025-08-10T14:26:24.726262"
     },
     {
         "match": "Degerfors IF vs BK Hacken",
         "league": "Allsvenskan",
         "market": "O/U 2.5",
         "bet_value": "Under",
-        "probability": 0.6244144947125779,
+        "probability": 0.6192317328199368,
         "odds": 2.2,
-        "value": 1.3737118883676716,
-        "timestamp": "2025-08-10T12:32:28.602494"
+        "value": 1.362309812203861,
+        "timestamp": "2025-08-10T14:26:24.726273"
     },
     {
         "match": "Degerfors IF vs BK Hacken",
         "league": "Allsvenskan",
         "market": "BTTS",
         "bet_value": "No",
-        "probability": 0.6797658114137682,
+        "probability": 0.6791780310385115,
         "odds": 2.38,
-        "value": 1.6178426311647682,
-        "timestamp": "2025-08-10T12:32:28.602496"
-    },
-    {
-        "match": "FC Midtjylland vs FC Fredericia",
-        "league": "Superliga",
-        "market": "1X2",
-        "bet_value": "Away",
-        "probability": 0.9847293412247419,
-        "odds": 6.0,
-        "value": 5.908376047348451,
-        "timestamp": "2025-08-10T12:32:29.258522"
+        "value": 1.6164437138716572,
+        "timestamp": "2025-08-10T14:26:24.726275"
     },
     {
         "match": "FC Midtjylland vs FC Fredericia",
         "league": "Superliga",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.7575625164688362,
+        "probability": 0.8314565633436201,
         "odds": 1.36,
-        "value": 1.0302850223976172,
-        "timestamp": "2025-08-10T12:32:29.258534"
+        "value": 1.1307809261473234,
+        "timestamp": "2025-08-10T14:26:25.396035"
     },
     {
         "match": "FC Midtjylland vs FC Fredericia",
@@ -647,17 +557,7 @@
         "probability": 1.0,
         "odds": 2.25,
         "value": 2.25,
-        "timestamp": "2025-08-10T12:32:29.258536"
-    },
-    {
-        "match": "Ajax vs Telstar",
-        "league": "Eredivisie",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 8.0,
-        "value": 8.0,
-        "timestamp": "2025-08-10T12:32:29.908465"
+        "timestamp": "2025-08-10T14:26:25.396046"
     },
     {
         "match": "Ajax vs Telstar",
@@ -665,9 +565,9 @@
         "market": "O/U 2.5",
         "bet_value": "Under",
         "probability": 1.0,
-        "odds": 3.4,
-        "value": 3.4,
-        "timestamp": "2025-08-10T12:32:29.908476"
+        "odds": 3.5,
+        "value": 3.5,
+        "timestamp": "2025-08-10T14:26:26.778994"
     },
     {
         "match": "Ajax vs Telstar",
@@ -677,17 +577,7 @@
         "probability": 1.0,
         "odds": 1.75,
         "value": 1.75,
-        "timestamp": "2025-08-10T12:32:29.908478"
-    },
-    {
-        "match": "AZ Alkmaar vs Groningen",
-        "league": "Eredivisie",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 5.0,
-        "value": 5.0,
-        "timestamp": "2025-08-10T12:32:30.524065"
+        "timestamp": "2025-08-10T14:26:26.779005"
     },
     {
         "match": "AZ Alkmaar vs Groningen",
@@ -695,9 +585,9 @@
         "market": "O/U 2.5",
         "bet_value": "Under",
         "probability": 1.0,
-        "odds": 2.25,
-        "value": 2.25,
-        "timestamp": "2025-08-10T12:32:30.524076"
+        "odds": 2.35,
+        "value": 2.35,
+        "timestamp": "2025-08-10T14:26:28.681224"
     },
     {
         "match": "AZ Alkmaar vs Groningen",
@@ -705,19 +595,9 @@
         "market": "BTTS",
         "bet_value": "No",
         "probability": 1.0,
-        "odds": 1.8,
-        "value": 1.8,
-        "timestamp": "2025-08-10T12:32:30.524078"
-    },
-    {
-        "match": "Polessya vs Kolos Kovalivka",
-        "league": "Premier League",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 2.62,
-        "value": 2.62,
-        "timestamp": "2025-08-10T12:32:31.162789"
+        "odds": 1.75,
+        "value": 1.75,
+        "timestamp": "2025-08-10T14:26:28.681235"
     },
     {
         "match": "Polessya vs Kolos Kovalivka",
@@ -725,9 +605,9 @@
         "market": "O/U 2.5",
         "bet_value": "Under",
         "probability": 1.0,
-        "odds": 1.4,
-        "value": 1.4,
-        "timestamp": "2025-08-10T12:32:31.162800"
+        "odds": 1.44,
+        "value": 1.44,
+        "timestamp": "2025-08-10T14:26:29.230941"
     },
     {
         "match": "Polessya vs Kolos Kovalivka",
@@ -735,129 +615,99 @@
         "market": "BTTS",
         "bet_value": "No",
         "probability": 1.0,
-        "odds": 1.57,
-        "value": 1.57,
-        "timestamp": "2025-08-10T12:32:31.162802"
-    },
-    {
-        "match": "Rak\u00f3w Cz\u0119stochowa vs Zaglebie Lubin",
-        "league": "Ekstraklasa",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 0.23228499527143176,
-        "odds": 4.33,
-        "value": 1.0057940295252996,
-        "timestamp": "2025-08-10T12:32:31.660750"
+        "odds": 1.62,
+        "value": 1.62,
+        "timestamp": "2025-08-10T14:26:29.230952"
     },
     {
         "match": "Rak\u00f3w Cz\u0119stochowa vs Zaglebie Lubin",
         "league": "Ekstraklasa",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.5440527980728507,
+        "probability": 0.5485411866321296,
         "odds": 7.0,
-        "value": 3.8083695865099547,
-        "timestamp": "2025-08-10T12:32:31.660759"
+        "value": 3.839788306424907,
+        "timestamp": "2025-08-10T14:26:29.807783"
     },
     {
         "match": "Rak\u00f3w Cz\u0119stochowa vs Zaglebie Lubin",
         "league": "Ekstraklasa",
         "market": "BTTS",
         "bet_value": "Yes",
-        "probability": 0.5493442035910427,
+        "probability": 0.5507513560159427,
         "odds": 1.95,
-        "value": 1.0712211970025334,
-        "timestamp": "2025-08-10T12:32:31.660761"
+        "value": 1.0739651442310882,
+        "timestamp": "2025-08-10T14:26:29.807794"
     },
     {
         "match": "Bohemians 1905 vs FK Jablonec",
         "league": "Czech Liga",
         "market": "1X2",
         "bet_value": "Draw",
-        "probability": 0.3812556197605741,
+        "probability": 0.38111677237129743,
         "odds": 3.6,
-        "value": 1.3725202311380669,
-        "timestamp": "2025-08-10T12:32:32.324440"
+        "value": 1.3720203805366709,
+        "timestamp": "2025-08-10T14:26:30.415230"
     },
     {
         "match": "Bohemians 1905 vs FK Jablonec",
         "league": "Czech Liga",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.47822482878971945,
+        "probability": 0.47841272795108836,
         "odds": 2.3,
-        "value": 1.0999171062163546,
-        "timestamp": "2025-08-10T12:32:32.324450"
+        "value": 1.1003492742875032,
+        "timestamp": "2025-08-10T14:26:30.415242"
     },
     {
         "match": "Bohemians 1905 vs FK Jablonec",
         "league": "Czech Liga",
         "market": "O/U 2.5",
         "bet_value": "Under",
-        "probability": 0.865131550729437,
+        "probability": 0.8648875764952317,
         "odds": 2.0,
-        "value": 1.730263101458874,
-        "timestamp": "2025-08-10T12:32:32.324452"
+        "value": 1.7297751529904635,
+        "timestamp": "2025-08-10T14:26:30.415245"
     },
     {
         "match": "Bohemians 1905 vs FK Jablonec",
         "league": "Czech Liga",
         "market": "BTTS",
         "bet_value": "No",
-        "probability": 0.8207162777136242,
+        "probability": 0.8206921971001259,
         "odds": 2.1,
-        "value": 1.7235041831986109,
-        "timestamp": "2025-08-10T12:32:32.324454"
-    },
-    {
-        "match": "Hradec Kr\u00e1lov\u00e9 vs Pardubice",
-        "league": "Czech Liga",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 0.23119617120855473,
-        "odds": 4.33,
-        "value": 1.001079421333042,
-        "timestamp": "2025-08-10T12:32:33.049897"
+        "value": 1.7234536139102643,
+        "timestamp": "2025-08-10T14:26:30.415246"
     },
     {
         "match": "Hradec Kr\u00e1lov\u00e9 vs Pardubice",
         "league": "Czech Liga",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.46410245909873965,
-        "odds": 6.5,
-        "value": 3.0166659841418078,
-        "timestamp": "2025-08-10T12:32:33.049907"
+        "probability": 0.46827158252983697,
+        "odds": 6.0,
+        "value": 2.809629495179022,
+        "timestamp": "2025-08-10T14:26:30.995596"
     },
     {
         "match": "Hradec Kr\u00e1lov\u00e9 vs Pardubice",
         "league": "Czech Liga",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.6243781262663528,
+        "probability": 0.6297531969949843,
         "odds": 1.85,
-        "value": 1.1550995335927527,
-        "timestamp": "2025-08-10T12:32:33.049909"
+        "value": 1.1650434144407211,
+        "timestamp": "2025-08-10T14:26:30.995606"
     },
     {
         "match": "Hradec Kr\u00e1lov\u00e9 vs Pardubice",
         "league": "Czech Liga",
         "market": "BTTS",
         "bet_value": "Yes",
-        "probability": 0.6348643385835746,
+        "probability": 0.6369222279322877,
         "odds": 2.0,
-        "value": 1.2697286771671492,
-        "timestamp": "2025-08-10T12:32:33.049911"
-    },
-    {
-        "match": "The New Saints vs Briton Ferry",
-        "league": "Premier League",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 7.5,
-        "value": 7.5,
-        "timestamp": "2025-08-10T12:32:33.573417"
+        "value": 1.2738444558645754,
+        "timestamp": "2025-08-10T14:26:30.995608"
     },
     {
         "match": "The New Saints vs Briton Ferry",
@@ -865,9 +715,9 @@
         "market": "O/U 2.5",
         "bet_value": "Under",
         "probability": 1.0,
-        "odds": 4.0,
-        "value": 4.0,
-        "timestamp": "2025-08-10T12:32:33.573426"
+        "odds": 4.33,
+        "value": 4.33,
+        "timestamp": "2025-08-10T14:26:31.594984"
     },
     {
         "match": "The New Saints vs Briton Ferry",
@@ -877,87 +727,67 @@
         "probability": 1.0,
         "odds": 2.0,
         "value": 2.0,
-        "timestamp": "2025-08-10T12:32:33.573428"
+        "timestamp": "2025-08-10T14:26:31.594996"
     },
     {
         "match": "Vestri vs Fram Reykjavik",
         "league": "\u00darvalsdeild",
         "market": "1X2",
         "bet_value": "Home",
-        "probability": 0.4468593111126078,
-        "odds": 2.6,
-        "value": 1.1618342088927802,
-        "timestamp": "2025-08-10T12:32:34.281307"
+        "probability": 0.4477362345021245,
+        "odds": 2.5,
+        "value": 1.1193405862553112,
+        "timestamp": "2025-08-10T14:26:33.226440"
     },
     {
         "match": "Vestri vs Fram Reykjavik",
         "league": "\u00darvalsdeild",
         "market": "1X2",
         "bet_value": "Draw",
-        "probability": 0.29067288236192956,
+        "probability": 0.29004840614793864,
         "odds": 3.6,
-        "value": 1.0464223765029466,
-        "timestamp": "2025-08-10T12:32:34.281318"
+        "value": 1.0441742621325791,
+        "timestamp": "2025-08-10T14:26:33.226451"
     },
     {
         "match": "Vestri vs Fram Reykjavik",
         "league": "\u00darvalsdeild",
         "market": "O/U 2.5",
         "bet_value": "Under",
-        "probability": 0.6418825198888396,
+        "probability": 0.6405588339557262,
         "odds": 2.08,
-        "value": 1.3351156413687864,
-        "timestamp": "2025-08-10T12:32:34.281320"
+        "value": 1.3323623746279105,
+        "timestamp": "2025-08-10T14:26:33.226453"
     },
     {
         "match": "Vestri vs Fram Reykjavik",
         "league": "\u00darvalsdeild",
         "market": "BTTS",
         "bet_value": "No",
-        "probability": 0.5817182718795367,
+        "probability": 0.5813363178217148,
         "odds": 2.2,
-        "value": 1.279780198134981,
-        "timestamp": "2025-08-10T12:32:34.281322"
-    },
-    {
-        "match": "Silkeborg vs FC Nordsjaelland",
-        "league": "Superliga",
-        "market": "1X2",
-        "bet_value": "Away",
-        "probability": 0.9847293412247419,
-        "odds": 2.4,
-        "value": 2.3633504189393806,
-        "timestamp": "2025-08-10T12:32:34.879637"
+        "value": 1.2789398992077727,
+        "timestamp": "2025-08-10T14:26:33.226455"
     },
     {
         "match": "Silkeborg vs FC Nordsjaelland",
         "league": "Superliga",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.7575625164688363,
-        "odds": 1.62,
-        "value": 1.227251276679515,
-        "timestamp": "2025-08-10T12:32:34.879654"
+        "probability": 0.8314565633436201,
+        "odds": 1.6,
+        "value": 1.3303305013497921,
+        "timestamp": "2025-08-10T14:26:34.358146"
     },
     {
         "match": "Silkeborg vs FC Nordsjaelland",
         "league": "Superliga",
         "market": "BTTS",
         "bet_value": "No",
-        "probability": 1.0,
+        "probability": 0.9999999999999999,
         "odds": 2.5,
-        "value": 2.5,
-        "timestamp": "2025-08-10T12:32:34.879656"
-    },
-    {
-        "match": "Crystal Palace vs Liverpool",
-        "league": "Community Shield",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 4.2,
-        "value": 4.2,
-        "timestamp": "2025-08-10T12:32:35.556598"
+        "value": 2.4999999999999996,
+        "timestamp": "2025-08-10T14:26:34.358158"
     },
     {
         "match": "Crystal Palace vs Liverpool",
@@ -967,7 +797,7 @@
         "probability": 1.0,
         "odds": 2.38,
         "value": 2.38,
-        "timestamp": "2025-08-10T12:32:35.556609"
+        "timestamp": "2025-08-10T14:26:35.508209"
     },
     {
         "match": "Crystal Palace vs Liverpool",
@@ -975,49 +805,39 @@
         "market": "BTTS",
         "bet_value": "No",
         "probability": 1.0,
-        "odds": 2.1,
-        "value": 2.1,
-        "timestamp": "2025-08-10T12:32:35.556611"
+        "odds": 2.2,
+        "value": 2.2,
+        "timestamp": "2025-08-10T14:26:35.508220"
     },
     {
         "match": "Anderlecht vs Zulte Waregem",
         "league": "Jupiler Pro League",
         "market": "1X2",
         "bet_value": "Home",
-        "probability": 0.9083333686749964,
-        "odds": 1.62,
-        "value": 1.4715000572534942,
-        "timestamp": "2025-08-10T12:32:37.873918"
+        "probability": 0.9947124219911061,
+        "odds": 1.65,
+        "value": 1.6412754962853249,
+        "timestamp": "2025-08-10T14:26:36.318754"
     },
     {
         "match": "Anderlecht vs Zulte Waregem",
         "league": "Jupiler Pro League",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.9924453206415115,
-        "odds": 1.6,
-        "value": 1.5879125130264184,
-        "timestamp": "2025-08-10T12:32:37.873929"
+        "probability": 0.9996678453965877,
+        "odds": 1.62,
+        "value": 1.6194619095424723,
+        "timestamp": "2025-08-10T14:26:36.318767"
     },
     {
         "match": "Anderlecht vs Zulte Waregem",
         "league": "Jupiler Pro League",
         "market": "BTTS",
         "bet_value": "Yes",
-        "probability": 0.8354794141640234,
-        "odds": 1.62,
-        "value": 1.353476650945718,
-        "timestamp": "2025-08-10T12:32:37.873931"
-    },
-    {
-        "match": "Dundee Utd vs Heart Of Midlothian",
-        "league": "Premiership",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 3.4,
-        "value": 3.4,
-        "timestamp": "2025-08-10T12:32:38.487359"
+        "probability": 0.837657346602172,
+        "odds": 1.67,
+        "value": 1.3988877688256272,
+        "timestamp": "2025-08-10T14:26:36.318769"
     },
     {
         "match": "Dundee Utd vs Heart Of Midlothian",
@@ -1027,7 +847,7 @@
         "probability": 1.0,
         "odds": 1.8,
         "value": 1.8,
-        "timestamp": "2025-08-10T12:32:38.487370"
+        "timestamp": "2025-08-10T14:26:37.280135"
     },
     {
         "match": "Dundee Utd vs Heart Of Midlothian",
@@ -1037,17 +857,7 @@
         "probability": 1.0,
         "odds": 1.95,
         "value": 1.95,
-        "timestamp": "2025-08-10T12:32:38.487372"
-    },
-    {
-        "match": "Hibernian vs Kilmarnock",
-        "league": "Premiership",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 3.8,
-        "value": 3.8,
-        "timestamp": "2025-08-10T12:32:39.087936"
+        "timestamp": "2025-08-10T14:26:37.280146"
     },
     {
         "match": "Hibernian vs Kilmarnock",
@@ -1055,9 +865,9 @@
         "market": "O/U 2.5",
         "bet_value": "Under",
         "probability": 1.0,
-        "odds": 1.91,
-        "value": 1.91,
-        "timestamp": "2025-08-10T12:32:39.087947"
+        "odds": 2.0,
+        "value": 2.0,
+        "timestamp": "2025-08-10T14:26:38.112300"
     },
     {
         "match": "Hibernian vs Kilmarnock",
@@ -1065,19 +875,9 @@
         "market": "BTTS",
         "bet_value": "No",
         "probability": 1.0,
-        "odds": 1.95,
-        "value": 1.95,
-        "timestamp": "2025-08-10T12:32:39.087949"
-    },
-    {
-        "match": "Bangor vs Cliftonville FC",
-        "league": "Premiership",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 4.33,
-        "value": 4.33,
-        "timestamp": "2025-08-10T12:32:39.623209"
+        "odds": 1.8,
+        "value": 1.8,
+        "timestamp": "2025-08-10T14:26:38.112310"
     },
     {
         "match": "Bangor vs Cliftonville FC",
@@ -1085,9 +885,9 @@
         "market": "O/U 2.5",
         "bet_value": "Under",
         "probability": 1.0,
-        "odds": 2.08,
-        "value": 2.08,
-        "timestamp": "2025-08-10T12:32:39.623220"
+        "odds": 2.1,
+        "value": 2.1,
+        "timestamp": "2025-08-10T14:26:39.211352"
     },
     {
         "match": "Bangor vs Cliftonville FC",
@@ -1097,17 +897,7 @@
         "probability": 1.0,
         "odds": 1.8,
         "value": 1.8,
-        "timestamp": "2025-08-10T12:32:39.623234"
-    },
-    {
-        "match": "Coleraine FC vs Larne",
-        "league": "Premiership",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 3.6,
-        "value": 3.6,
-        "timestamp": "2025-08-10T12:32:40.256485"
+        "timestamp": "2025-08-10T14:26:39.211364"
     },
     {
         "match": "Coleraine FC vs Larne",
@@ -1117,7 +907,7 @@
         "probability": 1.0,
         "odds": 1.8,
         "value": 1.8,
-        "timestamp": "2025-08-10T12:32:40.256497"
+        "timestamp": "2025-08-10T14:26:39.937125"
     },
     {
         "match": "Coleraine FC vs Larne",
@@ -1127,17 +917,7 @@
         "probability": 1.0,
         "odds": 1.73,
         "value": 1.73,
-        "timestamp": "2025-08-10T12:32:40.256499"
-    },
-    {
-        "match": "Linfield vs Dungannon Swifts",
-        "league": "Premiership",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 4.2,
-        "value": 4.2,
-        "timestamp": "2025-08-10T12:32:42.702827"
+        "timestamp": "2025-08-10T14:26:39.937137"
     },
     {
         "match": "Linfield vs Dungannon Swifts",
@@ -1147,7 +927,7 @@
         "probability": 1.0,
         "odds": 2.05,
         "value": 2.05,
-        "timestamp": "2025-08-10T12:32:42.702839"
+        "timestamp": "2025-08-10T14:26:40.917908"
     },
     {
         "match": "Linfield vs Dungannon Swifts",
@@ -1157,77 +937,67 @@
         "probability": 1.0,
         "odds": 1.8,
         "value": 1.8,
-        "timestamp": "2025-08-10T12:32:42.702841"
+        "timestamp": "2025-08-10T14:26:40.917920"
     },
     {
         "match": "Osters IF vs IF Brommapojkarna",
         "league": "Allsvenskan",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.7164461462569514,
+        "probability": 0.7220232011395827,
         "odds": 2.3,
-        "value": 1.647826136390988,
-        "timestamp": "2025-08-10T12:32:49.300451"
+        "value": 1.6606533626210402,
+        "timestamp": "2025-08-10T14:26:47.720584"
     },
     {
         "match": "Osters IF vs IF Brommapojkarna",
         "league": "Allsvenskan",
         "market": "O/U 2.5",
         "bet_value": "Under",
-        "probability": 0.508965163229858,
+        "probability": 0.4989391670452475,
         "odds": 2.1,
-        "value": 1.0688268427827017,
-        "timestamp": "2025-08-10T12:32:49.300462"
+        "value": 1.0477722507950198,
+        "timestamp": "2025-08-10T14:26:47.720595"
     },
     {
         "match": "Osters IF vs IF Brommapojkarna",
         "league": "Allsvenskan",
         "market": "BTTS",
         "bet_value": "No",
-        "probability": 0.6084285118453236,
+        "probability": 0.607306139094831,
         "odds": 2.25,
-        "value": 1.3689641516519782,
-        "timestamp": "2025-08-10T12:32:49.300464"
+        "value": 1.3664388129633698,
+        "timestamp": "2025-08-10T14:26:47.720598"
     },
     {
         "match": "IFK Norrkoping vs Hammarby FF",
         "league": "Allsvenskan",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.6810142070563713,
+        "probability": 0.7013289130958438,
         "odds": 1.62,
-        "value": 1.1032430154313215,
-        "timestamp": "2025-08-10T12:32:49.938579"
+        "value": 1.1361528392152669,
+        "timestamp": "2025-08-10T14:26:48.515036"
     },
     {
         "match": "IFK Norrkoping vs Hammarby FF",
         "league": "Allsvenskan",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.7562476315164449,
+        "probability": 0.7731236445383538,
         "odds": 1.53,
-        "value": 1.1570588762201608,
-        "timestamp": "2025-08-10T12:32:49.938591"
+        "value": 1.1828791761436814,
+        "timestamp": "2025-08-10T14:26:48.515048"
     },
     {
         "match": "IFK Norrkoping vs Hammarby FF",
         "league": "Allsvenskan",
         "market": "BTTS",
         "bet_value": "Yes",
-        "probability": 0.6677651663676287,
+        "probability": 0.6713024898745048,
         "odds": 1.57,
-        "value": 1.0483913111971772,
-        "timestamp": "2025-08-10T12:32:49.938593"
-    },
-    {
-        "match": "Utrecht vs Heracles",
-        "league": "Eredivisie",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 4.2,
-        "value": 4.2,
-        "timestamp": "2025-08-10T12:32:52.073287"
+        "value": 1.0539449091029727,
+        "timestamp": "2025-08-10T14:26:48.515050"
     },
     {
         "match": "Utrecht vs Heracles",
@@ -1237,7 +1007,7 @@
         "probability": 1.0,
         "odds": 1.95,
         "value": 1.95,
-        "timestamp": "2025-08-10T12:32:52.073299"
+        "timestamp": "2025-08-10T14:26:49.238229"
     },
     {
         "match": "Utrecht vs Heracles",
@@ -1245,99 +1015,119 @@
         "market": "BTTS",
         "bet_value": "No",
         "probability": 1.0,
-        "odds": 1.95,
-        "value": 1.95,
-        "timestamp": "2025-08-10T12:32:52.073301"
+        "odds": 1.8,
+        "value": 1.8,
+        "timestamp": "2025-08-10T14:26:49.238241"
     },
     {
         "match": "Bryne vs KFUM Oslo",
         "league": "Eliteserien",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.5700168470144138,
+        "probability": 0.5828175738286379,
         "odds": 2.3,
-        "value": 1.3110387481331516,
-        "timestamp": "2025-08-10T12:32:54.129735"
+        "value": 1.340480419805867,
+        "timestamp": "2025-08-10T14:26:50.269511"
     },
     {
         "match": "Bryne vs KFUM Oslo",
         "league": "Eliteserien",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.7265321080273284,
-        "odds": 1.95,
-        "value": 1.4167376106532903,
-        "timestamp": "2025-08-10T12:32:54.129753"
+        "probability": 0.7370514960157062,
+        "odds": 2.05,
+        "value": 1.5109555668321974,
+        "timestamp": "2025-08-10T14:26:50.269523"
     },
     {
         "match": "Bryne vs KFUM Oslo",
         "league": "Eliteserien",
         "market": "BTTS",
         "bet_value": "Yes",
-        "probability": 0.6918761231490033,
+        "probability": 0.6952207664184056,
         "odds": 1.8,
-        "value": 1.2453770216682059,
-        "timestamp": "2025-08-10T12:32:54.129755"
+        "value": 1.2513973795531301,
+        "timestamp": "2025-08-10T14:26:50.269525"
     },
     {
         "match": "Haugesund vs Sarpsborg 08 FF",
         "league": "Eliteserien",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.9500249468190256,
+        "probability": 0.9565521288485329,
         "odds": 1.55,
-        "value": 1.4725386675694898,
-        "timestamp": "2025-08-10T12:32:54.733875"
+        "value": 1.482655799715226,
+        "timestamp": "2025-08-10T14:26:51.797085"
+    },
+    {
+        "match": "Haugesund vs Sarpsborg 08 FF",
+        "league": "Eliteserien",
+        "market": "O/U 2.5",
+        "bet_value": "Over",
+        "probability": 0.6788328254551339,
+        "odds": 1.48,
+        "value": 1.0046725816735982,
+        "timestamp": "2025-08-10T14:26:51.797096"
     },
     {
         "match": "Haugesund vs Sarpsborg 08 FF",
         "league": "Eliteserien",
         "market": "BTTS",
         "bet_value": "No",
-        "probability": 0.917833404834293,
+        "probability": 0.9174113790626689,
         "odds": 2.38,
-        "value": 2.184443503505617,
-        "timestamp": "2025-08-10T12:32:54.733899"
+        "value": 2.183439082169152,
+        "timestamp": "2025-08-10T14:26:51.797098"
+    },
+    {
+        "match": "Riga vs Grobi\u0146a",
+        "league": "Virsliga",
+        "market": "1X2",
+        "bet_value": "Home",
+        "probability": 0.9106190627344151,
+        "odds": 1.1,
+        "value": 1.0016809690078567,
+        "timestamp": "2025-08-10T14:26:52.320526"
     },
     {
         "match": "Riga vs Grobi\u0146a",
         "league": "Virsliga",
         "market": "O/U 2.5",
         "bet_value": "Under",
-        "probability": 0.3514302957820222,
-        "odds": 3.4,
-        "value": 1.1948630056588754,
-        "timestamp": "2025-08-10T12:32:57.556979"
+        "probability": 0.3145940553230114,
+        "odds": 3.5,
+        "value": 1.1010791936305397,
+        "timestamp": "2025-08-10T14:26:52.320550"
     },
     {
         "match": "Riga vs Grobi\u0146a",
         "league": "Virsliga",
         "market": "BTTS",
         "bet_value": "No",
-        "probability": 0.7257120509778174,
+        "probability": 0.7243513693057143,
         "odds": 1.62,
-        "value": 1.1756535225840643,
-        "timestamp": "2025-08-10T12:32:57.556990"
+        "value": 1.1734492182752572,
+        "timestamp": "2025-08-10T14:26:52.320552"
     },
     {
         "match": "Tukums vs Auda",
         "league": "Virsliga",
         "market": "1X2",
         "bet_value": "Home",
-        "probability": 0.2527393125399443,
+        "probability": 0.25114755473792183,
         "odds": 4.33,
-        "value": 1.094361223297959,
-        "timestamp": "2025-08-10T12:32:58.626518"
+        "value": 1.0874689120152015,
+        "timestamp": "2025-08-10T14:26:53.188740"
     },
     {
-        "match": "FK Ko\u0161ice vs AS Trencin",
-        "league": "Super Liga",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 4.33,
-        "value": 4.33,
-        "timestamp": "2025-08-10T12:32:59.210616"
+        "match": "Tukums vs Auda",
+        "league": "Virsliga",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 0.4241029988139713,
+        "odds": 2.5,
+        "value": 1.0602574970349283,
+        "timestamp": "2025-08-10T14:26:53.188761"
     },
     {
         "match": "FK Ko\u0161ice vs AS Trencin",
@@ -1347,7 +1137,7 @@
         "probability": 1.0,
         "odds": 2.5,
         "value": 2.5,
-        "timestamp": "2025-08-10T12:32:59.210627"
+        "timestamp": "2025-08-10T14:26:53.999566"
     },
     {
         "match": "FK Ko\u0161ice vs AS Trencin",
@@ -1355,19 +1145,9 @@
         "market": "BTTS",
         "bet_value": "No",
         "probability": 1.0,
-        "odds": 2.25,
-        "value": 2.25,
-        "timestamp": "2025-08-10T12:32:59.210629"
-    },
-    {
-        "match": "Austria Vienna vs Wolfsberger AC",
-        "league": "Bundesliga",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 3.6,
-        "value": 3.6,
-        "timestamp": "2025-08-10T12:33:01.804394"
+        "odds": 2.2,
+        "value": 2.2,
+        "timestamp": "2025-08-10T14:26:53.999578"
     },
     {
         "match": "Austria Vienna vs Wolfsberger AC",
@@ -1377,7 +1157,7 @@
         "probability": 1.0,
         "odds": 1.95,
         "value": 1.95,
-        "timestamp": "2025-08-10T12:33:01.804405"
+        "timestamp": "2025-08-10T14:26:56.120942"
     },
     {
         "match": "Austria Vienna vs Wolfsberger AC",
@@ -1387,17 +1167,7 @@
         "probability": 1.0,
         "odds": 2.0,
         "value": 2.0,
-        "timestamp": "2025-08-10T12:33:01.804407"
-    },
-    {
-        "match": "WSG Wattens vs Lask Linz",
-        "league": "Bundesliga",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 3.6,
-        "value": 3.6,
-        "timestamp": "2025-08-10T12:33:02.588709"
+        "timestamp": "2025-08-10T14:26:56.120953"
     },
     {
         "match": "WSG Wattens vs Lask Linz",
@@ -1405,9 +1175,9 @@
         "market": "O/U 2.5",
         "bet_value": "Under",
         "probability": 1.0,
-        "odds": 2.1,
-        "value": 2.1,
-        "timestamp": "2025-08-10T12:33:02.588720"
+        "odds": 2.08,
+        "value": 2.08,
+        "timestamp": "2025-08-10T14:26:56.953607"
     },
     {
         "match": "WSG Wattens vs Lask Linz",
@@ -1417,27 +1187,37 @@
         "probability": 1.0,
         "odds": 2.2,
         "value": 2.2,
-        "timestamp": "2025-08-10T12:33:02.588722"
+        "timestamp": "2025-08-10T14:26:56.953618"
     },
     {
-        "match": "Karpaty vs Shakhtar Donetsk",
-        "league": "Premier League",
-        "market": "1X2",
-        "bet_value": "Away",
-        "probability": 0.8358974028033977,
-        "odds": 1.44,
-        "value": 1.2036922600368927,
-        "timestamp": "2025-08-10T12:33:13.350809"
+        "match": "Sturm Graz vs Rapid Vienna",
+        "league": "Bundesliga",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 1.0,
+        "odds": 2.1,
+        "value": 2.1,
+        "timestamp": "2025-08-10T14:26:57.817555"
+    },
+    {
+        "match": "Sturm Graz vs Rapid Vienna",
+        "league": "Bundesliga",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0,
+        "odds": 2.25,
+        "value": 2.25,
+        "timestamp": "2025-08-10T14:26:57.817566"
     },
     {
         "match": "Karpaty vs Shakhtar Donetsk",
         "league": "Premier League",
         "market": "O/U 2.5",
         "bet_value": "Under",
-        "probability": 0.7337149180443127,
-        "odds": 1.8,
-        "value": 1.3206868524797628,
-        "timestamp": "2025-08-10T12:33:13.350820"
+        "probability": 0.7257628337680411,
+        "odds": 1.95,
+        "value": 1.4152375258476801,
+        "timestamp": "2025-08-10T14:26:58.535206"
     },
     {
         "match": "Karpaty vs Shakhtar Donetsk",
@@ -1447,107 +1227,87 @@
         "probability": 1.0000000000000002,
         "odds": 1.62,
         "value": 1.6200000000000006,
-        "timestamp": "2025-08-10T12:33:13.350821"
+        "timestamp": "2025-08-10T14:26:58.535217"
     },
     {
         "match": "Hegelmann Litauen vs Dainava",
         "league": "A Lyga",
         "market": "1X2",
         "bet_value": "Home",
-        "probability": 0.8058734804319072,
+        "probability": 0.8218122900267193,
         "odds": 1.3,
-        "value": 1.0476355245614795,
-        "timestamp": "2025-08-10T12:33:31.589317"
+        "value": 1.068355977034735,
+        "timestamp": "2025-08-10T14:26:59.153815"
     },
     {
         "match": "Hegelmann Litauen vs Dainava",
         "league": "A Lyga",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.6944686115376476,
+        "probability": 0.7197219817349056,
         "odds": 1.6,
-        "value": 1.1111497784602362,
-        "timestamp": "2025-08-10T12:33:31.589327"
+        "value": 1.1515551707758491,
+        "timestamp": "2025-08-10T14:26:59.153826"
     },
     {
         "match": "VPS vs SJK",
         "league": "Veikkausliiga",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.4956170887082636,
+        "probability": 0.49993399580862635,
         "odds": 2.4,
-        "value": 1.1894810128998325,
-        "timestamp": "2025-08-10T12:33:32.268815"
+        "value": 1.1998415899407031,
+        "timestamp": "2025-08-10T14:26:59.851528"
     },
     {
         "match": "Jagiellonia vs Cracovia Krakow",
         "league": "Ekstraklasa",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.9703284972608625,
-        "odds": 5.0,
-        "value": 4.851642486304312,
-        "timestamp": "2025-08-10T12:33:32.922679"
+        "probability": 0.998745731665026,
+        "odds": 4.5,
+        "value": 4.494355792492617,
+        "timestamp": "2025-08-10T14:27:00.510183"
     },
     {
         "match": "Jagiellonia vs Cracovia Krakow",
         "league": "Ekstraklasa",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.9865838912893747,
-        "odds": 2.0,
-        "value": 1.9731677825787495,
-        "timestamp": "2025-08-10T12:33:32.922692"
+        "probability": 0.9994690066434099,
+        "odds": 1.95,
+        "value": 1.9489645629546493,
+        "timestamp": "2025-08-10T14:27:00.510196"
     },
     {
         "match": "Jagiellonia vs Cracovia Krakow",
         "league": "Ekstraklasa",
         "market": "BTTS",
         "bet_value": "Yes",
-        "probability": 0.6568874562235136,
-        "odds": 1.95,
-        "value": 1.2809305396358515,
-        "timestamp": "2025-08-10T12:33:32.922694"
-    },
-    {
-        "match": "NK Domzale vs Olimpija Ljubljana",
-        "league": "1. SNL",
-        "market": "1X2",
-        "bet_value": "Away",
-        "probability": 0.9920316401048898,
-        "odds": 1.6,
-        "value": 1.5872506241678237,
-        "timestamp": "2025-08-10T12:33:36.011860"
+        "probability": 0.657463391983075,
+        "odds": 1.91,
+        "value": 1.2557550786876732,
+        "timestamp": "2025-08-10T14:27:00.510198"
     },
     {
         "match": "NK Domzale vs Olimpija Ljubljana",
         "league": "1. SNL",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.8300302736423183,
-        "odds": 1.65,
-        "value": 1.369549951509825,
-        "timestamp": "2025-08-10T12:33:36.011872"
+        "probability": 0.9087677241788146,
+        "odds": 1.67,
+        "value": 1.5176420993786204,
+        "timestamp": "2025-08-10T14:27:03.041321"
     },
     {
         "match": "NK Domzale vs Olimpija Ljubljana",
         "league": "1. SNL",
         "market": "BTTS",
         "bet_value": "No",
-        "probability": 0.9999999999999998,
-        "odds": 2.0,
-        "value": 1.9999999999999996,
-        "timestamp": "2025-08-10T12:33:36.011874"
-    },
-    {
-        "match": "Ban\u00edk Ostrava vs Karvin\u00e1",
-        "league": "Czech Liga",
-        "market": "1X2",
-        "bet_value": "Draw",
         "probability": 1.0,
-        "odds": 3.9,
-        "value": 3.9,
-        "timestamp": "2025-08-10T12:33:37.121701"
+        "odds": 2.1,
+        "value": 2.1,
+        "timestamp": "2025-08-10T14:27:03.041332"
     },
     {
         "match": "Ban\u00edk Ostrava vs Karvin\u00e1",
@@ -1557,7 +1317,7 @@
         "probability": 1.0,
         "odds": 2.4,
         "value": 2.4,
-        "timestamp": "2025-08-10T12:33:37.121713"
+        "timestamp": "2025-08-10T14:27:06.073558"
     },
     {
         "match": "Ban\u00edk Ostrava vs Karvin\u00e1",
@@ -1567,47 +1327,37 @@
         "probability": 1.0,
         "odds": 2.38,
         "value": 2.38,
-        "timestamp": "2025-08-10T12:33:37.121715"
+        "timestamp": "2025-08-10T14:27:06.073570"
     },
     {
         "match": "Universitatea Craiova vs AFC Hermannstadt",
         "league": "Liga I",
         "market": "1X2",
         "bet_value": "Home",
-        "probability": 0.6975451202279027,
+        "probability": 0.700567163231766,
         "odds": 1.57,
-        "value": 1.0951458387578072,
-        "timestamp": "2025-08-10T12:33:38.286486"
+        "value": 1.0998904462738728,
+        "timestamp": "2025-08-10T14:27:06.720028"
     },
     {
         "match": "Universitatea Craiova vs AFC Hermannstadt",
         "league": "Liga I",
         "market": "O/U 2.5",
         "bet_value": "Under",
-        "probability": 0.6181324265956822,
+        "probability": 0.611955461272927,
         "odds": 1.85,
-        "value": 1.1435449892020122,
-        "timestamp": "2025-08-10T12:33:38.286497"
+        "value": 1.132117603354915,
+        "timestamp": "2025-08-10T14:27:06.720038"
     },
     {
         "match": "Universitatea Craiova vs AFC Hermannstadt",
         "league": "Liga I",
         "market": "BTTS",
         "bet_value": "No",
-        "probability": 0.6966065244938099,
+        "probability": 0.6959883124468504,
         "odds": 1.8,
-        "value": 1.2538917440888577,
-        "timestamp": "2025-08-10T12:33:38.286499"
-    },
-    {
-        "match": "Leicester vs Sheffield Wednesday",
-        "league": "Championship",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 5.75,
-        "value": 5.75,
-        "timestamp": "2025-08-10T12:33:40.148151"
+        "value": 1.2527789624043308,
+        "timestamp": "2025-08-10T14:27:06.720041"
     },
     {
         "match": "Leicester vs Sheffield Wednesday",
@@ -1617,7 +1367,7 @@
         "probability": 1.0,
         "odds": 2.3,
         "value": 2.3,
-        "timestamp": "2025-08-10T12:33:40.148163"
+        "timestamp": "2025-08-10T14:27:07.441195"
     },
     {
         "match": "Leicester vs Sheffield Wednesday",
@@ -1625,19 +1375,9 @@
         "market": "BTTS",
         "bet_value": "No",
         "probability": 1.0,
-        "odds": 1.73,
-        "value": 1.73,
-        "timestamp": "2025-08-10T12:33:40.148164"
-    },
-    {
-        "match": "Kisvarda FC vs Puskas Academy",
-        "league": "NB I",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 3.9,
-        "value": 3.9,
-        "timestamp": "2025-08-10T12:33:40.848138"
+        "odds": 1.67,
+        "value": 1.67,
+        "timestamp": "2025-08-10T14:27:07.441207"
     },
     {
         "match": "Kisvarda FC vs Puskas Academy",
@@ -1645,9 +1385,9 @@
         "market": "O/U 2.5",
         "bet_value": "Under",
         "probability": 1.0,
-        "odds": 2.08,
-        "value": 2.08,
-        "timestamp": "2025-08-10T12:33:40.848150"
+        "odds": 2.15,
+        "value": 2.15,
+        "timestamp": "2025-08-10T14:27:08.004257"
     },
     {
         "match": "Kisvarda FC vs Puskas Academy",
@@ -1657,217 +1397,167 @@
         "probability": 1.0,
         "odds": 2.1,
         "value": 2.1,
-        "timestamp": "2025-08-10T12:33:40.848152"
-    },
-    {
-        "match": "Zalaegerszegi TE vs Gyori ETO FC",
-        "league": "NB I",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 0.3127585328074378,
-        "odds": 3.8,
-        "value": 1.1884824246682637,
-        "timestamp": "2025-08-10T12:33:41.618855"
+        "timestamp": "2025-08-10T14:27:08.004269"
     },
     {
         "match": "Zalaegerszegi TE vs Gyori ETO FC",
         "league": "NB I",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.40896861465339496,
-        "odds": 2.9,
-        "value": 1.1860089824948454,
-        "timestamp": "2025-08-10T12:33:41.618867"
+        "probability": 0.628077284930182,
+        "odds": 3.0,
+        "value": 1.8842318547905461,
+        "timestamp": "2025-08-10T14:27:08.637504"
     },
     {
         "match": "Zalaegerszegi TE vs Gyori ETO FC",
         "league": "NB I",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.9991687145435184,
+        "probability": 0.9999447409341876,
         "odds": 1.57,
-        "value": 1.568694881833324,
-        "timestamp": "2025-08-10T12:33:41.618869"
+        "value": 1.5699132432666747,
+        "timestamp": "2025-08-10T14:27:08.637515"
     },
     {
         "match": "Zalaegerszegi TE vs Gyori ETO FC",
         "league": "NB I",
         "market": "BTTS",
         "bet_value": "Yes",
-        "probability": 0.9941549976823035,
+        "probability": 0.9981059191133785,
         "odds": 1.5,
-        "value": 1.4912324965234554,
-        "timestamp": "2025-08-10T12:33:41.618870"
+        "value": 1.4971588786700678,
+        "timestamp": "2025-08-10T14:27:08.637517"
     },
     {
         "match": "Galway United vs Shamrock Rovers",
         "league": "Premier Division",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.5177160276682521,
+        "probability": 0.5228911339856744,
         "odds": 2.2,
-        "value": 1.1389752608701547,
-        "timestamp": "2025-08-10T12:33:42.324104"
+        "value": 1.1503604947684838,
+        "timestamp": "2025-08-10T14:27:09.493654"
     },
     {
         "match": "Galway United vs Shamrock Rovers",
         "league": "Premier Division",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.5990051782951071,
-        "odds": 2.15,
-        "value": 1.2878611333344803,
-        "timestamp": "2025-08-10T12:33:42.324115"
+        "probability": 0.6047744747475342,
+        "odds": 2.1,
+        "value": 1.2700263969698218,
+        "timestamp": "2025-08-10T14:27:09.493688"
     },
     {
         "match": "Galway United vs Shamrock Rovers",
         "league": "Premier Division",
         "market": "BTTS",
         "bet_value": "Yes",
-        "probability": 0.6019239558491445,
+        "probability": 0.6037419216078314,
         "odds": 1.95,
-        "value": 1.1737517139058318,
-        "timestamp": "2025-08-10T12:33:42.324117"
+        "value": 1.177296747135271,
+        "timestamp": "2025-08-10T14:27:09.493690"
     },
     {
         "match": "Dinamo Tbilisi vs Samgurali",
         "league": "Erovnuli Liga",
         "market": "1X2",
         "bet_value": "Home",
-        "probability": 0.6451447248838225,
+        "probability": 0.6540091938048124,
         "odds": 1.7,
-        "value": 1.0967460323024982,
-        "timestamp": "2025-08-10T12:33:43.883862"
+        "value": 1.111815629468181,
+        "timestamp": "2025-08-10T14:27:10.918098"
     },
     {
         "match": "Dinamo Tbilisi vs Samgurali",
         "league": "Erovnuli Liga",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.6112617692380174,
+        "probability": 0.6215330945662122,
         "odds": 2.1,
-        "value": 1.2836497153998367,
-        "timestamp": "2025-08-10T12:33:43.883873"
+        "value": 1.3052194985890457,
+        "timestamp": "2025-08-10T14:27:10.918111"
     },
     {
         "match": "Kalju Nomme vs Vaprus",
         "league": "Meistriliiga",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.27930373266364894,
+        "probability": 0.27756994588901607,
         "odds": 4.0,
-        "value": 1.1172149306545958,
-        "timestamp": "2025-08-10T12:33:44.506836"
+        "value": 1.1102797835560643,
+        "timestamp": "2025-08-10T14:27:11.507261"
     },
     {
         "match": "Kalju Nomme vs Vaprus",
         "league": "Meistriliiga",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.6382561137455178,
+        "probability": 0.6444530105800196,
         "odds": 1.65,
-        "value": 1.0531225876801042,
-        "timestamp": "2025-08-10T12:33:44.506846"
-    },
-    {
-        "match": "Brondby vs Vejle",
-        "league": "Superliga",
-        "market": "1X2",
-        "bet_value": "Home",
-        "probability": 0.8800063541586719,
-        "odds": 1.62,
-        "value": 1.4256102937370485,
-        "timestamp": "2025-08-10T12:33:47.026787"
+        "value": 1.0633474674570322,
+        "timestamp": "2025-08-10T14:27:11.507285"
     },
     {
         "match": "Brondby vs Vejle",
         "league": "Superliga",
         "market": "O/U 2.5",
         "bet_value": "Under",
-        "probability": 0.6526185023819171,
+        "probability": 0.6381246770550479,
         "odds": 2.25,
-        "value": 1.4683916303593134,
-        "timestamp": "2025-08-10T12:33:47.026798"
+        "value": 1.4357805233738579,
+        "timestamp": "2025-08-10T14:27:13.401127"
     },
     {
         "match": "Brondby vs Vejle",
         "league": "Superliga",
         "market": "BTTS",
         "bet_value": "No",
-        "probability": 1.0000000000000002,
-        "odds": 2.1,
-        "value": 2.1000000000000005,
-        "timestamp": "2025-08-10T12:33:47.026800"
+        "probability": 1.0,
+        "odds": 2.05,
+        "value": 2.05,
+        "timestamp": "2025-08-10T14:27:13.401140"
     },
     {
         "match": "Kauno \u017dalgiris vs Suduva Marijampole",
         "league": "A Lyga",
         "market": "1X2",
         "bet_value": "Home",
-        "probability": 0.698601352059784,
-        "odds": 1.9,
-        "value": 1.3273425689135896,
-        "timestamp": "2025-08-10T12:33:47.624100"
-    },
-    {
-        "match": "Kauno \u017dalgiris vs Suduva Marijampole",
-        "league": "A Lyga",
-        "market": "BTTS",
-        "bet_value": "No",
-        "probability": 0.5873010859484745,
-        "odds": 1.83,
-        "value": 1.0747609872857085,
-        "timestamp": "2025-08-10T12:33:47.624112"
+        "probability": 0.7041599928594519,
+        "odds": 1.8,
+        "value": 1.2674879871470133,
+        "timestamp": "2025-08-10T14:27:15.217217"
     },
     {
         "match": "Banga vs FK Trakai",
         "league": "A Lyga",
         "market": "1X2",
         "bet_value": "Home",
-        "probability": 0.5066361571143395,
-        "odds": 2.25,
-        "value": 1.139931353507264,
-        "timestamp": "2025-08-10T12:33:48.169150"
-    },
-    {
-        "match": "Levski Sofia vs Spartak Varna",
-        "league": "First League",
-        "market": "1X2",
-        "bet_value": "Home",
-        "probability": 0.914314403659489,
-        "odds": 1.18,
-        "value": 1.078890996318197,
-        "timestamp": "2025-08-10T12:33:48.887638"
+        "probability": 0.5086057614541563,
+        "odds": 2.2,
+        "value": 1.118932675199144,
+        "timestamp": "2025-08-10T14:27:16.246512"
     },
     {
         "match": "Levski Sofia vs Spartak Varna",
         "league": "First League",
         "market": "O/U 2.5",
         "bet_value": "Under",
-        "probability": 0.5676670757558853,
+        "probability": 0.5438466314708088,
         "odds": 2.3,
-        "value": 1.305634274238536,
-        "timestamp": "2025-08-10T12:33:48.887650"
+        "value": 1.2508472523828602,
+        "timestamp": "2025-08-10T14:27:17.036495"
     },
     {
         "match": "Levski Sofia vs Spartak Varna",
         "league": "First League",
         "market": "BTTS",
         "bet_value": "No",
-        "probability": 0.9999999999999998,
+        "probability": 0.9999999999999999,
         "odds": 1.5,
-        "value": 1.4999999999999996,
-        "timestamp": "2025-08-10T12:33:48.887652"
-    },
-    {
-        "match": "Rizespor vs Goztepe",
-        "league": "S\u00fcper Lig",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 3.5,
-        "value": 3.5,
-        "timestamp": "2025-08-10T12:33:49.566360"
+        "value": 1.4999999999999998,
+        "timestamp": "2025-08-10T14:27:17.036507"
     },
     {
         "match": "Rizespor vs Goztepe",
@@ -1877,7 +1567,7 @@
         "probability": 1.0,
         "odds": 2.0,
         "value": 2.0,
-        "timestamp": "2025-08-10T12:33:49.566371"
+        "timestamp": "2025-08-10T14:27:17.661674"
     },
     {
         "match": "Rizespor vs Goztepe",
@@ -1887,17 +1577,7 @@
         "probability": 1.0,
         "odds": 2.1,
         "value": 2.1,
-        "timestamp": "2025-08-10T12:33:49.566373"
-    },
-    {
-        "match": "Famalicao vs Santa Clara",
-        "league": "Primeira Liga",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 2.9,
-        "value": 2.9,
-        "timestamp": "2025-08-10T12:33:50.384501"
+        "timestamp": "2025-08-10T14:27:17.661685"
     },
     {
         "match": "Famalicao vs Santa Clara",
@@ -1907,7 +1587,7 @@
         "probability": 1.0,
         "odds": 1.44,
         "value": 1.44,
-        "timestamp": "2025-08-10T12:33:50.384512"
+        "timestamp": "2025-08-10T14:27:19.342483"
     },
     {
         "match": "Famalicao vs Santa Clara",
@@ -1917,17 +1597,7 @@
         "probability": 1.0,
         "odds": 1.62,
         "value": 1.62,
-        "timestamp": "2025-08-10T12:33:50.384514"
-    },
-    {
-        "match": "Colwyn Bay vs GAP Connah S Quay FC",
-        "league": "Premier League",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 3.75,
-        "value": 3.75,
-        "timestamp": "2025-08-10T12:33:51.012439"
+        "timestamp": "2025-08-10T14:27:19.342494"
     },
     {
         "match": "Colwyn Bay vs GAP Connah S Quay FC",
@@ -1937,7 +1607,7 @@
         "probability": 1.0,
         "odds": 2.2,
         "value": 2.2,
-        "timestamp": "2025-08-10T12:33:51.012451"
+        "timestamp": "2025-08-10T14:27:20.396345"
     },
     {
         "match": "Colwyn Bay vs GAP Connah S Quay FC",
@@ -1947,107 +1617,107 @@
         "probability": 1.0,
         "odds": 2.1,
         "value": 2.1,
-        "timestamp": "2025-08-10T12:33:51.012453"
+        "timestamp": "2025-08-10T14:27:20.396355"
     },
     {
         "match": "Sheriff Tiraspol vs Politehnica UTM",
         "league": "Super Liga",
         "market": "1X2",
         "bet_value": "Home",
-        "probability": 0.9717839499814872,
+        "probability": 0.9860982842296704,
         "odds": 1.07,
-        "value": 1.0398088264801915,
-        "timestamp": "2025-08-10T12:33:51.794661"
+        "value": 1.0551251641257473,
+        "timestamp": "2025-08-10T14:27:21.015489"
     },
     {
         "match": "Sheriff Tiraspol vs Politehnica UTM",
         "league": "Super Liga",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.8845021269582339,
+        "probability": 0.9430978116076398,
         "odds": 1.3,
-        "value": 1.1498527650457042,
-        "timestamp": "2025-08-10T12:33:51.794672"
+        "value": 1.2260271550899318,
+        "timestamp": "2025-08-10T14:27:21.015501"
+    },
+    {
+        "match": "KA Akureyri vs IBV Vestmannaeyjar",
+        "league": "\u00darvalsdeild",
+        "market": "1X2",
+        "bet_value": "Home",
+        "probability": 0.5031073933090373,
+        "odds": 2.15,
+        "value": 1.0816808956144301,
+        "timestamp": "2025-08-10T14:27:21.639177"
     },
     {
         "match": "KA Akureyri vs IBV Vestmannaeyjar",
         "league": "\u00darvalsdeild",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.6007329093948339,
+        "probability": 0.6061465657608379,
         "odds": 1.7,
-        "value": 1.0212459459712175,
-        "timestamp": "2025-08-10T12:33:52.504066"
+        "value": 1.0304491617934244,
+        "timestamp": "2025-08-10T14:27:21.639189"
     },
     {
         "match": "Everton de Vina vs Colo Colo",
         "league": "Primera Divisi\u00f3n",
         "market": "1X2",
         "bet_value": "Home",
-        "probability": 0.41339136261675874,
+        "probability": 0.4141604479866675,
         "odds": 3.1,
-        "value": 1.2815132241119522,
-        "timestamp": "2025-08-10T12:33:53.070645"
+        "value": 1.2838973887586693,
+        "timestamp": "2025-08-10T14:27:23.121594"
     },
     {
         "match": "Everton de Vina vs Colo Colo",
         "league": "Primera Divisi\u00f3n",
         "market": "O/U 2.5",
         "bet_value": "Under",
-        "probability": 0.6112738863313577,
+        "probability": 0.6099025457006714,
         "odds": 1.7,
-        "value": 1.0391656067633082,
-        "timestamp": "2025-08-10T12:33:53.070654"
+        "value": 1.0368343276911414,
+        "timestamp": "2025-08-10T14:27:23.121604"
     },
     {
         "match": "Everton de Vina vs Colo Colo",
         "league": "Primera Divisi\u00f3n",
         "market": "BTTS",
         "bet_value": "No",
-        "probability": 0.5490141457346434,
+        "probability": 0.5485599950927573,
         "odds": 1.83,
-        "value": 1.0046958866943974,
-        "timestamp": "2025-08-10T12:33:53.070656"
+        "value": 1.003864791019746,
+        "timestamp": "2025-08-10T14:27:23.121606"
     },
     {
         "match": "Standard Liege vs Genk",
         "league": "Jupiler Pro League",
         "market": "1X2",
         "bet_value": "Home",
-        "probability": 0.48974546558955867,
+        "probability": 0.49136825610290535,
         "odds": 4.1,
-        "value": 2.0079564089171904,
-        "timestamp": "2025-08-10T12:33:53.820808"
+        "value": 2.0146098500219116,
+        "timestamp": "2025-08-10T14:27:23.725853"
     },
     {
         "match": "Standard Liege vs Genk",
         "league": "Jupiler Pro League",
         "market": "O/U 2.5",
         "bet_value": "Under",
-        "probability": 0.5883651632939271,
+        "probability": 0.5861149683019193,
         "odds": 1.8,
-        "value": 1.0590572939290688,
-        "timestamp": "2025-08-10T12:33:53.820820"
+        "value": 1.0550069429434548,
+        "timestamp": "2025-08-10T14:27:23.725865"
     },
     {
         "match": "Standard Liege vs Genk",
         "league": "Jupiler Pro League",
         "market": "BTTS",
         "bet_value": "No",
-        "probability": 0.5466058422750628,
+        "probability": 0.546005153980215,
         "odds": 1.91,
-        "value": 1.04401715874537,
-        "timestamp": "2025-08-10T12:33:53.820824"
-    },
-    {
-        "match": "NK Slaven Belupo vs NK Varazdin",
-        "league": "HNL",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 3.1,
-        "value": 3.1,
-        "timestamp": "2025-08-10T12:33:54.757604"
+        "value": 1.0428698441022106,
+        "timestamp": "2025-08-10T14:27:23.725867"
     },
     {
         "match": "NK Slaven Belupo vs NK Varazdin",
@@ -2055,9 +1725,9 @@
         "market": "O/U 2.5",
         "bet_value": "Under",
         "probability": 1.0,
-        "odds": 1.73,
-        "value": 1.73,
-        "timestamp": "2025-08-10T12:33:54.757615"
+        "odds": 1.7,
+        "value": 1.7,
+        "timestamp": "2025-08-10T14:27:24.242454"
     },
     {
         "match": "NK Slaven Belupo vs NK Varazdin",
@@ -2067,17 +1737,7 @@
         "probability": 1.0,
         "odds": 1.83,
         "value": 1.83,
-        "timestamp": "2025-08-10T12:33:54.757617"
-    },
-    {
-        "match": "Radnik Bijeljina vs Posu\u0161je",
-        "league": "Premijer Liga",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 3.2,
-        "value": 3.2,
-        "timestamp": "2025-08-10T12:33:55.301025"
+        "timestamp": "2025-08-10T14:27:24.242477"
     },
     {
         "match": "Radnik Bijeljina vs Posu\u0161je",
@@ -2087,7 +1747,7 @@
         "probability": 1.0,
         "odds": 1.8,
         "value": 1.8,
-        "timestamp": "2025-08-10T12:33:55.301035"
+        "timestamp": "2025-08-10T14:27:25.041346"
     },
     {
         "match": "Radnik Bijeljina vs Posu\u0161je",
@@ -2097,147 +1757,117 @@
         "probability": 1.0,
         "odds": 1.83,
         "value": 1.83,
-        "timestamp": "2025-08-10T12:33:55.301036"
+        "timestamp": "2025-08-10T14:27:25.041357"
     },
     {
         "match": "St Patrick's Athl. vs Sligo Rovers",
         "league": "Premier Division",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.20704379846113788,
+        "probability": 0.20449785672653037,
         "odds": 6.5,
-        "value": 1.3457846899973962,
-        "timestamp": "2025-08-10T12:33:58.263157"
+        "value": 1.3292360687224474,
+        "timestamp": "2025-08-10T14:27:25.777225"
     },
     {
         "match": "St Patrick's Athl. vs Sligo Rovers",
         "league": "Premier Division",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.5848906407019505,
+        "probability": 0.5917945173872389,
         "odds": 1.75,
-        "value": 1.0235586212284133,
-        "timestamp": "2025-08-10T12:33:58.263168"
+        "value": 1.035640405427668,
+        "timestamp": "2025-08-10T14:27:25.777235"
     },
     {
         "match": "St Patrick's Athl. vs Sligo Rovers",
         "league": "Premier Division",
         "market": "BTTS",
         "bet_value": "Yes",
-        "probability": 0.5701402481248623,
+        "probability": 0.5718703119797264,
         "odds": 1.95,
-        "value": 1.1117734838434814,
-        "timestamp": "2025-08-10T12:33:58.263170"
+        "value": 1.1151471083604665,
+        "timestamp": "2025-08-10T14:27:25.777237"
     },
     {
         "match": "Gagra vs Dila",
         "league": "Erovnuli Liga",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.6837420514638866,
+        "probability": 0.68631558998574,
         "odds": 1.62,
-        "value": 1.1076621233714963,
-        "timestamp": "2025-08-10T12:33:59.159385"
+        "value": 1.111831255776899,
+        "timestamp": "2025-08-10T14:27:26.383292"
     },
     {
         "match": "Gagra vs Dila",
         "league": "Erovnuli Liga",
         "market": "O/U 2.5",
         "bet_value": "Under",
-        "probability": 0.6409719192596122,
+        "probability": 0.6358517963487079,
         "odds": 1.7,
-        "value": 1.0896522627413407,
-        "timestamp": "2025-08-10T12:33:59.159396"
-    },
-    {
-        "match": "R\u012bgas FS vs Super Nova",
-        "league": "Virsliga",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 0.11772342134862883,
-        "odds": 8.5,
-        "value": 1.000649081463345,
-        "timestamp": "2025-08-10T12:34:01.649984"
+        "value": 1.0809480537928033,
+        "timestamp": "2025-08-10T14:27:26.383303"
     },
     {
         "match": "R\u012bgas FS vs Super Nova",
         "league": "Virsliga",
         "market": "O/U 2.5",
         "bet_value": "Under",
-        "probability": 0.39365957094725834,
+        "probability": 0.3690397182033138,
         "odds": 3.0,
-        "value": 1.180978712841775,
-        "timestamp": "2025-08-10T12:34:01.649995"
-    },
-    {
-        "match": "Spartak Trnava vs Tatran Pre\u0161ov",
-        "league": "Super Liga",
-        "market": "1X2",
-        "bet_value": "Home",
-        "probability": 0.8800063541586719,
-        "odds": 1.53,
-        "value": 1.346409721862768,
-        "timestamp": "2025-08-10T12:34:02.358253"
+        "value": 1.1071191546099415,
+        "timestamp": "2025-08-10T14:27:26.868688"
     },
     {
         "match": "Spartak Trnava vs Tatran Pre\u0161ov",
         "league": "Super Liga",
         "market": "O/U 2.5",
         "bet_value": "Under",
-        "probability": 0.6526185023819171,
+        "probability": 0.6381246770550479,
         "odds": 2.15,
-        "value": 1.4031297801211218,
-        "timestamp": "2025-08-10T12:34:02.358264"
+        "value": 1.3719680556683531,
+        "timestamp": "2025-08-10T14:27:27.449310"
     },
     {
         "match": "Spartak Trnava vs Tatran Pre\u0161ov",
         "league": "Super Liga",
         "market": "BTTS",
         "bet_value": "No",
-        "probability": 1.0000000000000002,
+        "probability": 1.0,
         "odds": 1.91,
-        "value": 1.9100000000000004,
-        "timestamp": "2025-08-10T12:34:02.358266"
+        "value": 1.91,
+        "timestamp": "2025-08-10T14:27:27.449322"
     },
     {
         "match": "Sandefjord vs Viking",
         "league": "Eliteserien",
         "market": "1X2",
         "bet_value": "Home",
-        "probability": 0.7150823950123596,
+        "probability": 0.7441739784951829,
         "odds": 2.88,
-        "value": 2.0594372976355957,
-        "timestamp": "2025-08-10T12:34:04.722951"
+        "value": 2.1432210580661266,
+        "timestamp": "2025-08-10T14:27:28.742206"
     },
     {
         "match": "Sandefjord vs Viking",
         "league": "Eliteserien",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.8111160256900564,
+        "probability": 0.8319462946051505,
         "odds": 1.36,
-        "value": 1.1031177949384767,
-        "timestamp": "2025-08-10T12:34:04.722962"
-    },
-    {
-        "match": "Antwerp vs OH Leuven",
-        "league": "Jupiler Pro League",
-        "market": "1X2",
-        "bet_value": "Home",
-        "probability": 0.9668459243882448,
-        "odds": 1.83,
-        "value": 1.769328041630488,
-        "timestamp": "2025-08-10T12:34:05.405129"
+        "value": 1.1314469606630047,
+        "timestamp": "2025-08-10T14:27:28.742217"
     },
     {
         "match": "Antwerp vs OH Leuven",
         "league": "Jupiler Pro League",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.6369967027406803,
+        "probability": 0.6921337190248126,
         "odds": 1.85,
-        "value": 1.1784439000702587,
-        "timestamp": "2025-08-10T12:34:05.405140"
+        "value": 1.2804473801959033,
+        "timestamp": "2025-08-10T14:27:29.360678"
     },
     {
         "match": "Antwerp vs OH Leuven",
@@ -2247,17 +1877,7 @@
         "probability": 1.0000000000000002,
         "odds": 2.0,
         "value": 2.0000000000000004,
-        "timestamp": "2025-08-10T12:34:05.405142"
-    },
-    {
-        "match": "Padova vs Vicenza Virtus",
-        "league": "Coppa Italia",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 3.1,
-        "value": 3.1,
-        "timestamp": "2025-08-10T12:34:06.012552"
+        "timestamp": "2025-08-10T14:27:29.360690"
     },
     {
         "match": "Padova vs Vicenza Virtus",
@@ -2267,7 +1887,7 @@
         "probability": 1.0,
         "odds": 1.65,
         "value": 1.65,
-        "timestamp": "2025-08-10T12:34:06.012582"
+        "timestamp": "2025-08-10T14:27:30.936318"
     },
     {
         "match": "Padova vs Vicenza Virtus",
@@ -2277,77 +1897,67 @@
         "probability": 1.0,
         "odds": 1.8,
         "value": 1.8,
-        "timestamp": "2025-08-10T12:34:06.012584"
+        "timestamp": "2025-08-10T14:27:30.936330"
     },
     {
         "match": "Cuniburo vs Tecnico Universitario",
         "league": "Liga Pro",
         "market": "1X2",
         "bet_value": "Home",
-        "probability": 0.49682465585729413,
+        "probability": 0.4994256759689881,
         "odds": 2.3,
-        "value": 1.1426967084717765,
-        "timestamp": "2025-08-10T12:34:06.650225"
+        "value": 1.1486790547286727,
+        "timestamp": "2025-08-10T14:27:32.450724"
     },
     {
         "match": "Cuniburo vs Tecnico Universitario",
         "league": "Liga Pro",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.489562906401186,
+        "probability": 0.49295228322809964,
         "odds": 2.15,
-        "value": 1.0525602487625498,
-        "timestamp": "2025-08-10T12:34:06.650236"
+        "value": 1.0598474089404142,
+        "timestamp": "2025-08-10T14:27:32.450735"
     },
     {
         "match": "Ujpest vs Paks",
         "league": "NB I",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.6902914531488787,
+        "probability": 0.7704725258676716,
         "odds": 3.5,
-        "value": 2.4160200860210757,
-        "timestamp": "2025-08-10T12:34:09.532751"
+        "value": 2.6966538405368503,
+        "timestamp": "2025-08-10T14:27:35.056865"
     },
     {
         "match": "Ujpest vs Paks",
         "league": "NB I",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.9449276331966626,
+        "probability": 0.9625637812593664,
         "odds": 1.48,
-        "value": 1.3984928971310606,
-        "timestamp": "2025-08-10T12:34:09.532762"
+        "value": 1.4245943962638623,
+        "timestamp": "2025-08-10T14:27:35.056876"
     },
     {
         "match": "Ujpest vs Paks",
         "league": "NB I",
         "market": "BTTS",
         "bet_value": "Yes",
-        "probability": 0.8665680774042559,
+        "probability": 0.8733006291229843,
         "odds": 1.44,
-        "value": 1.2478580314621284,
-        "timestamp": "2025-08-10T12:34:09.532764"
-    },
-    {
-        "match": "Sparta Praha vs Sigma Olomouc",
-        "league": "Czech Liga",
-        "market": "1X2",
-        "bet_value": "Away",
-        "probability": 0.8358974028033977,
-        "odds": 9.0,
-        "value": 7.52307662523058,
-        "timestamp": "2025-08-10T12:34:10.265323"
+        "value": 1.2575529059370973,
+        "timestamp": "2025-08-10T14:27:35.056878"
     },
     {
         "match": "Sparta Praha vs Sigma Olomouc",
         "league": "Czech Liga",
         "market": "O/U 2.5",
         "bet_value": "Under",
-        "probability": 0.7337149180443127,
-        "odds": 2.35,
-        "value": 1.7242300574041347,
-        "timestamp": "2025-08-10T12:34:10.265334"
+        "probability": 0.7257628337680411,
+        "odds": 2.4,
+        "value": 1.7418308010432986,
+        "timestamp": "2025-08-10T14:27:35.721563"
     },
     {
         "match": "Sparta Praha vs Sigma Olomouc",
@@ -2355,49 +1965,39 @@
         "market": "BTTS",
         "bet_value": "No",
         "probability": 1.0000000000000002,
-        "odds": 1.91,
-        "value": 1.9100000000000004,
-        "timestamp": "2025-08-10T12:34:10.265336"
+        "odds": 1.95,
+        "value": 1.9500000000000004,
+        "timestamp": "2025-08-10T14:27:35.721574"
     },
     {
         "match": "Radnicki NIS vs Novi Pazar",
         "league": "Super Liga",
         "market": "1X2",
         "bet_value": "Home",
-        "probability": 0.7248837041359045,
+        "probability": 0.7893535309102749,
         "odds": 2.0,
-        "value": 1.449767408271809,
-        "timestamp": "2025-08-10T12:34:10.825609"
+        "value": 1.5787070618205499,
+        "timestamp": "2025-08-10T14:27:36.664452"
     },
     {
         "match": "Radnicki NIS vs Novi Pazar",
         "league": "Super Liga",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.9213545483545978,
+        "probability": 0.9425057585097992,
         "odds": 1.85,
-        "value": 1.7045059144560062,
-        "timestamp": "2025-08-10T12:34:10.825620"
+        "value": 1.7436356532431287,
+        "timestamp": "2025-08-10T14:27:36.664462"
     },
     {
         "match": "Radnicki NIS vs Novi Pazar",
         "league": "Super Liga",
         "market": "BTTS",
         "bet_value": "Yes",
-        "probability": 0.8203296372431239,
+        "probability": 0.8261458743636867,
         "odds": 1.73,
-        "value": 1.4191702724306043,
-        "timestamp": "2025-08-10T12:34:10.825622"
-    },
-    {
-        "match": "Buducnost Podgorica vs Sutjeska",
-        "league": "First League",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 3.2,
-        "value": 3.2,
-        "timestamp": "2025-08-10T12:34:12.029068"
+        "value": 1.4292323626491779,
+        "timestamp": "2025-08-10T14:27:36.664464"
     },
     {
         "match": "Buducnost Podgorica vs Sutjeska",
@@ -2407,17 +2007,7 @@
         "probability": 1.0,
         "odds": 1.67,
         "value": 1.67,
-        "timestamp": "2025-08-10T12:34:12.029079"
-    },
-    {
-        "match": "Petrovac vs Jezero",
-        "league": "First League",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 3.2,
-        "value": 3.2,
-        "timestamp": "2025-08-10T12:34:12.550031"
+        "timestamp": "2025-08-10T14:27:37.900883"
     },
     {
         "match": "Petrovac vs Jezero",
@@ -2427,17 +2017,7 @@
         "probability": 1.0,
         "odds": 1.65,
         "value": 1.65,
-        "timestamp": "2025-08-10T12:34:12.550043"
-    },
-    {
-        "match": "Mornar vs Arsenal Tivat",
-        "league": "First League",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 3.0,
-        "value": 3.0,
-        "timestamp": "2025-08-10T12:34:13.546444"
+        "timestamp": "2025-08-10T14:27:39.393541"
     },
     {
         "match": "Mornar vs Arsenal Tivat",
@@ -2447,17 +2027,7 @@
         "probability": 1.0,
         "odds": 1.6,
         "value": 1.6,
-        "timestamp": "2025-08-10T12:34:13.546455"
-    },
-    {
-        "match": "Bokelj vs Mladost DG",
-        "league": "First League",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 3.1,
-        "value": 3.1,
-        "timestamp": "2025-08-10T12:34:14.165102"
+        "timestamp": "2025-08-10T14:27:39.955191"
     },
     {
         "match": "Bokelj vs Mladost DG",
@@ -2467,37 +2037,17 @@
         "probability": 1.0,
         "odds": 1.7,
         "value": 1.7,
-        "timestamp": "2025-08-10T12:34:14.165113"
-    },
-    {
-        "match": "Zimbru vs Milsami Orhei",
-        "league": "Super Liga",
-        "market": "1X2",
-        "bet_value": "Home",
-        "probability": 0.9963142540788417,
-        "odds": 1.85,
-        "value": 1.8431813700458572,
-        "timestamp": "2025-08-10T12:34:14.942985"
+        "timestamp": "2025-08-10T14:27:41.677136"
     },
     {
         "match": "Zimbru vs Milsami Orhei",
         "league": "Super Liga",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.889837149689821,
+        "probability": 0.9619597255700003,
         "odds": 1.6,
-        "value": 1.4237394395037137,
-        "timestamp": "2025-08-10T12:34:14.942997"
-    },
-    {
-        "match": "Legia Warszawa vs GKS Katowice",
-        "league": "Ekstraklasa",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 5.0,
-        "value": 5.0,
-        "timestamp": "2025-08-10T12:34:16.085443"
+        "value": 1.5391355609120005,
+        "timestamp": "2025-08-10T14:27:42.764251"
     },
     {
         "match": "Legia Warszawa vs GKS Katowice",
@@ -2505,9 +2055,9 @@
         "market": "O/U 2.5",
         "bet_value": "Under",
         "probability": 1.0,
-        "odds": 2.4,
-        "value": 2.4,
-        "timestamp": "2025-08-10T12:34:16.085455"
+        "odds": 2.7,
+        "value": 2.7,
+        "timestamp": "2025-08-10T14:27:45.608128"
     },
     {
         "match": "Legia Warszawa vs GKS Katowice",
@@ -2515,119 +2065,99 @@
         "market": "BTTS",
         "bet_value": "No",
         "probability": 1.0,
-        "odds": 2.05,
-        "value": 2.05,
-        "timestamp": "2025-08-10T12:34:16.085457"
-    },
-    {
-        "match": "Celje vs Mura",
-        "league": "1. SNL",
-        "market": "1X2",
-        "bet_value": "Home",
-        "probability": 0.8800063541586718,
-        "odds": 1.22,
-        "value": 1.0736077520735796,
-        "timestamp": "2025-08-10T12:34:16.802954"
+        "odds": 2.1,
+        "value": 2.1,
+        "timestamp": "2025-08-10T14:27:45.608139"
     },
     {
         "match": "Celje vs Mura",
         "league": "1. SNL",
         "market": "O/U 2.5",
         "bet_value": "Under",
-        "probability": 0.6526185023819171,
-        "odds": 3.0,
-        "value": 1.9578555071457513,
-        "timestamp": "2025-08-10T12:34:16.802965"
+        "probability": 0.6381246770550482,
+        "odds": 3.25,
+        "value": 2.0739052004289067,
+        "timestamp": "2025-08-10T14:27:46.257939"
     },
     {
         "match": "Celje vs Mura",
         "league": "1. SNL",
         "market": "BTTS",
         "bet_value": "No",
-        "probability": 0.9999999999999999,
+        "probability": 1.0,
         "odds": 1.91,
-        "value": 1.9099999999999997,
-        "timestamp": "2025-08-10T12:34:16.802967"
+        "value": 1.91,
+        "timestamp": "2025-08-10T14:27:46.257951"
     },
     {
         "match": "Primorje vs Maribor",
         "league": "1. SNL",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.8081180158268755,
+        "probability": 0.8641073266268351,
         "odds": 1.53,
-        "value": 1.2364205642151196,
-        "timestamp": "2025-08-10T12:34:17.410312"
+        "value": 1.3220842097390577,
+        "timestamp": "2025-08-10T14:27:49.966299"
     },
     {
         "match": "Primorje vs Maribor",
         "league": "1. SNL",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.9088517879242939,
+        "probability": 0.936855824151024,
         "odds": 1.5,
-        "value": 1.3632776818864407,
-        "timestamp": "2025-08-10T12:34:17.410324"
+        "value": 1.405283736226536,
+        "timestamp": "2025-08-10T14:27:49.966311"
     },
     {
         "match": "Primorje vs Maribor",
         "league": "1. SNL",
         "market": "BTTS",
         "bet_value": "Yes",
-        "probability": 0.7479022423132522,
+        "probability": 0.7522724163306842,
         "odds": 1.57,
-        "value": 1.174206520431806,
-        "timestamp": "2025-08-10T12:34:17.410326"
+        "value": 1.1810676936391742,
+        "timestamp": "2025-08-10T14:27:49.966313"
     },
     {
         "match": "Botev Plovdiv vs Lokomotiv Sofia",
         "league": "First League",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.8590968632440836,
+        "probability": 0.8674011334354677,
         "odds": 3.4,
-        "value": 2.9209293350298844,
-        "timestamp": "2025-08-10T12:34:18.104796"
+        "value": 2.9491638536805898,
+        "timestamp": "2025-08-10T14:27:50.676094"
     },
     {
         "match": "Botev Plovdiv vs Lokomotiv Sofia",
         "league": "First League",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.5701118702086231,
+        "probability": 0.5954277653833853,
         "odds": 1.95,
-        "value": 1.111718146906815,
-        "timestamp": "2025-08-10T12:34:18.104807"
+        "value": 1.1610841424976013,
+        "timestamp": "2025-08-10T14:27:50.676106"
     },
     {
         "match": "Botev Plovdiv vs Lokomotiv Sofia",
         "league": "First League",
         "market": "BTTS",
         "bet_value": "No",
-        "probability": 0.7205448738629394,
+        "probability": 0.7193372890316277,
         "odds": 1.91,
-        "value": 1.3762407090782143,
-        "timestamp": "2025-08-10T12:34:18.104809"
-    },
-    {
-        "match": "Napredak vs FK Partizan",
-        "league": "Super Liga",
-        "market": "1X2",
-        "bet_value": "Away",
-        "probability": 0.8358974028033977,
-        "odds": 2.15,
-        "value": 1.7971794160273051,
-        "timestamp": "2025-08-10T12:34:18.686949"
+        "value": 1.373934222050409,
+        "timestamp": "2025-08-10T14:27:50.676108"
     },
     {
         "match": "Napredak vs FK Partizan",
         "league": "Super Liga",
         "market": "O/U 2.5",
         "bet_value": "Under",
-        "probability": 0.7337149180443127,
+        "probability": 0.7257628337680411,
         "odds": 1.85,
-        "value": 1.3573725983819784,
-        "timestamp": "2025-08-10T12:34:18.686960"
+        "value": 1.3426612424708761,
+        "timestamp": "2025-08-10T14:27:51.206296"
     },
     {
         "match": "Napredak vs FK Partizan",
@@ -2637,17 +2167,27 @@
         "probability": 1.0000000000000002,
         "odds": 1.91,
         "value": 1.9100000000000004,
-        "timestamp": "2025-08-10T12:34:18.686962"
+        "timestamp": "2025-08-10T14:27:51.206307"
     },
     {
-        "match": "Pescara vs Rimini",
+        "match": "Audace Cerignola vs Avellino",
         "league": "Coppa Italia",
-        "market": "1X2",
-        "bet_value": "Draw",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
         "probability": 1.0,
-        "odds": 5.75,
-        "value": 5.75,
-        "timestamp": "2025-08-10T12:35:12.481798"
+        "odds": 1.67,
+        "value": 1.67,
+        "timestamp": "2025-08-10T14:27:52.929040"
+    },
+    {
+        "match": "Audace Cerignola vs Avellino",
+        "league": "Coppa Italia",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0,
+        "odds": 1.8,
+        "value": 1.8,
+        "timestamp": "2025-08-10T14:27:52.929051"
     },
     {
         "match": "Pescara vs Rimini",
@@ -2657,7 +2197,7 @@
         "probability": 1.0,
         "odds": 2.3,
         "value": 2.3,
-        "timestamp": "2025-08-10T12:35:12.481809"
+        "timestamp": "2025-08-10T14:27:54.473987"
     },
     {
         "match": "Pescara vs Rimini",
@@ -2667,17 +2207,7 @@
         "probability": 1.0,
         "odds": 1.62,
         "value": 1.62,
-        "timestamp": "2025-08-10T12:35:12.481811"
-    },
-    {
-        "match": "Ey\u00fcpspor vs Konyaspor",
-        "league": "S\u00fcper Lig",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 3.2,
-        "value": 3.2,
-        "timestamp": "2025-08-10T12:35:13.082757"
+        "timestamp": "2025-08-10T14:27:54.473999"
     },
     {
         "match": "Ey\u00fcpspor vs Konyaspor",
@@ -2687,7 +2217,7 @@
         "probability": 1.0,
         "odds": 1.67,
         "value": 1.67,
-        "timestamp": "2025-08-10T12:35:13.082768"
+        "timestamp": "2025-08-10T14:27:55.152097"
     },
     {
         "match": "Ey\u00fcpspor vs Konyaspor",
@@ -2697,17 +2227,7 @@
         "probability": 1.0,
         "odds": 1.83,
         "value": 1.83,
-        "timestamp": "2025-08-10T12:35:13.082771"
-    },
-    {
-        "match": "Fatih Karag\u00fcmr\u00fck vs Istanbul Basaksehir",
-        "league": "S\u00fcper Lig",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 3.3,
-        "value": 3.3,
-        "timestamp": "2025-08-10T12:35:14.498329"
+        "timestamp": "2025-08-10T14:27:55.152109"
     },
     {
         "match": "Fatih Karag\u00fcmr\u00fck vs Istanbul Basaksehir",
@@ -2717,217 +2237,157 @@
         "probability": 1.0,
         "odds": 2.0,
         "value": 2.0,
-        "timestamp": "2025-08-10T12:35:14.498340"
-    },
-    {
-        "match": "Kayserispor vs Besiktas",
-        "league": "S\u00fcper Lig",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 3.6,
-        "value": 3.6,
-        "timestamp": "2025-08-10T12:35:15.073898"
-    },
-    {
-        "match": "Kayserispor vs Besiktas",
-        "league": "S\u00fcper Lig",
-        "market": "BTTS",
-        "bet_value": "No",
-        "probability": 1.0,
-        "odds": 2.15,
-        "value": 2.15,
-        "timestamp": "2025-08-10T12:35:15.073909"
+        "timestamp": "2025-08-10T14:28:20.236338"
     },
     {
         "match": "Cobresal vs Coquimbo Unido",
         "league": "Primera Divisi\u00f3n",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.5448097000429294,
+        "probability": 0.5459073084686114,
         "odds": 2.2,
-        "value": 1.1985813400944447,
-        "timestamp": "2025-08-10T12:35:15.668065"
+        "value": 1.200996078630945,
+        "timestamp": "2025-08-10T14:28:30.999687"
     },
     {
         "match": "Cobresal vs Coquimbo Unido",
         "league": "Primera Divisi\u00f3n",
         "market": "O/U 2.5",
         "bet_value": "Under",
-        "probability": 0.6997937990066881,
+        "probability": 0.6981265105199632,
         "odds": 1.75,
-        "value": 1.2246391482617043,
-        "timestamp": "2025-08-10T12:35:15.668077"
+        "value": 1.2217213934099356,
+        "timestamp": "2025-08-10T14:28:30.999698"
     },
     {
         "match": "Cobresal vs Coquimbo Unido",
         "league": "Primera Divisi\u00f3n",
         "market": "BTTS",
         "bet_value": "No",
-        "probability": 0.6708802293026295,
+        "probability": 0.6705956859112947,
         "odds": 1.91,
-        "value": 1.2813812379680223,
-        "timestamp": "2025-08-10T12:35:15.668079"
-    },
-    {
-        "match": "Vasco DA Gama vs Atletico-MG",
-        "league": "Serie A",
-        "market": "1X2",
-        "bet_value": "Home",
-        "probability": 0.41189118216349324,
-        "odds": 2.62,
-        "value": 1.0791548972683522,
-        "timestamp": "2025-08-10T12:35:16.704841"
-    },
-    {
-        "match": "Vasco DA Gama vs Atletico-MG",
-        "league": "Serie A",
-        "market": "O/U 2.5",
-        "bet_value": "Under",
-        "probability": 0.7099880221473828,
-        "odds": 1.5,
-        "value": 1.0649820332210742,
-        "timestamp": "2025-08-10T12:35:16.704854"
-    },
-    {
-        "match": "Vasco DA Gama vs Atletico-MG",
-        "league": "Serie A",
-        "market": "BTTS",
-        "bet_value": "No",
-        "probability": 0.6357843504826767,
-        "odds": 1.7,
-        "value": 1.0808333958205503,
-        "timestamp": "2025-08-10T12:35:16.704856"
+        "value": 1.280837760090573,
+        "timestamp": "2025-08-10T14:28:30.999700"
     },
     {
         "match": "Palmeiras vs Ceara",
         "league": "Serie A",
         "market": "1X2",
         "bet_value": "Draw",
-        "probability": 0.3538126458833455,
+        "probability": 0.35366849570928877,
         "odds": 4.5,
-        "value": 1.5921569064750547,
-        "timestamp": "2025-08-10T12:35:17.762405"
+        "value": 1.5915082306917994,
+        "timestamp": "2025-08-10T14:28:42.120743"
     },
     {
         "match": "Palmeiras vs Ceara",
         "league": "Serie A",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.26258131280355634,
+        "probability": 0.2625523612063318,
         "odds": 8.5,
-        "value": 2.231941158830229,
-        "timestamp": "2025-08-10T12:35:17.762416"
+        "value": 2.2316950702538203,
+        "timestamp": "2025-08-10T14:28:42.120756"
     },
     {
         "match": "Palmeiras vs Ceara",
         "league": "Serie A",
         "market": "O/U 2.5",
         "bet_value": "Under",
-        "probability": 0.7902038518341229,
+        "probability": 0.7899761568223617,
         "odds": 1.67,
-        "value": 1.3196404325629851,
-        "timestamp": "2025-08-10T12:35:17.762418"
+        "value": 1.3192601818933438,
+        "timestamp": "2025-08-10T14:28:42.120758"
     },
     {
         "match": "Palmeiras vs Ceara",
         "league": "Serie A",
         "market": "BTTS",
         "bet_value": "No",
-        "probability": 0.7081960708401754,
+        "probability": 0.7081377325961677,
         "odds": 1.5,
-        "value": 1.062294106260263,
-        "timestamp": "2025-08-10T12:35:17.762420"
+        "value": 1.0622065988942517,
+        "timestamp": "2025-08-10T14:28:42.120759"
     },
     {
         "match": "HNK Hajduk Split vs HNK Gorica",
         "league": "HNL",
         "market": "1X2",
         "bet_value": "Draw",
-        "probability": 0.2700858030223445,
-        "odds": 4.33,
-        "value": 1.1694715270867515,
-        "timestamp": "2025-08-10T12:35:18.549164"
+        "probability": 0.2690362262434491,
+        "odds": 4.5,
+        "value": 1.210663018095521,
+        "timestamp": "2025-08-10T14:28:42.766228"
     },
     {
         "match": "HNK Hajduk Split vs HNK Gorica",
         "league": "HNL",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.24016873138809683,
-        "odds": 8.0,
-        "value": 1.9213498511047746,
-        "timestamp": "2025-08-10T12:35:18.549175"
+        "probability": 0.23959551765364565,
+        "odds": 7.0,
+        "value": 1.6771686235755194,
+        "timestamp": "2025-08-10T14:28:42.766239"
     },
     {
         "match": "HNK Hajduk Split vs HNK Gorica",
         "league": "HNL",
         "market": "O/U 2.5",
         "bet_value": "Under",
-        "probability": 0.5883651632939271,
-        "odds": 1.7,
-        "value": 1.000220777599676,
-        "timestamp": "2025-08-10T12:35:18.549177"
+        "probability": 0.5861149683019193,
+        "odds": 1.8,
+        "value": 1.0550069429434548,
+        "timestamp": "2025-08-10T14:28:42.766242"
     },
     {
         "match": "HNK Hajduk Split vs HNK Gorica",
         "league": "HNL",
         "market": "BTTS",
         "bet_value": "Yes",
-        "probability": 0.4533941577249372,
-        "odds": 2.62,
-        "value": 1.1878926932393354,
-        "timestamp": "2025-08-10T12:35:18.549179"
+        "probability": 0.453994846019785,
+        "odds": 2.38,
+        "value": 1.0805077335270883,
+        "timestamp": "2025-08-10T14:28:42.766244"
     },
     {
         "match": "Siroki Brijeg vs Vele\u017e",
         "league": "Premijer Liga",
         "market": "O/U 2.5",
         "bet_value": "Under",
-        "probability": 0.5883651632939271,
+        "probability": 0.5861149683019193,
         "odds": 1.75,
-        "value": 1.0296390357643723,
-        "timestamp": "2025-08-10T12:35:19.162046"
+        "value": 1.025701194528359,
+        "timestamp": "2025-08-10T14:28:43.270625"
     },
     {
         "match": "Club Guarani vs Olimpia",
         "league": "Division Profesional - Clausura",
         "market": "1X2",
         "bet_value": "Home",
-        "probability": 0.8193922609545599,
+        "probability": 0.8618189791247711,
         "odds": 3.3,
-        "value": 2.7039944611500473,
-        "timestamp": "2025-08-10T12:35:20.388714"
+        "value": 2.8440026311117443,
+        "timestamp": "2025-08-10T14:28:43.810653"
     },
     {
         "match": "Club Guarani vs Olimpia",
         "league": "Division Profesional - Clausura",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.8730293667371688,
-        "odds": 2.08,
-        "value": 1.815901082813311,
-        "timestamp": "2025-08-10T12:35:20.388727"
+        "probability": 0.903829067505445,
+        "odds": 2.1,
+        "value": 1.8980410417614346,
+        "timestamp": "2025-08-10T14:28:43.810696"
     },
     {
         "match": "Club Guarani vs Olimpia",
         "league": "Division Profesional - Clausura",
         "market": "BTTS",
         "bet_value": "Yes",
-        "probability": 0.6876175207845643,
+        "probability": 0.6915321868158195,
         "odds": 1.83,
-        "value": 1.2583400630357526,
-        "timestamp": "2025-08-10T12:35:20.388729"
-    },
-    {
-        "match": "Jedinstvo vs De\u010di\u0107",
-        "league": "First League",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 3.0,
-        "value": 3.0,
-        "timestamp": "2025-08-10T12:35:21.364295"
+        "value": 1.2655039018729497,
+        "timestamp": "2025-08-10T14:28:43.810699"
     },
     {
         "match": "Jedinstvo vs De\u010di\u0107",
@@ -2937,57 +2397,47 @@
         "probability": 1.0,
         "odds": 1.57,
         "value": 1.57,
-        "timestamp": "2025-08-10T12:35:21.364306"
+        "timestamp": "2025-08-10T14:28:44.375047"
     },
     {
         "match": "Vikingur Reykjavik vs Stjarnan",
         "league": "\u00darvalsdeild",
         "market": "1X2",
         "bet_value": "Home",
-        "probability": 0.7089351358675795,
+        "probability": 0.724479345435602,
         "odds": 1.65,
-        "value": 1.1697429741815062,
-        "timestamp": "2025-08-10T12:35:22.151144"
+        "value": 1.1953909199687431,
+        "timestamp": "2025-08-10T14:28:44.988705"
     },
     {
         "match": "Vikingur Reykjavik vs Stjarnan",
         "league": "\u00darvalsdeild",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.6979773033371086,
+        "probability": 0.714752360516861,
         "odds": 1.44,
-        "value": 1.0050873168054364,
-        "timestamp": "2025-08-10T12:35:22.151155"
+        "value": 1.0292433991442798,
+        "timestamp": "2025-08-10T14:28:44.988717"
     },
     {
         "match": "Valur Reykjavik vs Breidablik",
         "league": "\u00darvalsdeild",
         "market": "1X2",
         "bet_value": "Home",
-        "probability": 0.6667891074382141,
-        "odds": 2.0,
-        "value": 1.3335782148764281,
-        "timestamp": "2025-08-10T12:35:23.523281"
+        "probability": 0.6867530336738878,
+        "odds": 2.05,
+        "value": 1.4078437190314699,
+        "timestamp": "2025-08-10T14:28:45.610021"
     },
     {
         "match": "Valur Reykjavik vs Breidablik",
         "league": "\u00darvalsdeild",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.757718475968029,
+        "probability": 0.7737563431655916,
         "odds": 1.5,
-        "value": 1.1365777139520434,
-        "timestamp": "2025-08-10T12:35:23.523300"
-    },
-    {
-        "match": "SC Braga vs Tondela",
-        "league": "Primeira Liga",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 4.33,
-        "value": 4.33,
-        "timestamp": "2025-08-10T12:35:55.277228"
+        "value": 1.1606345147483874,
+        "timestamp": "2025-08-10T14:28:45.610033"
     },
     {
         "match": "SC Braga vs Tondela",
@@ -2995,9 +2445,9 @@
         "market": "O/U 2.5",
         "bet_value": "Under",
         "probability": 1.0,
-        "odds": 1.95,
-        "value": 1.95,
-        "timestamp": "2025-08-10T12:35:55.277239"
+        "odds": 2.0,
+        "value": 2.0,
+        "timestamp": "2025-08-10T14:28:46.395680"
     },
     {
         "match": "SC Braga vs Tondela",
@@ -3007,17 +2457,7 @@
         "probability": 1.0,
         "odds": 1.75,
         "value": 1.75,
-        "timestamp": "2025-08-10T12:35:55.277241"
-    },
-    {
-        "match": "Moreirense vs Alverca",
-        "league": "Primeira Liga",
-        "market": "1X2",
-        "bet_value": "Draw",
-        "probability": 1.0,
-        "odds": 3.25,
-        "value": 3.25,
-        "timestamp": "2025-08-10T12:35:55.974739"
+        "timestamp": "2025-08-10T14:28:46.395692"
     },
     {
         "match": "Moreirense vs Alverca",
@@ -3027,7 +2467,7 @@
         "probability": 1.0,
         "odds": 1.62,
         "value": 1.62,
-        "timestamp": "2025-08-10T12:35:55.974750"
+        "timestamp": "2025-08-10T14:28:47.057735"
     },
     {
         "match": "Moreirense vs Alverca",
@@ -3037,236 +2477,276 @@
         "probability": 1.0,
         "odds": 1.75,
         "value": 1.75,
-        "timestamp": "2025-08-10T12:35:55.974752"
+        "timestamp": "2025-08-10T14:28:47.057747"
     },
     {
         "match": "U. Catolica vs Nublense",
         "league": "Primera Divisi\u00f3n",
         "market": "1X2",
         "bet_value": "Home",
-        "probability": 0.7343861486954699,
+        "probability": 0.7454165229841871,
         "odds": 2.1,
-        "value": 1.5422109122604868,
-        "timestamp": "2025-08-10T12:35:58.524651"
+        "value": 1.565374698266793,
+        "timestamp": "2025-08-10T14:28:47.777351"
     },
     {
         "match": "U. Catolica vs Nublense",
         "league": "Primera Divisi\u00f3n",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.623786525579911,
+        "probability": 0.6396304375759689,
         "odds": 2.15,
-        "value": 1.3411410299968085,
-        "timestamp": "2025-08-10T12:35:58.524663"
+        "value": 1.3752054407883332,
+        "timestamp": "2025-08-10T14:28:47.777365"
     },
     {
         "match": "Envigado vs Junior",
         "league": "Primera A",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.6442475184048527,
-        "odds": 2.15,
-        "value": 1.3851321645704333,
-        "timestamp": "2025-08-10T12:35:59.223942"
+        "probability": 0.6474525206586422,
+        "odds": 2.05,
+        "value": 1.3272776673502165,
+        "timestamp": "2025-08-10T14:28:48.380883"
     },
     {
         "match": "Envigado vs Junior",
         "league": "Primera A",
         "market": "BTTS",
         "bet_value": "No",
-        "probability": 0.6199656755628394,
+        "probability": 0.6192363931889852,
         "odds": 1.83,
-        "value": 1.1345371862799962,
-        "timestamp": "2025-08-10T12:35:59.223953"
+        "value": 1.1332025995358428,
+        "timestamp": "2025-08-10T14:28:48.380895"
     },
     {
         "match": "Macara vs Delfin SC",
         "league": "Liga Pro",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.3602323159609303,
-        "odds": 3.4,
-        "value": 1.224789874267163,
-        "timestamp": "2025-08-10T12:35:59.908066"
+        "probability": 0.3605795142652379,
+        "odds": 3.8,
+        "value": 1.370202154207904,
+        "timestamp": "2025-08-10T14:28:49.046647"
     },
     {
         "match": "Cruzeiro vs Santos",
         "league": "Serie A",
         "market": "1X2",
         "bet_value": "Home",
-        "probability": 0.7724445717034767,
+        "probability": 0.7798232239326944,
         "odds": 1.55,
-        "value": 1.1972890861403889,
-        "timestamp": "2025-08-10T12:36:00.543922"
+        "value": 1.2087259970956763,
+        "timestamp": "2025-08-10T14:28:49.664254"
     },
     {
         "match": "Cruzeiro vs Santos",
         "league": "Serie A",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.5353071984005368,
+        "probability": 0.5503931307250897,
         "odds": 2.0,
-        "value": 1.0706143968010735,
-        "timestamp": "2025-08-10T12:36:00.543933"
+        "value": 1.1007862614501793,
+        "timestamp": "2025-08-10T14:28:49.664266"
     },
     {
         "match": "Cruzeiro vs Santos",
         "league": "Serie A",
         "market": "BTTS",
         "bet_value": "No",
-        "probability": 0.6247394421989831,
+        "probability": 0.623400854310434,
         "odds": 1.7,
-        "value": 1.0620570517382713,
-        "timestamp": "2025-08-10T12:36:00.543935"
+        "value": 1.0597814523277378,
+        "timestamp": "2025-08-10T14:28:49.664268"
+    },
+    {
+        "match": "Libertad Asuncion vs Deportivo Recoleta",
+        "league": "Division Profesional - Clausura",
+        "market": "1X2",
+        "bet_value": "Draw",
+        "probability": 0.27063520986896306,
+        "odds": 4.0,
+        "value": 1.0825408394758522,
+        "timestamp": "2025-08-10T14:28:50.175423"
+    },
+    {
+        "match": "Libertad Asuncion vs Deportivo Recoleta",
+        "league": "Division Profesional - Clausura",
+        "market": "1X2",
+        "bet_value": "Away",
+        "probability": 0.43485152736668153,
+        "odds": 6.25,
+        "value": 2.7178220460417597,
+        "timestamp": "2025-08-10T14:28:50.175433"
+    },
+    {
+        "match": "Libertad Asuncion vs Deportivo Recoleta",
+        "league": "Division Profesional - Clausura",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 0.5606341013930001,
+        "odds": 1.85,
+        "value": 1.0371730875770502,
+        "timestamp": "2025-08-10T14:28:50.175435"
     },
     {
         "match": "FC Cincinnati vs Charlotte",
         "league": "Major League Soccer",
         "market": "1X2",
         "bet_value": "Home",
-        "probability": 0.6094798751079099,
-        "odds": 1.7,
-        "value": 1.0361157876834468,
-        "timestamp": "2025-08-10T12:36:07.477171"
+        "probability": 0.6322833725175798,
+        "odds": 1.83,
+        "value": 1.1570785717071712,
+        "timestamp": "2025-08-10T14:28:51.312011"
     },
     {
         "match": "FC Cincinnati vs Charlotte",
         "league": "Major League Soccer",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.8044924904242755,
+        "probability": 0.8188688552009096,
         "odds": 1.57,
-        "value": 1.2630532099661127,
-        "timestamp": "2025-08-10T12:36:07.477182"
+        "value": 1.285624102665428,
+        "timestamp": "2025-08-10T14:28:51.312034"
     },
     {
         "match": "FC Cincinnati vs Charlotte",
         "league": "Major League Soccer",
         "market": "BTTS",
         "bet_value": "Yes",
-        "probability": 0.7469112654426984,
-        "odds": 1.57,
-        "value": 1.1726506867450366,
-        "timestamp": "2025-08-10T12:36:07.477184"
-    },
-    {
-        "match": "Minnesota United FC vs Colorado Rapids",
-        "league": "Major League Soccer",
-        "market": "O/U 2.5",
-        "bet_value": "Over",
-        "probability": 0.726521426932569,
-        "odds": 1.44,
-        "value": 1.0461908547828993,
-        "timestamp": "2025-08-10T12:36:08.133943"
-    },
-    {
-        "match": "Minnesota United FC vs Colorado Rapids",
-        "league": "Major League Soccer",
-        "market": "BTTS",
-        "bet_value": "Yes",
-        "probability": 0.6551568086432993,
-        "odds": 1.57,
-        "value": 1.02859618956998,
-        "timestamp": "2025-08-10T12:36:08.133954"
-    },
-    {
-        "match": "New York Red Bulls vs Real Salt Lake",
-        "league": "Major League Soccer",
-        "market": "1X2",
-        "bet_value": "Home",
-        "probability": 0.6726154949086394,
-        "odds": 2.05,
-        "value": 1.3788617645627106,
-        "timestamp": "2025-08-10T12:36:08.822192"
-    },
-    {
-        "match": "New York Red Bulls vs Real Salt Lake",
-        "league": "Major League Soccer",
-        "market": "O/U 2.5",
-        "bet_value": "Over",
-        "probability": 0.7483813721512175,
-        "odds": 1.62,
-        "value": 1.2123778228849724,
-        "timestamp": "2025-08-10T12:36:08.822210"
-    },
-    {
-        "match": "New York Red Bulls vs Real Salt Lake",
-        "league": "Major League Soccer",
-        "market": "BTTS",
-        "bet_value": "Yes",
-        "probability": 0.6652190340600003,
+        "probability": 0.751482608051874,
         "odds": 1.53,
-        "value": 1.0177851221118004,
-        "timestamp": "2025-08-10T12:36:08.822212"
+        "value": 1.1497683903193672,
+        "timestamp": "2025-08-10T14:28:51.312036"
+    },
+    {
+        "match": "Minnesota United FC vs Colorado Rapids",
+        "league": "Major League Soccer",
+        "market": "1X2",
+        "bet_value": "Home",
+        "probability": 0.6707021599927847,
+        "odds": 1.5,
+        "value": 1.006053239989177,
+        "timestamp": "2025-08-10T14:28:52.016561"
+    },
+    {
+        "match": "Minnesota United FC vs Colorado Rapids",
+        "league": "Major League Soccer",
+        "market": "O/U 2.5",
+        "bet_value": "Over",
+        "probability": 0.7408377379556635,
+        "odds": 1.48,
+        "value": 1.0964398521743821,
+        "timestamp": "2025-08-10T14:28:52.016573"
+    },
+    {
+        "match": "Minnesota United FC vs Colorado Rapids",
+        "league": "Major League Soccer",
+        "market": "BTTS",
+        "bet_value": "Yes",
+        "probability": 0.6583648944843397,
+        "odds": 1.57,
+        "value": 1.0336328843404132,
+        "timestamp": "2025-08-10T14:28:52.016575"
+    },
+    {
+        "match": "New York Red Bulls vs Real Salt Lake",
+        "league": "Major League Soccer",
+        "market": "1X2",
+        "bet_value": "Home",
+        "probability": 0.6917888681721256,
+        "odds": 2.1,
+        "value": 1.4527566231614637,
+        "timestamp": "2025-08-10T14:28:52.678833"
+    },
+    {
+        "match": "New York Red Bulls vs Real Salt Lake",
+        "league": "Major League Soccer",
+        "market": "O/U 2.5",
+        "bet_value": "Over",
+        "probability": 0.7644821030071784,
+        "odds": 1.67,
+        "value": 1.276685112021988,
+        "timestamp": "2025-08-10T14:28:52.678844"
+    },
+    {
+        "match": "New York Red Bulls vs Real Salt Lake",
+        "league": "Major League Soccer",
+        "market": "BTTS",
+        "bet_value": "Yes",
+        "probability": 0.6686755788538316,
+        "odds": 1.57,
+        "value": 1.0498206588005157,
+        "timestamp": "2025-08-10T14:28:52.678846"
     },
     {
         "match": "Fortaleza FC vs Deportivo Pereira",
         "league": "Primera A",
         "market": "1X2",
         "bet_value": "Home",
-        "probability": 0.5415951177485838,
+        "probability": 0.5433156567524763,
         "odds": 2.38,
-        "value": 1.2889963802416295,
-        "timestamp": "2025-08-10T12:36:12.031073"
+        "value": 1.2930912630708935,
+        "timestamp": "2025-08-10T14:28:53.280549"
     },
     {
         "match": "Fortaleza FC vs Deportivo Pereira",
         "league": "Primera A",
         "market": "BTTS",
         "bet_value": "No",
-        "probability": 0.5997683586694297,
+        "probability": 0.5992564936280124,
         "odds": 1.73,
-        "value": 1.0375992604981132,
-        "timestamp": "2025-08-10T12:36:12.031084"
+        "value": 1.0367137339764614,
+        "timestamp": "2025-08-10T14:28:53.280562"
     },
     {
         "match": "El Nacional vs Barcelona SC",
         "league": "Liga Pro",
         "market": "1X2",
         "bet_value": "Away",
-        "probability": 0.6415879532389426,
+        "probability": 0.6487392447342566,
         "odds": 2.2,
-        "value": 1.4114934971256738,
-        "timestamp": "2025-08-10T12:36:12.693937"
+        "value": 1.4272263384153647,
+        "timestamp": "2025-08-10T14:28:53.963561"
     },
     {
         "match": "El Nacional vs Barcelona SC",
         "league": "Liga Pro",
         "market": "O/U 2.5",
         "bet_value": "Over",
-        "probability": 0.57066762414152,
+        "probability": 0.5796164017434589,
         "odds": 2.1,
-        "value": 1.198402010697192,
-        "timestamp": "2025-08-10T12:36:12.693948"
+        "value": 1.2171944436612636,
+        "timestamp": "2025-08-10T14:28:53.963570"
     },
     {
         "match": "Gremio vs Sport Recife",
         "league": "Serie A",
         "market": "1X2",
         "bet_value": "Home",
-        "probability": 0.5952936154151485,
-        "odds": 1.83,
-        "value": 1.0893873162097218,
-        "timestamp": "2025-08-10T12:36:13.363746"
+        "probability": 0.5966091433017412,
+        "odds": 1.73,
+        "value": 1.0321338179120123,
+        "timestamp": "2025-08-10T14:28:54.561969"
     },
     {
         "match": "Gremio vs Sport Recife",
         "league": "Serie A",
         "market": "O/U 2.5",
         "bet_value": "Under",
-        "probability": 0.7051158390648563,
-        "odds": 1.6,
-        "value": 1.1281853425037702,
-        "timestamp": "2025-08-10T12:36:13.363757"
+        "probability": 0.7028214093385489,
+        "odds": 1.62,
+        "value": 1.1385706831284492,
+        "timestamp": "2025-08-10T14:28:54.561981"
     },
     {
         "match": "Gremio vs Sport Recife",
         "league": "Serie A",
         "market": "BTTS",
         "bet_value": "No",
-        "probability": 0.7045784759602634,
+        "probability": 0.7042650728115815,
         "odds": 1.67,
-        "value": 1.1766460548536397,
-        "timestamp": "2025-08-10T12:36:13.363759"
+        "value": 1.176122671595341,
+        "timestamp": "2025-08-10T14:28:54.561983"
     }
 ]
