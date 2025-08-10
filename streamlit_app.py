@@ -1,9 +1,10 @@
 import streamlit as st
 import pandas as pd
-from sqlalchemy.orm import Session
-from datetime import datetime, timedelta
-import database
-from database import ValueBet, Fixture
+import json
+import os
+from datetime import datetime
+
+HISTORY_FILE = "history.json"
 
 # --- Page Configuration ---
 st.set_page_config(
@@ -15,23 +16,20 @@ st.set_page_config(
 # --- Data Loading ---
 @st.cache_data(ttl=3600) # Cache data for 1 hour
 def load_data():
-    """Loads all historical value bets from the database."""
-    db = database.SessionLocal()
-    try:
-        # Query for value bets, joining with fixtures to get match details
-        query = db.query(ValueBet).join(Fixture).order_by(Fixture.date.desc())
+    """Loads all historical value bets from the history file."""
+    if not os.path.exists(HISTORY_FILE):
+        return pd.DataFrame()
 
-        # Use pandas to read the SQL query directly into a DataFrame
-        df = pd.read_sql(query.statement, db.bind)
-        if not df.empty:
-            # We need to get fixture details into the main df for filtering/display
-            fixtures_df = pd.read_sql(db.query(Fixture).statement, db.bind)
-            fixtures_df = fixtures_df.rename(columns={'id': 'fixture_id', 'date': 'match_date'})
-            df = pd.merge(df, fixtures_df, on='fixture_id')
-    finally:
-        db.close()
+    with open(HISTORY_FILE, "r") as f:
+        try:
+            data = json.load(f)
+        except json.JSONDecodeError:
+            return pd.DataFrame() # Return empty df if file is corrupt/empty
 
-    return df
+    if not data:
+        return pd.DataFrame()
+
+    return pd.DataFrame(data)
 
 # --- Main App ---
 st.title("⚽ Historique & Bilan des Value Bets")
@@ -40,13 +38,13 @@ st.markdown("Analyse de la performance de l'algorithme au fil du temps.")
 df = load_data()
 
 if df.empty:
-    st.warning("Aucune donnée de pari disponible dans la base de données. L'analyse automatique n'a peut-être pas encore tourné.")
+    st.warning("Aucune donnée de pari disponible. Le fichier d'historique est vide ou n'existe pas. L'analyse automatique n'a peut-être pas encore tourné.")
 else:
     # --- Sidebar for Filters and Sorting ---
     st.sidebar.header("Filtres et Options")
 
     # Get unique leagues for the filter
-    leagues = sorted(df['league_name'].unique())
+    leagues = sorted(df['league'].unique())
     selected_leagues = st.sidebar.multiselect(
         "Filtrer par ligue :",
         options=leagues,
@@ -58,7 +56,7 @@ else:
 
     # Sorting options
     sort_options = {
-        "Date (plus récent)": ("match_date", False),
+        "Date (plus récent)": ("timestamp", False),
         "Valeur (décroissant)": ("value", False),
         "Probabilité (décroissant)": ("probability", False),
         "Cote (croissant)": ("odds", True),
@@ -70,22 +68,22 @@ else:
     sort_by_col, sort_ascending = sort_options[sort_by_label]
 
     # --- Filtering and Sorting Data ---
-    filtered_df = df[df['league_name'].isin(selected_leagues)]
+    filtered_df = df[df['league'].isin(selected_leagues)]
 
     if search_query:
-        # Create a combined match string for searching
-        match_search_str = df['home_team_name'] + ' vs ' + df['away_team_name']
-        filtered_df = filtered_df[match_search_str.str.contains(search_query, case=False, na=False)]
+        filtered_df = filtered_df[filtered_df['match'].str.contains(search_query, case=False, na=False)]
 
     sorted_df = filtered_df.sort_values(by=sort_by_col, ascending=sort_ascending)
 
     # --- Display Logic ---
-    st.info(f"Affichage de {len(sorted_df)} paris sur un total de {len(df)}.")
+    last_update_str = sorted_df["timestamp"].max()
+    last_update_dt = datetime.fromisoformat(last_update_str)
+    st.info(f"Dernière mise à jour des données : {last_update_dt.strftime('%d/%m/%Y à %H:%M:%S')} UTC")
 
     # --- Key Metrics ---
     total_bets = len(sorted_df)
     avg_value = sorted_df['value'].mean() if total_bets > 0 else 0
-    num_leagues = sorted_df['league_name'].nunique()
+    num_leagues = sorted_df['league'].nunique()
 
     col1, col2, col3 = st.columns(3)
     col1.metric("Paris Affichés", total_bets)
@@ -99,15 +97,13 @@ else:
         color = 'green' if v > 1.1 else 'orange' if v > 1.05 else 'black'
         return f'color: {color}; font-weight: bold;'
 
-    # Create match string for display
-    sorted_df['Match'] = sorted_df['home_team_name'] + ' vs ' + sorted_df['away_team_name']
-
     display_df = sorted_df[[
-        "Match", "league_name", "market", "bet_value", "probability", "odds", "value"
+        "match", "league", "market", "bet_value", "probability", "odds", "value"
     ]].copy()
 
     display_df.rename(columns={
-        "league_name": "Ligue",
+        "match": "Match",
+        "league": "Ligue",
         "market": "Marché",
         "bet_value": "Pari",
         "probability": "Notre Prob.",
