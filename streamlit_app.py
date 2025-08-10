@@ -8,7 +8,7 @@ HISTORY_FILE = "history.json"
 
 # --- Page Configuration ---
 st.set_page_config(
-    page_title="Value Bets Historique",
+    page_title="Value Bets Bilan",
     page_icon="⚽",
     layout="wide"
 )
@@ -32,7 +32,7 @@ def load_data():
     return pd.DataFrame(data)
 
 # --- Main App ---
-st.title("⚽ Historique & Bilan des Value Bets")
+st.title("⚽ Bilan & Historique des Value Bets")
 st.markdown("Analyse de la performance de l'algorithme au fil du temps.")
 
 df = load_data()
@@ -42,82 +42,67 @@ if df.empty:
 else:
     # --- Sidebar for Filters and Sorting ---
     st.sidebar.header("Filtres et Options")
-
-    # Get unique leagues for the filter
     leagues = sorted(df['league'].unique())
-    selected_leagues = st.sidebar.multiselect(
-        "Filtrer par ligue :",
-        options=leagues,
-        default=leagues
-    )
-
-    # Search bar
+    selected_leagues = st.sidebar.multiselect("Filtrer par ligue :", options=leagues, default=leagues)
     search_query = st.sidebar.text_input("Rechercher une équipe :")
-
-    # Sorting options
     sort_options = {
         "Date (plus récent)": ("timestamp", False),
         "Valeur (décroissant)": ("value", False),
-        "Probabilité (décroissant)": ("probability", False),
-        "Cote (croissant)": ("odds", True),
     }
-    sort_by_label = st.sidebar.selectbox(
-        "Trier par :",
-        options=list(sort_options.keys())
-    )
+    sort_by_label = st.sidebar.selectbox("Trier par :", options=list(sort_options.keys()))
     sort_by_col, sort_ascending = sort_options[sort_by_label]
 
     # --- Filtering and Sorting Data ---
     filtered_df = df[df['league'].isin(selected_leagues)]
-
     if search_query:
         filtered_df = filtered_df[filtered_df['match'].str.contains(search_query, case=False, na=False)]
-
     sorted_df = filtered_df.sort_values(by=sort_by_col, ascending=sort_ascending)
 
+    # --- Performance Metrics Calculation ---
+    settled_bets = sorted_df.dropna(subset=['outcome'])
+    total_settled = len(settled_bets)
+    wins = settled_bets[settled_bets['outcome'] == 'Win']
+    losses = settled_bets[settled_bets['outcome'] == 'Loss']
+    pushes = settled_bets[settled_bets['outcome'] == 'Push']
+
+    win_rate = len(wins) / total_settled if total_settled > 0 else 0
+
+    # Calculate profit/loss assuming 1 unit stake
+    profit = (wins['odds'] - 1).sum() - len(losses)
+    roi = (profit / total_settled) if total_settled > 0 else 0
+
     # --- Display Logic ---
-    last_update_str = sorted_df["timestamp"].max()
-    last_update_dt = datetime.fromisoformat(last_update_str)
-    st.info(f"Dernière mise à jour des données : {last_update_dt.strftime('%d/%m/%Y à %H:%M:%S')} UTC")
+    st.header("Bilan de Performance (sur les paris terminés)")
+    col1, col2, col3, col4 = st.columns(4)
+    col1.metric("Paris Terminés", total_settled)
+    col2.metric("Taux de Victoire", f"{win_rate:.2%}")
+    col3.metric("Unités de Gain/Perte", f"{profit:+.2f} u")
+    col4.metric("ROI", f"{roi:.2%}")
 
-    # --- Key Metrics ---
-    total_bets = len(sorted_df)
-    avg_value = sorted_df['value'].mean() if total_bets > 0 else 0
-    num_leagues = sorted_df['league'].nunique()
-
-    col1, col2, col3 = st.columns(3)
-    col1.metric("Paris Affichés", total_bets)
-    col2.metric("Valeur Moyenne", f"{avg_value:.2f}")
-    col3.metric("Ligues Concernées", num_leagues)
-
-    st.subheader("Détail des Paris")
+    st.header("Historique des Paris")
 
     # --- DataFrame Styling ---
-    def style_value(v):
-        color = 'green' if v > 1.1 else 'orange' if v > 1.05 else 'black'
+    def style_outcome(outcome):
+        if pd.isna(outcome): return ''
+        color = 'green' if outcome == 'Win' else 'red' if outcome == 'Loss' else 'grey'
         return f'color: {color}; font-weight: bold;'
 
     display_df = sorted_df[[
-        "match", "league", "market", "bet_value", "probability", "odds", "value"
+        "match", "league", "market", "bet_value", "probability", "odds", "value", "outcome"
     ]].copy()
-
     display_df.rename(columns={
-        "match": "Match",
-        "league": "Ligue",
-        "market": "Marché",
-        "bet_value": "Pari",
-        "probability": "Notre Prob.",
-        "odds": "Cote",
-        "value": "Valeur"
+        "match": "Match", "league": "Ligue", "market": "Marché",
+        "bet_value": "Pari", "probability": "Notre Prob.", "odds": "Cote",
+        "value": "Valeur", "outcome": "Résultat"
     }, inplace=True)
+
+    # Fill NaN for display
+    display_df['Résultat'] = display_df['Résultat'].fillna('En attente')
 
     st.dataframe(
         display_df.style
-            .format({
-                "Notre Prob.": "{:.2%}",
-                "Valeur": "{:.2f}"
-            })
-            .apply(lambda x: x.map(style_value), subset=['Valeur']),
+            .format({"Notre Prob.": "{:.2%}", "Valeur": "{:.2f}", "Cote": "{:.2f}"})
+            .apply(lambda x: x.map(style_outcome), subset=['Résultat']),
         use_container_width=True,
         hide_index=True
     )
