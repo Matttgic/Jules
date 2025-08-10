@@ -1,4 +1,4 @@
-import datetime
+from datetime import datetime
 import json
 from src import api_client, model, probabilities, value_finder
 
