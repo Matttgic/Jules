@@ -4,5 +4,3 @@ numpy
 streamlit
 pandas
 scipy
-sqlalchemy
-psycopg2-binary
