@@ -109,6 +109,61 @@ def run_analysis(existing_fixture_ids: set):
     return newly_found_bets
 
 
+def get_fixture_details(fixture_id: int):
+    """Fetches details for a single fixture by its ID."""
+    endpoint = "fixtures"
+    params = {"id": fixture_id}
+    return api_client.make_api_request(endpoint, params)
+
+from src import settlement
+
+def update_pending_bets(historical_bets: list):
+    """
+    Checks for results of pending bets and updates them.
+    Returns the updated list of historical bets.
+    """
+    print(f"\nChecking for results of pending bets...")
+
+    # Create a mapping from fixture_id to list of bets for that fixture
+    pending_bets_by_fixture = {}
+    for i, bet in enumerate(historical_bets):
+        if "outcome" not in bet:
+            fixture_id = bet['fixture_id']
+            if fixture_id not in pending_bets_by_fixture:
+                pending_bets_by_fixture[fixture_id] = []
+            pending_bets_by_fixture[fixture_id].append(i) # Store index of the bet
+
+    if not pending_bets_by_fixture:
+        print("No pending bets to check.")
+        return historical_bets
+
+    print(f"Found {len(pending_bets_by_fixture)} fixtures with pending bets.")
+
+    for fixture_id, bet_indices in pending_bets_by_fixture.items():
+        fixture_details_response = get_fixture_details(fixture_id)
+
+        if not fixture_details_response or not fixture_details_response.get('response'):
+            continue
+
+        fixture_info = fixture_details_response['response'][0]
+        fixture_status = fixture_info['fixture']['status']['short']
+
+        finished_statuses = ['FT', 'AET', 'PEN']
+
+        if fixture_status in finished_statuses:
+            final_score = fixture_info['goals']
+            print(f"Settling bets for finished fixture {fixture_id} (Score: {final_score['home']}-{final_score['away']}).")
+
+            for index in bet_indices:
+                bet_to_settle = historical_bets[index]
+                outcome = settlement.settle_bet(bet_to_settle, final_score)
+                if outcome:
+                    historical_bets[index]['outcome'] = outcome
+                    print(f"  -> Bet on {bet_to_settle['market']} ({bet_to_settle['bet_value']}) resulted in a {outcome}.")
+
+    return historical_bets
+
+
 if __name__ == "__main__":
     print("Starting data collection...")
 
@@ -122,10 +177,11 @@ if __name__ == "__main__":
     else:
         historical_bets = []
 
-    # Get IDs of fixtures already in history to avoid re-analyzing
-    existing_ids = {bet['fixture_id'] for bet in historical_bets}
+    # 1. Update results for pending bets
+    historical_bets = update_pending_bets(historical_bets)
 
-    # Run analysis for new fixtures
+    # 2. Run analysis for new fixtures
+    existing_ids = {bet['fixture_id'] for bet in historical_bets}
     new_results = run_analysis(existing_ids)
 
     if new_results is not None:
