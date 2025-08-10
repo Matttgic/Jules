@@ -34,10 +34,11 @@ def calculate_over_under_probs(score_matrix, threshold=2.5):
     """
     over_prob = 0
     under_prob = 0
-    max_goals = score_matrix.shape[0] - 1
+    max_goals_home = score_matrix.shape[0]
+    max_goals_away = score_matrix.shape[1]
 
-    for i in range(max_goals + 1):
-        for j in range(max_goals + 1):
+    for i in range(max_goals_home):
+        for j in range(max_goals_away):
             if i + j > threshold:
                 over_prob += score_matrix[i, j]
             else:
