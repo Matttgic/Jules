@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, date
 import json
 from src import api_client, model, probabilities, value_finder
 
@@ -14,7 +14,7 @@ def load_allowed_leagues():
 
 def get_daily_fixtures():
     """Fetches all fixtures for the current day."""
-    today = datetime.date.today().strftime('%Y-%m-%d')
+    today = date.today().strftime('%Y-%m-%d')
     endpoint = "fixtures"
     params = {"date": today}
 
