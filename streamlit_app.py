@@ -3,6 +3,7 @@ import pandas as pd
 import json
 import os
 from datetime import datetime
+from src import statistics
 
 HISTORY_FILE = "history.json"
 
@@ -106,6 +107,101 @@ else:
         use_container_width=True,
         hide_index=True
     )
+
+    # --- Detailed Statistics Section ---
+    st.header("Analyses Détaillées")
+    st.markdown("Analyses de performance par catégorie pour identifier les paris les plus et les moins rentables.")
+
+    with st.expander("Voir les analyses détaillées", expanded=True):
+        # Helper function to style the stats tables
+        def style_stats_df(df):
+            # sourcery skip: hide_index
+            return df.style.format({
+                'Taux de Victoire': '{:.2%}',
+                'ROI': '{:.2%}',
+                'Profit (u)': '{:+.2f}'
+            }).background_gradient(
+                cmap='RdYlGn', subset=['ROI'], vmin=-0.5, vmax=0.5
+            ).hide_index()
+
+        # Calculate stats only on settled bets
+        settled_df = sorted_df.dropna(subset=['outcome'])
+
+        if settled_df.empty:
+            st.info("Aucun pari terminé à analyser pour les statistiques détaillées.")
+        else:
+            col1, col2 = st.columns(2)
+
+            with col1:
+                st.subheader("👑 Par Ligue (Top 10)")
+                league_stats = statistics.get_stats_by_league(settled_df, min_bets=10)
+                if not league_stats.empty:
+                    top_league = league_stats.iloc[0]
+                    st.metric(
+                        f"Roi des Ligues : {top_league['Ligue']}",
+                        f"{top_league['ROI']:.2%}",
+                        f"{top_league['Profit (u)']:.2f}u en {top_league['Paris']} paris"
+                    )
+                    st.dataframe(style_stats_df(league_stats.head(10)), use_container_width=True)
+                else:
+                    st.info("Pas assez de données par ligue (min 10 paris).")
+
+                st.subheader("👑 Par Type de Pari")
+                market_stats = statistics.get_stats_by_market(settled_df)
+                if not market_stats.empty:
+                    top_market = market_stats.iloc[0]
+                    st.metric(
+                        f"Roi des Marchés : {top_market['Type de Pari']}",
+                        f"{top_market['ROI']:.2%}",
+                        f"{top_market['Profit (u)']:.2f}u en {top_market['Paris']} paris"
+                    )
+                    st.dataframe(style_stats_df(market_stats), use_container_width=True)
+                else:
+                    st.info("Aucune donnée de marché.")
+
+
+            with col2:
+                st.subheader("👑 Par Tranche de Cotes")
+                odds_stats = statistics.get_stats_by_odds_range(settled_df)
+                if not odds_stats.empty:
+                    top_odds = odds_stats.iloc[0]
+                    st.metric(
+                        f"Reine des Cotes : {top_odds['Tranche de Cotes']}",
+                        f"{top_odds['ROI']:.2%}",
+                        f"{top_odds['Profit (u)']:.2f}u en {top_odds['Paris']} paris"
+                    )
+                    st.dataframe(style_stats_df(odds_stats), use_container_width=True)
+                else:
+                    st.info("Aucune donnée de cote.")
+
+
+                st.subheader("👑 Par Tranche de Valeur")
+                value_stats = statistics.get_stats_by_value_range(settled_df)
+                if not value_stats.empty:
+                    top_value = value_stats.iloc[0]
+                    st.metric(
+                        f"Reine de la Valeur : {top_value['Tranche de Valeur']}",
+                        f"{top_value['ROI']:.2%}",
+                        f"{top_value['Profit (u)']:.2f}u en {top_value['Paris']} paris"
+                    )
+                    st.dataframe(style_stats_df(value_stats), use_container_width=True)
+                else:
+                    st.info("Aucune donnée de valeur.")
+
+            # Probability stats can take the full width
+            st.subheader("👑 Par Tranche de Probabilité")
+            prob_stats = statistics.get_stats_by_prob_range(settled_df)
+            if not prob_stats.empty:
+                top_prob = prob_stats.iloc[0]
+                st.metric(
+                    f"Reine de la Proba : {top_prob['Tranche de Proba']}",
+                    f"{top_prob['ROI']:.2%}",
+                    f"{top_prob['Profit (u)']:.2f}u en {top_prob['Paris']} paris"
+                )
+                st.dataframe(style_stats_df(prob_stats), use_container_width=True)
+            else:
+                st.info("Aucune donnée de probabilité.")
+
 
 # --- Sidebar for Explanations ---
 st.sidebar.header("Comment ça marche ?")
