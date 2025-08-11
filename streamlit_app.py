@@ -38,6 +38,9 @@ st.markdown("Analyse de la performance de l'algorithme au fil du temps.")
 
 df = load_data()
 
+if not df.empty:
+    df['timestamp'] = pd.to_datetime(df['timestamp'])
+
 if df.empty:
     st.warning("Aucune donnée de pari disponible. Le fichier d'historique est vide ou n'existe pas. L'analyse automatique n'a peut-être pas encore tourné.")
 else:
@@ -47,7 +50,7 @@ else:
     selected_leagues = st.sidebar.multiselect("Filtrer par ligue :", options=leagues, default=leagues)
     search_query = st.sidebar.text_input("Rechercher une équipe :")
     sort_options = {
-        "Date (plus récent)": ("timestamp", False),
+        "Date & Heure (plus récent)": ("timestamp", False),
         "Valeur (décroissant)": ("value", False),
     }
     sort_by_label = st.sidebar.selectbox("Trier par :", options=list(sort_options.keys()))
@@ -89,10 +92,14 @@ else:
         return f'color: {color}; font-weight: bold;'
 
     display_df = sorted_df[[
-        "match", "league", "market", "bet_value", "probability", "odds", "value", "outcome"
+        "timestamp", "match", "league", "market", "bet_value", "probability", "odds", "value", "outcome"
     ]].copy()
+
+    # Format the timestamp for display
+    display_df['timestamp'] = display_df['timestamp'].dt.strftime('%Y-%m-%d %H:%M')
+
     display_df.rename(columns={
-        "match": "Match", "league": "Ligue", "market": "Marché",
+        "timestamp": "Date", "match": "Match", "league": "Ligue", "market": "Marché",
         "bet_value": "Pari", "probability": "Notre Prob.", "odds": "Cote",
         "value": "Valeur", "outcome": "Résultat"
     }, inplace=True)
