@@ -39,7 +39,15 @@ st.markdown("Analyse de la performance de l'algorithme au fil du temps.")
 df = load_data()
 
 if not df.empty:
-    df['timestamp'] = pd.to_datetime(df['timestamp'])
+    # Handle backward compatibility for dates
+    if 'match_date' in df.columns:
+        # For new records, use match_date. Fallback to timestamp for old ones.
+        df['display_date'] = df['match_date'].fillna(df['timestamp'])
+    else:
+        # If the column doesn't exist at all, just use timestamp
+        df['display_date'] = df['timestamp']
+
+    df['display_date'] = pd.to_datetime(df['display_date'])
 
 if df.empty:
     st.warning("Aucune donnée de pari disponible. Le fichier d'historique est vide ou n'existe pas. L'analyse automatique n'a peut-être pas encore tourné.")
@@ -50,7 +58,7 @@ else:
     selected_leagues = st.sidebar.multiselect("Filtrer par ligue :", options=leagues, default=leagues)
     search_query = st.sidebar.text_input("Rechercher une équipe :")
     sort_options = {
-        "Date & Heure (plus récent)": ("timestamp", False),
+        "Date Match (plus récent)": ("display_date", False),
         "Valeur (décroissant)": ("value", False),
     }
     sort_by_label = st.sidebar.selectbox("Trier par :", options=list(sort_options.keys()))
@@ -92,14 +100,14 @@ else:
         return f'color: {color}; font-weight: bold;'
 
     display_df = sorted_df[[
-        "timestamp", "match", "league", "market", "bet_value", "probability", "odds", "value", "outcome"
+        "display_date", "match", "league", "market", "bet_value", "probability", "odds", "value", "outcome"
     ]].copy()
 
-    # Format the timestamp for display
-    display_df['timestamp'] = display_df['timestamp'].dt.strftime('%Y-%m-%d %H:%M')
+    # Format the display_date for display
+    display_df['display_date'] = display_df['display_date'].dt.strftime('%Y-%m-%d %H:%M')
 
     display_df.rename(columns={
-        "timestamp": "Date", "match": "Match", "league": "Ligue", "market": "Marché",
+        "display_date": "Date Match", "match": "Match", "league": "Ligue", "market": "Marché",
         "bet_value": "Pari", "probability": "Notre Prob.", "odds": "Cote",
         "value": "Valeur", "outcome": "Résultat"
     }, inplace=True)

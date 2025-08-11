@@ -66,6 +66,7 @@ def run_analysis(existing_fixture_ids: set):
             home_team_name = fixture_data['teams']['home']['name']
             away_team_name = fixture_data['teams']['away']['name']
             league_name = fixture_data['league']['name']
+            match_date = fixture_data['fixture']['date']
 
             print(f"\nAnalyzing: {home_team_name} vs {away_team_name}")
 
@@ -92,6 +93,7 @@ def run_analysis(existing_fixture_ids: set):
                         "fixture_id": fixture_id,
                         "match": f"{home_team_name} vs {away_team_name}",
                         "league": league_name,
+                        "match_date": match_date,
                         "market": bet['market'],
                         "bet_value": bet['value'],
                         "probability": bet['prob'],
