@@ -122,7 +122,7 @@ else:
                 'Profit (u)': '{:+.2f}'
             }).background_gradient(
                 cmap='RdYlGn', subset=['ROI'], vmin=-0.5, vmax=0.5
-            ).hide_index()
+            ).hide(axis="index")
 
         # Calculate stats only on settled bets
         settled_df = sorted_df.dropna(subset=['outcome'])
