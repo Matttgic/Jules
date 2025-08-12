@@ -47,7 +47,11 @@ if not df.empty:
         # If the column doesn't exist at all, just use timestamp
         df['display_date'] = df['timestamp']
 
-    df['display_date'] = pd.to_datetime(df['display_date'])
+    # Convert to datetime, coercing errors to NaT (Not a Time)
+    df['display_date'] = pd.to_datetime(df['display_date'], errors='coerce')
+
+    # Drop rows where the date could not be parsed, to prevent errors.
+    df.dropna(subset=['display_date'], inplace=True)
 
 if df.empty:
     st.warning("Aucune donnée de pari disponible. Le fichier d'historique est vide ou n'existe pas. L'analyse automatique n'a peut-être pas encore tourné.")
