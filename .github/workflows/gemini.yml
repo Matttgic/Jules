@@ -1,0 +1,31 @@
+name: Gemini CLI
+
+on:
+  issues:
+    types: [opened, edited, labeled]
+  issue_comment:
+    types: [created]
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: write          # pour créer branche/commits
+  pull-requests: write     # pour commenter, ouvrir/mettre à jour PR
+  issues: read
+  actions: read
+
+jobs:
+  gemini:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: gemini-${{ github.ref }}
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Gemini CLI
+        uses: google-github-actions/run-gemini-cli@v1
+        with:
+          gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
+          # Tu peux épingler une version CLI si tu veux :
+          # gemini_cli_version: "0.1.14"
