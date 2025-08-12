@@ -32,18 +32,19 @@ def get_daily_fixtures():
 
 def run_analysis(existing_fixture_ids: set):
     """
-    Runs the full analysis pipeline for new fixtures and returns the new bets.
+    Runs the full analysis pipeline for new fixtures and returns the new bets
+    and a summary of the execution.
     """
     if not api_client.API_KEY or api_client.API_KEY == 'VotreCléApiIci':
         print("ERROR: API key not found or not set. Exiting.")
-        return None
+        return None, {}
 
     newly_found_bets = []
     allowed_league_ids = load_allowed_leagues()
     fixtures = get_daily_fixtures()
 
     if not fixtures:
-        return []
+        return [], {"fixtures_found": 0, "fixtures_analyzed": 0}
 
     print(f"Found {len(fixtures)} total matches for today.")
 
@@ -58,7 +59,6 @@ def run_analysis(existing_fixture_ids: set):
     else:
         filtered_fixtures = new_fixtures
         print(f"Analyzing {len(filtered_fixtures)} new matches.")
-
 
     for fixture_data in filtered_fixtures:
         try:
@@ -108,7 +108,11 @@ def run_analysis(existing_fixture_ids: set):
         except (KeyError, TypeError) as e:
             print(f"Error processing fixture {fixture_data.get('fixture', {}).get('id', 'N/A')}. Missing data: {e}")
 
-    return newly_found_bets
+    stats_summary = {
+        "fixtures_found": len(fixtures),
+        "fixtures_analyzed": len(filtered_fixtures),
+    }
+    return newly_found_bets, stats_summary
 
 
 def get_fixture_details(fixture_id: int):
@@ -184,7 +188,7 @@ if __name__ == "__main__":
 
     # 2. Run analysis for new fixtures
     existing_ids = {bet['fixture_id'] for bet in historical_bets}
-    new_results = run_analysis(existing_ids)
+    new_results, stats = run_analysis(existing_ids)
 
     if new_results is not None:
         # Append new results to history and save
@@ -193,5 +197,16 @@ if __name__ == "__main__":
             json.dump(updated_history, f, indent=4)
         print(f"\nData collection complete. Found {len(new_results)} new value bets.")
         print(f"History file '{HISTORY_FILE}' updated with a total of {len(updated_history)} bets.")
+
+        # 3. Save run status
+        status = {
+            "last_run_utc": datetime.utcnow().isoformat(),
+            "fixtures_found": stats.get("fixtures_found", 0),
+            "fixtures_analyzed": stats.get("fixtures_analyzed", 0),
+            "new_bets_found": len(new_results)
+        }
+        with open("status.json", "w") as f:
+            json.dump(status, f, indent=4)
+        print("Status file 'status.json' updated.")
     else:
         print("\nData collection failed.")

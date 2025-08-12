@@ -33,6 +33,31 @@ def load_data():
     return pd.DataFrame(data)
 
 # --- Main App ---
+def load_status():
+    """Loads the last run status from status.json."""
+    status_file = "status.json"
+    if not os.path.exists(status_file):
+        return None
+    with open(status_file, "r") as f:
+        try:
+            return json.load(f)
+        except (json.JSONDecodeError, FileNotFoundError):
+            return None
+
+status_data = load_status()
+if status_data:
+    try:
+        last_run_dt = pd.to_datetime(status_data.get("last_run_utc")).strftime('%d/%m/%Y à %H:%M UTC')
+        bets_found = status_data.get("new_bets_found", "N/A")
+        analyzed = status_data.get("fixtures_analyzed", "N/A")
+        st.info(f"Dernière mise à jour : **{last_run_dt}** | Nouveaux paris : **{bets_found}** | Matchs analysés : **{analyzed}**")
+    except Exception:
+        # Avoid crashing the app if status file is malformed
+        st.info("Statut de la dernière mise à jour non disponible.")
+else:
+    st.info("Statut de la dernière mise à jour non disponible.")
+
+
 st.title("⚽ Bilan & Historique des Value Bets")
 st.markdown("Analyse de la performance de l'algorithme au fil du temps.")
 
