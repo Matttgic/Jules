@@ -67,6 +67,8 @@ df = load_data()
 if not df.empty:
     # Handle backward compatibility for dates
     if 'match_date' in df.columns:
+        # Replace empty strings with NA to ensure fillna works correctly
+        df['match_date'].replace('', pd.NA, inplace=True)
         df['display_date'] = df['match_date'].fillna(df['timestamp'])
     else:
         df['display_date'] = df['timestamp']
