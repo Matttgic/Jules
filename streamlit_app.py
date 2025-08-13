@@ -33,25 +33,52 @@ def load_data():
     return pd.DataFrame(data)
 
 # --- Main App ---
+def load_status():
+    """Loads the last run status from status.json."""
+    status_file = "status.json"
+    if not os.path.exists(status_file):
+        return None
+    with open(status_file, "r") as f:
+        try:
+            return json.load(f)
+        except (json.JSONDecodeError, FileNotFoundError):
+            return None
+
+status_data = load_status()
+if status_data:
+    try:
+        last_run_dt = pd.to_datetime(status_data.get("last_run_utc")).strftime('%d/%m/%Y à %H:%M UTC')
+        bets_found = status_data.get("new_bets_found", "N/A")
+        analyzed = status_data.get("fixtures_analyzed", "N/A")
+        st.info(f"Dernière mise à jour : **{last_run_dt}** | Nouveaux paris : **{bets_found}** | Matchs analysés : **{analyzed}**")
+    except Exception:
+        # Avoid crashing the app if status file is malformed
+        st.info("Statut de la dernière mise à jour non disponible.")
+else:
+    st.info("Statut de la dernière mise à jour non disponible.")
+
+
 st.title("⚽ Bilan & Historique des Value Bets")
 st.markdown("Analyse de la performance de l'algorithme au fil du temps.")
 
 df = load_data()
 
+# --- Data Preparation ---
 if not df.empty:
     # Handle backward compatibility for dates
     if 'match_date' in df.columns:
-        # For new records, use match_date. Fallback to timestamp for old ones.
         df['display_date'] = df['match_date'].fillna(df['timestamp'])
     else:
-        # If the column doesn't exist at all, just use timestamp
         df['display_date'] = df['timestamp']
 
-    # Convert to datetime, coercing errors to NaT (Not a Time)
-    df['display_date'] = pd.to_datetime(df['display_date'], errors='coerce')
+    # Use a new column for the datetime objects to avoid confusion
+    df['display_date_dt'] = pd.to_datetime(df['display_date'], errors='coerce')
 
-    # Drop rows where the date could not be parsed, to prevent errors.
-    df.dropna(subset=['display_date'], inplace=True)
+    # Check for parsing errors and display a warning
+    parsing_errors = df['display_date_dt'].isna().sum()
+    if parsing_errors > 0:
+        st.warning(f"Attention : {parsing_errors} paris ont une date invalide et ne peuvent pas être triés ou affichés correctement.")
+
 
 if df.empty:
     st.warning("Aucune donnée de pari disponible. Le fichier d'historique est vide ou n'existe pas. L'analyse automatique n'a peut-être pas encore tourné.")
@@ -62,7 +89,7 @@ else:
     selected_leagues = st.sidebar.multiselect("Filtrer par ligue :", options=leagues, default=leagues)
     search_query = st.sidebar.text_input("Rechercher une équipe :")
     sort_options = {
-        "Date Match (plus récent)": ("display_date", False),
+        "Date Match (plus récent)": ("display_date_dt", False),
         "Valeur (décroissant)": ("value", False),
     }
     sort_by_label = st.sidebar.selectbox("Trier par :", options=list(sort_options.keys()))
@@ -104,14 +131,16 @@ else:
         return f'color: {color}; font-weight: bold;'
 
     display_df = sorted_df[[
-        "display_date", "match", "league", "market", "bet_value", "probability", "odds", "value", "outcome"
+        "display_date_dt", "match", "league", "market", "bet_value", "probability", "odds", "value", "outcome"
     ]].copy()
 
-    # Format the display_date for display
-    display_df['display_date'] = display_df['display_date'].dt.strftime('%Y-%m-%d %H:%M')
+    # Safely format the date for display
+    display_df['display_date_dt'] = display_df['display_date_dt'].apply(
+        lambda x: x.strftime('%Y-%m-%d %H:%M') if pd.notna(x) else "Date Invalide"
+    )
 
     display_df.rename(columns={
-        "display_date": "Date Match", "match": "Match", "league": "Ligue", "market": "Marché",
+        "display_date_dt": "Date Match", "match": "Match", "league": "Ligue", "market": "Marché",
         "bet_value": "Pari", "probability": "Notre Prob.", "odds": "Cote",
         "value": "Valeur", "outcome": "Résultat"
     }, inplace=True)
