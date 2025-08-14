@@ -65,21 +65,25 @@ df = load_data()
 
 # --- Data Preparation ---
 if not df.empty:
-    # Handle backward compatibility for dates
+    # Robust date handling
     if 'match_date' in df.columns:
-        # Replace empty strings with NA to ensure fillna works correctly
-        df['match_date'].replace('', pd.NA, inplace=True)
-        df['display_date'] = df['match_date'].fillna(df['timestamp'])
+        # Convert each date column to datetime separately, coercing errors.
+        # This handles cases where one column is valid and the other isn't.
+        match_dates_dt = pd.to_datetime(df['match_date'], errors='coerce')
+        timestamps_dt = pd.to_datetime(df['timestamp'], errors='coerce')
+
+        # Prioritize the official match_date, but fall back to the timestamp if match_date is invalid/missing.
+        df['display_date_dt'] = match_dates_dt.fillna(timestamps_dt)
     else:
-        df['display_date'] = df['timestamp']
+        # Fallback for very old data before the match_date column existed.
+        df['display_date_dt'] = pd.to_datetime(df['timestamp'], errors='coerce')
 
-    # Use a new column for the datetime objects to avoid confusion
-    df['display_date_dt'] = pd.to_datetime(df['display_date'], errors='coerce')
-
-    # Check for parsing errors and display a warning
+    # Check for any dates that are still invalid after all fallbacks and warn the user.
     parsing_errors = df['display_date_dt'].isna().sum()
     if parsing_errors > 0:
-        st.warning(f"Attention : {parsing_errors} paris ont une date invalide et ne peuvent pas être triés ou affichés correctement.")
+        st.warning(f"Attention : {parsing_errors} paris ont une date invalide et ont été exclus de l'affichage.")
+        # Drop rows that still have invalid dates to prevent app from crashing.
+        df.dropna(subset=['display_date_dt'], inplace=True)
 
 
 if df.empty:
