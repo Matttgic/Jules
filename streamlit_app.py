@@ -67,16 +67,16 @@ df = load_data()
 if not df.empty:
     # Robust date handling
     if 'match_date' in df.columns:
-        # Convert each date column to datetime separately, coercing errors.
-        # This handles cases where one column is valid and the other isn't.
-        match_dates_dt = pd.to_datetime(df['match_date'], errors='coerce')
-        timestamps_dt = pd.to_datetime(df['timestamp'], errors='coerce')
+        # Convert each date column to UTC-aware datetime objects separately.
+        # This prevents TypeErrors when sorting mixed timezone-aware and naive datetimes.
+        match_dates_dt = pd.to_datetime(df['match_date'], errors='coerce', utc=True)
+        timestamps_dt = pd.to_datetime(df['timestamp'], errors='coerce', utc=True)
 
         # Prioritize the official match_date, but fall back to the timestamp if match_date is invalid/missing.
         df['display_date_dt'] = match_dates_dt.fillna(timestamps_dt)
     else:
         # Fallback for very old data before the match_date column existed.
-        df['display_date_dt'] = pd.to_datetime(df['timestamp'], errors='coerce')
+        df['display_date_dt'] = pd.to_datetime(df['timestamp'], errors='coerce', utc=True)
 
     # Check for any dates that are still invalid after all fallbacks and warn the user.
     parsing_errors = df['display_date_dt'].isna().sum()
