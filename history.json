@@ -15627,7 +15627,8 @@
         "probability": 0.773643767919267,
         "odds": 1.33,
         "value": 1.0289462113326253,
-        "timestamp": "2025-08-18T09:32:58.227578"
+        "timestamp": "2025-08-18T09:32:58.227578",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1379524,
@@ -15639,7 +15640,8 @@
         "probability": 0.7255807070210166,
         "odds": 1.62,
         "value": 1.175440745374047,
-        "timestamp": "2025-08-18T09:32:58.227590"
+        "timestamp": "2025-08-18T09:32:58.227590",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1379524,
@@ -15651,7 +15653,8 @@
         "probability": 0.5627970088443295,
         "odds": 1.95,
         "value": 1.0974541672464424,
-        "timestamp": "2025-08-18T09:32:58.227592"
+        "timestamp": "2025-08-18T09:32:58.227592",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1326605,
@@ -15663,7 +15666,8 @@
         "probability": 0.2452551428009744,
         "odds": 4.75,
         "value": 1.1649619283046284,
-        "timestamp": "2025-08-18T09:32:58.828032"
+        "timestamp": "2025-08-18T09:32:58.828032",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1326605,
@@ -15675,7 +15679,8 @@
         "probability": 0.7196680000073536,
         "odds": 1.7,
         "value": 1.223435600012501,
-        "timestamp": "2025-08-18T09:32:58.828044"
+        "timestamp": "2025-08-18T09:32:58.828044",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1326605,
@@ -15687,7 +15692,8 @@
         "probability": 0.6895601772584055,
         "odds": 1.75,
         "value": 1.2067303102022096,
-        "timestamp": "2025-08-18T09:32:58.828046"
+        "timestamp": "2025-08-18T09:32:58.828046",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1391433,
@@ -15699,7 +15705,8 @@
         "probability": 0.6151757334725848,
         "odds": 2.45,
         "value": 1.507180547007833,
-        "timestamp": "2025-08-18T09:32:59.611425"
+        "timestamp": "2025-08-18T09:32:59.611425",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1391433,
@@ -15711,7 +15718,8 @@
         "probability": 0.7082955442435227,
         "odds": 1.75,
         "value": 1.2395172024261647,
-        "timestamp": "2025-08-18T09:32:59.611438"
+        "timestamp": "2025-08-18T09:32:59.611438",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1391433,
@@ -15723,7 +15731,8 @@
         "probability": 0.7222778929663127,
         "odds": 1.91,
         "value": 1.3795507755656573,
-        "timestamp": "2025-08-18T09:32:59.611440"
+        "timestamp": "2025-08-18T09:32:59.611440",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1341243,
@@ -15735,7 +15744,8 @@
         "probability": 0.6109026751085767,
         "odds": 2.15,
         "value": 1.3134407514834399,
-        "timestamp": "2025-08-18T09:33:00.344637"
+        "timestamp": "2025-08-18T09:33:00.344637",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1341243,
@@ -15747,7 +15757,8 @@
         "probability": 0.7228618844700451,
         "odds": 1.75,
         "value": 1.265008297822579,
-        "timestamp": "2025-08-18T09:33:00.344649"
+        "timestamp": "2025-08-18T09:33:00.344649",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1342785,
@@ -15759,7 +15770,8 @@
         "probability": 0.5670549971666405,
         "odds": 1.95,
         "value": 1.105757244474949,
-        "timestamp": "2025-08-18T09:33:01.048096"
+        "timestamp": "2025-08-18T09:33:01.048096",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1342785,
@@ -15771,7 +15783,8 @@
         "probability": 0.7400152443115662,
         "odds": 1.48,
         "value": 1.095222561581118,
-        "timestamp": "2025-08-18T09:33:01.048108"
+        "timestamp": "2025-08-18T09:33:01.048108",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1342785,
@@ -15783,7 +15796,8 @@
         "probability": 0.703103559824899,
         "odds": 1.44,
         "value": 1.0124691261478547,
-        "timestamp": "2025-08-18T09:33:01.048111"
+        "timestamp": "2025-08-18T09:33:01.048111",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1378950,
@@ -15795,7 +15809,8 @@
         "probability": 1.0,
         "odds": 1.95,
         "value": 1.95,
-        "timestamp": "2025-08-18T09:33:01.669934"
+        "timestamp": "2025-08-18T09:33:01.669934",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1378950,
@@ -15807,7 +15822,8 @@
         "probability": 1.0,
         "odds": 2.05,
         "value": 2.05,
-        "timestamp": "2025-08-18T09:33:01.669946"
+        "timestamp": "2025-08-18T09:33:01.669946",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1378956,
@@ -15819,7 +15835,8 @@
         "probability": 1.0,
         "odds": 2.1,
         "value": 2.1,
-        "timestamp": "2025-08-18T09:33:02.613401"
+        "timestamp": "2025-08-18T09:33:02.613401",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1378956,
@@ -15831,7 +15848,8 @@
         "probability": 1.0,
         "odds": 1.95,
         "value": 1.95,
-        "timestamp": "2025-08-18T09:33:02.613413"
+        "timestamp": "2025-08-18T09:33:02.613413",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1378957,
@@ -15843,7 +15861,8 @@
         "probability": 1.0,
         "odds": 2.08,
         "value": 2.08,
-        "timestamp": "2025-08-18T09:33:03.243177"
+        "timestamp": "2025-08-18T09:33:03.243177",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1378957,
@@ -15855,7 +15874,8 @@
         "probability": 1.0,
         "odds": 2.05,
         "value": 2.05,
-        "timestamp": "2025-08-18T09:33:03.243189"
+        "timestamp": "2025-08-18T09:33:03.243189",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1385799,
@@ -15867,7 +15887,8 @@
         "probability": 0.4324620264008965,
         "odds": 2.35,
         "value": 1.0162857620421069,
-        "timestamp": "2025-08-18T09:33:03.874457"
+        "timestamp": "2025-08-18T09:33:03.874457",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1385799,
@@ -15879,7 +15900,8 @@
         "probability": 0.3251412862055158,
         "odds": 3.1,
         "value": 1.007937987237099,
-        "timestamp": "2025-08-18T09:33:03.874469"
+        "timestamp": "2025-08-18T09:33:03.874469",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1385799,
@@ -15891,7 +15913,8 @@
         "probability": 0.5701729931434371,
         "odds": 2.5,
         "value": 1.4254324828585927,
-        "timestamp": "2025-08-18T09:33:03.874471"
+        "timestamp": "2025-08-18T09:33:03.874471",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1385799,
@@ -15903,7 +15926,8 @@
         "probability": 0.5950494278228742,
         "odds": 2.1,
         "value": 1.249603798428036,
-        "timestamp": "2025-08-18T09:33:03.874473"
+        "timestamp": "2025-08-18T09:33:03.874473",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1388042,
@@ -15915,7 +15939,8 @@
         "probability": 0.4828793467689294,
         "odds": 2.8,
         "value": 1.3520621709530023,
-        "timestamp": "2025-08-18T09:33:04.855625"
+        "timestamp": "2025-08-18T09:33:04.855625",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1388042,
@@ -15927,7 +15952,8 @@
         "probability": 0.5169373643948991,
         "odds": 2.15,
         "value": 1.111415333449033,
-        "timestamp": "2025-08-18T09:33:04.855636"
+        "timestamp": "2025-08-18T09:33:04.855636",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1431104,
@@ -15939,7 +15965,8 @@
         "probability": 1.0,
         "odds": 2.6,
         "value": 2.6,
-        "timestamp": "2025-08-18T09:33:05.592145"
+        "timestamp": "2025-08-18T09:33:05.592145",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1431104,
@@ -15951,7 +15978,8 @@
         "probability": 1.0,
         "odds": 1.8,
         "value": 1.8,
-        "timestamp": "2025-08-18T09:33:05.592157"
+        "timestamp": "2025-08-18T09:33:05.592157",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1393808,
@@ -15963,7 +15991,8 @@
         "probability": 1.0,
         "odds": 1.65,
         "value": 1.65,
-        "timestamp": "2025-08-18T09:33:06.204398"
+        "timestamp": "2025-08-18T09:33:06.204398",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1393808,
@@ -15975,7 +16004,8 @@
         "probability": 1.0,
         "odds": 1.75,
         "value": 1.75,
-        "timestamp": "2025-08-18T09:33:06.204411"
+        "timestamp": "2025-08-18T09:33:06.204411",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1342105,
@@ -15987,7 +16017,8 @@
         "probability": 0.4318309571755194,
         "odds": 3.0,
         "value": 1.2954928715265581,
-        "timestamp": "2025-08-18T09:33:06.862713"
+        "timestamp": "2025-08-18T09:33:06.862713",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1342105,
@@ -15999,7 +16030,8 @@
         "probability": 0.7650269392988728,
         "odds": 1.8,
         "value": 1.377048490737971,
-        "timestamp": "2025-08-18T09:33:06.862724"
+        "timestamp": "2025-08-18T09:33:06.862724",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1342105,
@@ -16011,7 +16043,8 @@
         "probability": 0.7490652080570885,
         "odds": 1.67,
         "value": 1.2509388974553377,
-        "timestamp": "2025-08-18T09:33:06.862727"
+        "timestamp": "2025-08-18T09:33:06.862727",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1379378,
@@ -16023,7 +16056,8 @@
         "probability": 0.49529057035227175,
         "odds": 2.62,
         "value": 1.297661294322952,
-        "timestamp": "2025-08-18T09:33:07.523931"
+        "timestamp": "2025-08-18T09:33:07.523931",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1379378,
@@ -16035,7 +16069,8 @@
         "probability": 0.9353683135027618,
         "odds": 1.7,
         "value": 1.5901261329546952,
-        "timestamp": "2025-08-18T09:33:07.523942"
+        "timestamp": "2025-08-18T09:33:07.523942",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1379378,
@@ -16047,7 +16082,8 @@
         "probability": 0.8970434502466929,
         "odds": 1.53,
         "value": 1.3724764788774402,
-        "timestamp": "2025-08-18T09:33:07.523945"
+        "timestamp": "2025-08-18T09:33:07.523945",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1384926,
@@ -16059,7 +16095,8 @@
         "probability": 0.2530605939966143,
         "odds": 4.5,
         "value": 1.1387726729847643,
-        "timestamp": "2025-08-18T09:33:08.116688"
+        "timestamp": "2025-08-18T09:33:08.116688",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1384926,
@@ -16071,7 +16108,8 @@
         "probability": 0.35872864752190115,
         "odds": 5.0,
         "value": 1.7936432376095057,
-        "timestamp": "2025-08-18T09:33:08.116700"
+        "timestamp": "2025-08-18T09:33:08.116700",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1384926,
@@ -16083,7 +16121,8 @@
         "probability": 0.4713641981475,
         "odds": 2.5,
         "value": 1.17841049536875,
-        "timestamp": "2025-08-18T09:33:08.116702"
+        "timestamp": "2025-08-18T09:33:08.116702",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1396942,
@@ -16095,7 +16134,8 @@
         "probability": 1.0,
         "odds": 1.8,
         "value": 1.8,
-        "timestamp": "2025-08-18T09:33:08.749655"
+        "timestamp": "2025-08-18T09:33:08.749655",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1396942,
@@ -16107,7 +16147,8 @@
         "probability": 1.0,
         "odds": 1.91,
         "value": 1.91,
-        "timestamp": "2025-08-18T09:33:08.749667"
+        "timestamp": "2025-08-18T09:33:08.749667",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1388036,
@@ -16167,7 +16208,8 @@
         "probability": 0.3857271259286432,
         "odds": 2.7,
         "value": 1.0414632400073367,
-        "timestamp": "2025-08-18T09:33:10.505126"
+        "timestamp": "2025-08-18T09:33:10.505126",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1385800,
@@ -16179,7 +16221,8 @@
         "probability": 0.45039171020740565,
         "odds": 2.38,
         "value": 1.0719322702936254,
-        "timestamp": "2025-08-18T09:33:10.505137"
+        "timestamp": "2025-08-18T09:33:10.505137",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1385800,
@@ -16191,7 +16234,8 @@
         "probability": 0.9447157603564545,
         "odds": 1.95,
         "value": 1.8421957326950864,
-        "timestamp": "2025-08-18T09:33:10.505139"
+        "timestamp": "2025-08-18T09:33:10.505139",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1385800,
@@ -16203,7 +16247,8 @@
         "probability": 0.9096152528008655,
         "odds": 1.73,
         "value": 1.5736343873454974,
-        "timestamp": "2025-08-18T09:33:10.505141"
+        "timestamp": "2025-08-18T09:33:10.505141",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1394448,
@@ -16215,7 +16260,8 @@
         "probability": 1.0,
         "odds": 2.05,
         "value": 2.05,
-        "timestamp": "2025-08-18T09:33:11.118514"
+        "timestamp": "2025-08-18T09:33:11.118514",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1394448,
@@ -16227,7 +16273,8 @@
         "probability": 1.0,
         "odds": 2.25,
         "value": 2.25,
-        "timestamp": "2025-08-18T09:33:11.118525"
+        "timestamp": "2025-08-18T09:33:11.118525",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1378953,
@@ -16239,7 +16286,8 @@
         "probability": 1.0,
         "odds": 2.88,
         "value": 2.88,
-        "timestamp": "2025-08-18T09:33:11.719545"
+        "timestamp": "2025-08-18T09:33:11.719545",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1378953,
@@ -16251,7 +16299,8 @@
         "probability": 1.0,
         "odds": 1.8,
         "value": 1.8,
-        "timestamp": "2025-08-18T09:33:11.719556"
+        "timestamp": "2025-08-18T09:33:11.719556",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1393809,
@@ -16263,7 +16312,8 @@
         "probability": 1.0,
         "odds": 2.05,
         "value": 2.05,
-        "timestamp": "2025-08-18T09:33:13.103571"
+        "timestamp": "2025-08-18T09:33:13.103571",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1393809,
@@ -16275,7 +16325,8 @@
         "probability": 1.0,
         "odds": 1.57,
         "value": 1.57,
-        "timestamp": "2025-08-18T09:33:13.103583"
+        "timestamp": "2025-08-18T09:33:13.103583",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1378978,
@@ -16287,7 +16338,8 @@
         "probability": 1.0,
         "odds": 1.8,
         "value": 1.8,
-        "timestamp": "2025-08-18T09:33:13.704180"
+        "timestamp": "2025-08-18T09:33:13.704180",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1378978,
@@ -16299,7 +16351,8 @@
         "probability": 1.0,
         "odds": 1.95,
         "value": 1.95,
-        "timestamp": "2025-08-18T09:33:13.704192"
+        "timestamp": "2025-08-18T09:33:13.704192",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1390822,
@@ -16311,7 +16364,8 @@
         "probability": 1.0,
         "odds": 1.67,
         "value": 1.67,
-        "timestamp": "2025-08-18T09:33:14.431294"
+        "timestamp": "2025-08-18T09:33:14.431294",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1390822,
@@ -16323,7 +16377,8 @@
         "probability": 1.0,
         "odds": 1.8,
         "value": 1.8,
-        "timestamp": "2025-08-18T09:33:14.431306"
+        "timestamp": "2025-08-18T09:33:14.431306",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1332823,
@@ -16335,7 +16390,8 @@
         "probability": 0.7960510265218276,
         "odds": 2.55,
         "value": 2.02993011763066,
-        "timestamp": "2025-08-18T09:33:15.015922"
+        "timestamp": "2025-08-18T09:33:15.015922",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1332823,
@@ -16347,7 +16403,8 @@
         "probability": 0.8945971993067058,
         "odds": 1.33,
         "value": 1.1898142750779188,
-        "timestamp": "2025-08-18T09:33:15.015934"
+        "timestamp": "2025-08-18T09:33:15.015934",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1393810,
@@ -16359,7 +16416,8 @@
         "probability": 1.0,
         "odds": 1.85,
         "value": 1.85,
-        "timestamp": "2025-08-18T09:33:15.603911"
+        "timestamp": "2025-08-18T09:33:15.603911",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1393810,
@@ -16371,7 +16429,8 @@
         "probability": 1.0,
         "odds": 1.75,
         "value": 1.75,
-        "timestamp": "2025-08-18T09:33:15.603923"
+        "timestamp": "2025-08-18T09:33:15.603923",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1396249,
@@ -16383,7 +16442,8 @@
         "probability": 1.0,
         "odds": 1.95,
         "value": 1.95,
-        "timestamp": "2025-08-18T09:33:16.194558"
+        "timestamp": "2025-08-18T09:33:16.194558",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1396249,
@@ -16395,7 +16455,8 @@
         "probability": 1.0,
         "odds": 1.67,
         "value": 1.67,
-        "timestamp": "2025-08-18T09:33:16.194569"
+        "timestamp": "2025-08-18T09:33:16.194569",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1396941,
@@ -16407,7 +16468,8 @@
         "probability": 1.0,
         "odds": 1.95,
         "value": 1.95,
-        "timestamp": "2025-08-18T09:33:16.791307"
+        "timestamp": "2025-08-18T09:33:16.791307",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1396941,
@@ -16419,7 +16481,8 @@
         "probability": 1.0,
         "odds": 1.91,
         "value": 1.91,
-        "timestamp": "2025-08-18T09:33:16.791319"
+        "timestamp": "2025-08-18T09:33:16.791319",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1392412,
@@ -16431,7 +16494,8 @@
         "probability": 0.3067324189869565,
         "odds": 3.3,
         "value": 1.0122169826569565,
-        "timestamp": "2025-08-18T09:33:17.382160"
+        "timestamp": "2025-08-18T09:33:17.382160",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1392412,
@@ -16443,7 +16507,8 @@
         "probability": 0.2990948305410185,
         "odds": 4.0,
         "value": 1.196379322164074,
-        "timestamp": "2025-08-18T09:33:17.382172"
+        "timestamp": "2025-08-18T09:33:17.382172",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1392412,
@@ -16455,7 +16520,8 @@
         "probability": 0.6767205256945183,
         "odds": 1.62,
         "value": 1.0962872516251199,
-        "timestamp": "2025-08-18T09:33:17.382174"
+        "timestamp": "2025-08-18T09:33:17.382174",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1392412,
@@ -16467,7 +16533,8 @@
         "probability": 0.6034821884655162,
         "odds": 1.73,
         "value": 1.044024186045343,
-        "timestamp": "2025-08-18T09:33:17.382176"
+        "timestamp": "2025-08-18T09:33:17.382176",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1351237,
@@ -16479,7 +16546,8 @@
         "probability": 0.4161139275215882,
         "odds": 2.45,
         "value": 1.0194791224278912,
-        "timestamp": "2025-08-18T09:33:18.032065"
+        "timestamp": "2025-08-18T09:33:18.032065",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1351237,
@@ -16491,7 +16559,8 @@
         "probability": 0.6890610684176147,
         "odds": 1.6,
         "value": 1.1024977094681836,
-        "timestamp": "2025-08-18T09:33:18.032077"
+        "timestamp": "2025-08-18T09:33:18.032077",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1351237,
@@ -16503,6 +16572,403 @@
         "probability": 0.6178590251761561,
         "odds": 1.8,
         "value": 1.112146245317081,
-        "timestamp": "2025-08-18T09:33:18.032079"
+        "timestamp": "2025-08-18T09:33:18.032079",
+        "outcome": "Loss"
+    },
+    {
+        "fixture_id": 1338492,
+        "match": "Deportivo Cuenca vs Cuniburo",
+        "league": "Liga Pro",
+        "match_date": "2025-08-19T00:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Over",
+        "probability": 0.4599254421337752,
+        "odds": 2.25,
+        "value": 1.0348322448009941,
+        "timestamp": "2025-08-19T09:27:10.425680"
+    },
+    {
+        "fixture_id": 1392413,
+        "match": "Deportivo Pasto vs Independiente Medellin",
+        "league": "Primera A",
+        "match_date": "2025-08-19T00:30:00+00:00",
+        "market": "1X2",
+        "bet_value": "Home",
+        "probability": 0.3193381520490006,
+        "odds": 3.6,
+        "value": 1.1496173473764022,
+        "timestamp": "2025-08-19T09:27:11.064657"
+    },
+    {
+        "fixture_id": 1392413,
+        "match": "Deportivo Pasto vs Independiente Medellin",
+        "league": "Primera A",
+        "match_date": "2025-08-19T00:30:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 0.7829436523602682,
+        "odds": 1.4,
+        "value": 1.0961211133043753,
+        "timestamp": "2025-08-19T09:27:11.064672"
+    },
+    {
+        "fixture_id": 1392413,
+        "match": "Deportivo Pasto vs Independiente Medellin",
+        "league": "Primera A",
+        "match_date": "2025-08-19T00:30:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 0.696366702475787,
+        "odds": 1.57,
+        "value": 1.0932957228869857,
+        "timestamp": "2025-08-19T09:27:11.064675"
+    },
+    {
+        "fixture_id": 1384671,
+        "match": "Mlada Boleslav vs Plzen",
+        "league": "Czech Liga",
+        "match_date": "2025-08-19T16:00:00+00:00",
+        "market": "1X2",
+        "bet_value": "Away",
+        "probability": 0.745906855022168,
+        "odds": 1.7,
+        "value": 1.2680416535376857,
+        "timestamp": "2025-08-19T09:27:11.677935"
+    },
+    {
+        "fixture_id": 1384671,
+        "match": "Mlada Boleslav vs Plzen",
+        "league": "Czech Liga",
+        "match_date": "2025-08-19T16:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Over",
+        "probability": 0.9932261390308158,
+        "odds": 1.57,
+        "value": 1.5593650382783808,
+        "timestamp": "2025-08-19T09:27:11.677956"
+    },
+    {
+        "fixture_id": 1384671,
+        "match": "Mlada Boleslav vs Plzen",
+        "league": "Czech Liga",
+        "match_date": "2025-08-19T16:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "Yes",
+        "probability": 0.9565439291978354,
+        "odds": 1.57,
+        "value": 1.5017739688406015,
+        "timestamp": "2025-08-19T09:27:11.677959"
+    },
+    {
+        "fixture_id": 1385143,
+        "match": "Bangor vs Crusaders FC",
+        "league": "Premiership",
+        "match_date": "2025-08-19T18:45:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 1.0,
+        "odds": 2.0,
+        "value": 2.0,
+        "timestamp": "2025-08-19T09:27:12.259719"
+    },
+    {
+        "fixture_id": 1385143,
+        "match": "Bangor vs Crusaders FC",
+        "league": "Premiership",
+        "match_date": "2025-08-19T18:45:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0,
+        "odds": 2.0,
+        "value": 2.0,
+        "timestamp": "2025-08-19T09:27:12.259740"
+    },
+    {
+        "fixture_id": 1385144,
+        "match": "Carrick Rangers vs Linfield",
+        "league": "Premiership",
+        "match_date": "2025-08-19T18:45:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 1.0,
+        "odds": 1.94,
+        "value": 1.94,
+        "timestamp": "2025-08-19T09:27:12.868933"
+    },
+    {
+        "fixture_id": 1385144,
+        "match": "Carrick Rangers vs Linfield",
+        "league": "Premiership",
+        "match_date": "2025-08-19T18:45:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0,
+        "odds": 1.84,
+        "value": 1.84,
+        "timestamp": "2025-08-19T09:27:12.868946"
+    },
+    {
+        "fixture_id": 1385145,
+        "match": "Cliftonville FC vs Larne",
+        "league": "Premiership",
+        "match_date": "2025-08-19T18:45:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 1.0,
+        "odds": 1.67,
+        "value": 1.67,
+        "timestamp": "2025-08-19T09:27:13.561715"
+    },
+    {
+        "fixture_id": 1385145,
+        "match": "Cliftonville FC vs Larne",
+        "league": "Premiership",
+        "match_date": "2025-08-19T18:45:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0,
+        "odds": 1.8,
+        "value": 1.8,
+        "timestamp": "2025-08-19T09:27:13.561729"
+    },
+    {
+        "fixture_id": 1385146,
+        "match": "Coleraine FC vs Dungannon Swifts",
+        "league": "Premiership",
+        "match_date": "2025-08-19T18:45:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 0.6381246770550482,
+        "odds": 2.1,
+        "value": 1.3400618218156013,
+        "timestamp": "2025-08-19T09:27:14.187444"
+    },
+    {
+        "fixture_id": 1385146,
+        "match": "Coleraine FC vs Dungannon Swifts",
+        "league": "Premiership",
+        "match_date": "2025-08-19T18:45:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0,
+        "odds": 2.0,
+        "value": 2.0,
+        "timestamp": "2025-08-19T09:27:14.187459"
+    },
+    {
+        "fixture_id": 1385147,
+        "match": "Glentoran vs Glenavon FC",
+        "league": "Premiership",
+        "match_date": "2025-08-19T18:45:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 0.9641070944608806,
+        "odds": 1.95,
+        "value": 1.8800088341987171,
+        "timestamp": "2025-08-19T09:27:14.809457"
+    },
+    {
+        "fixture_id": 1385147,
+        "match": "Glentoran vs Glenavon FC",
+        "league": "Premiership",
+        "match_date": "2025-08-19T18:45:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 0.9999999999999999,
+        "odds": 1.83,
+        "value": 1.8299999999999998,
+        "timestamp": "2025-08-19T09:27:14.809472"
+    },
+    {
+        "fixture_id": 1385148,
+        "match": "Portadown vs Ballymena United",
+        "league": "Premiership",
+        "match_date": "2025-08-19T18:45:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 0.7257628337680411,
+        "odds": 1.8,
+        "value": 1.306373100782474,
+        "timestamp": "2025-08-19T09:27:15.592235"
+    },
+    {
+        "fixture_id": 1385148,
+        "match": "Portadown vs Ballymena United",
+        "league": "Premiership",
+        "match_date": "2025-08-19T18:45:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0000000000000002,
+        "odds": 1.83,
+        "value": 1.8300000000000005,
+        "timestamp": "2025-08-19T09:27:15.592251"
+    },
+    {
+        "fixture_id": 1390826,
+        "match": "Real Madrid vs Osasuna",
+        "league": "La Liga",
+        "match_date": "2025-08-19T19:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 1.0,
+        "odds": 2.62,
+        "value": 2.62,
+        "timestamp": "2025-08-19T09:27:17.431056"
+    },
+    {
+        "fixture_id": 1390826,
+        "match": "Real Madrid vs Osasuna",
+        "league": "La Liga",
+        "match_date": "2025-08-19T19:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0,
+        "odds": 1.7,
+        "value": 1.7,
+        "timestamp": "2025-08-19T09:27:17.431073"
+    },
+    {
+        "fixture_id": 1435545,
+        "match": "Ferencvarosi TC vs Qarabag",
+        "league": "UEFA Champions League",
+        "match_date": "2025-08-19T19:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Over",
+        "probability": 0.5130183783256239,
+        "odds": 2.0,
+        "value": 1.0260367566512478,
+        "timestamp": "2025-08-19T09:27:18.066119"
+    },
+    {
+        "fixture_id": 1435545,
+        "match": "Ferencvarosi TC vs Qarabag",
+        "league": "UEFA Champions League",
+        "match_date": "2025-08-19T19:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0,
+        "odds": 1.83,
+        "value": 1.83,
+        "timestamp": "2025-08-19T09:27:18.066133"
+    },
+    {
+        "fixture_id": 1435546,
+        "match": "FK Crvena Zvezda vs Pafos",
+        "league": "UEFA Champions League",
+        "match_date": "2025-08-19T19:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 0.9356810826875813,
+        "odds": 2.15,
+        "value": 2.0117143277782996,
+        "timestamp": "2025-08-19T09:27:18.687133"
+    },
+    {
+        "fixture_id": 1435546,
+        "match": "FK Crvena Zvezda vs Pafos",
+        "league": "UEFA Champions League",
+        "match_date": "2025-08-19T19:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 0.9999999999999999,
+        "odds": 1.91,
+        "value": 1.9099999999999997,
+        "timestamp": "2025-08-19T09:27:18.687147"
+    },
+    {
+        "fixture_id": 1435547,
+        "match": "Rangers vs Club Brugge KV",
+        "league": "UEFA Champions League",
+        "match_date": "2025-08-19T19:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 1.0,
+        "odds": 2.15,
+        "value": 2.15,
+        "timestamp": "2025-08-19T09:27:19.316418"
+    },
+    {
+        "fixture_id": 1435547,
+        "match": "Rangers vs Club Brugge KV",
+        "league": "UEFA Champions League",
+        "match_date": "2025-08-19T19:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0,
+        "odds": 2.25,
+        "value": 2.25,
+        "timestamp": "2025-08-19T09:27:19.316435"
+    },
+    {
+        "fixture_id": 1377444,
+        "match": "Velez Sarsfield vs Fortaleza EC",
+        "league": "CONMEBOL Libertadores",
+        "match_date": "2025-08-19T22:00:00+00:00",
+        "market": "1X2",
+        "bet_value": "Draw",
+        "probability": 0.33205873587149304,
+        "odds": 3.3,
+        "value": 1.095793828375927,
+        "timestamp": "2025-08-19T09:27:20.016499"
+    },
+    {
+        "fixture_id": 1377444,
+        "match": "Velez Sarsfield vs Fortaleza EC",
+        "league": "CONMEBOL Libertadores",
+        "match_date": "2025-08-19T22:00:00+00:00",
+        "market": "1X2",
+        "bet_value": "Away",
+        "probability": 0.29422749018854083,
+        "odds": 4.75,
+        "value": 1.397580578395569,
+        "timestamp": "2025-08-19T09:27:20.016514"
+    },
+    {
+        "fixture_id": 1377444,
+        "match": "Velez Sarsfield vs Fortaleza EC",
+        "league": "CONMEBOL Libertadores",
+        "match_date": "2025-08-19T22:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 0.7412459352283667,
+        "odds": 1.48,
+        "value": 1.0970439841379827,
+        "timestamp": "2025-08-19T09:27:20.016517"
+    },
+    {
+        "fixture_id": 1377444,
+        "match": "Velez Sarsfield vs Fortaleza EC",
+        "league": "CONMEBOL Libertadores",
+        "match_date": "2025-08-19T22:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 0.6595877553533204,
+        "odds": 1.57,
+        "value": 1.035552775904713,
+        "timestamp": "2025-08-19T09:27:20.016519"
+    },
+    {
+        "fixture_id": 1414176,
+        "match": "Huracan vs Once Caldas",
+        "league": "CONMEBOL Sudamericana",
+        "match_date": "2025-08-19T22:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 0.8265672781590937,
+        "odds": 1.57,
+        "value": 1.297710626709777,
+        "timestamp": "2025-08-19T09:27:20.650835"
+    },
+    {
+        "fixture_id": 1414176,
+        "match": "Huracan vs Once Caldas",
+        "league": "CONMEBOL Sudamericana",
+        "match_date": "2025-08-19T22:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 0.9999999999999999,
+        "odds": 1.53,
+        "value": 1.5299999999999998,
+        "timestamp": "2025-08-19T09:27:20.650848"
     }
 ]
