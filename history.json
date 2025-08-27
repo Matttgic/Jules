@@ -30282,7 +30282,8 @@
         "probability": 0.694170589883341,
         "odds": 1.91,
         "value": 1.3258658266771812,
-        "timestamp": "2025-08-26T09:28:03.622587"
+        "timestamp": "2025-08-26T09:28:03.622587",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1338503,
@@ -30294,7 +30295,8 @@
         "probability": 0.5299858072514098,
         "odds": 2.3,
         "value": 1.2189673566782424,
-        "timestamp": "2025-08-26T09:28:03.622600"
+        "timestamp": "2025-08-26T09:28:03.622600",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1351243,
@@ -30306,7 +30308,8 @@
         "probability": 0.9669730397881161,
         "odds": 1.18,
         "value": 1.141028186949977,
-        "timestamp": "2025-08-26T09:28:04.269302"
+        "timestamp": "2025-08-26T09:28:04.269302",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1351243,
@@ -30318,7 +30321,8 @@
         "probability": 0.7204333658194056,
         "odds": 1.67,
         "value": 1.2031237209184074,
-        "timestamp": "2025-08-26T09:28:04.269314"
+        "timestamp": "2025-08-26T09:28:04.269314",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1351243,
@@ -30330,7 +30334,8 @@
         "probability": 0.9295444849462322,
         "odds": 1.44,
         "value": 1.3385440583225743,
-        "timestamp": "2025-08-26T09:28:04.269316"
+        "timestamp": "2025-08-26T09:28:04.269316",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1435551,
@@ -30342,7 +30347,8 @@
         "probability": 1.0,
         "odds": 2.2,
         "value": 2.2,
-        "timestamp": "2025-08-26T09:28:05.035885"
+        "timestamp": "2025-08-26T09:28:05.035885",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1435551,
@@ -30354,7 +30360,8 @@
         "probability": 1.0,
         "odds": 2.0,
         "value": 2.0,
-        "timestamp": "2025-08-26T09:28:05.035897"
+        "timestamp": "2025-08-26T09:28:05.035897",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1332824,
@@ -30366,7 +30373,8 @@
         "probability": 0.21999408736107826,
         "odds": 6.25,
         "value": 1.374963046006739,
-        "timestamp": "2025-08-26T09:28:05.613845"
+        "timestamp": "2025-08-26T09:28:05.613845",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1332824,
@@ -30378,7 +30386,8 @@
         "probability": 0.2264599868454862,
         "odds": 6.5,
         "value": 1.4719899144956603,
-        "timestamp": "2025-08-26T09:28:05.613857"
+        "timestamp": "2025-08-26T09:28:05.613857",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1332824,
@@ -30390,7 +30399,8 @@
         "probability": 0.589784077508524,
         "odds": 1.91,
         "value": 1.1264875880412808,
-        "timestamp": "2025-08-26T09:28:05.613860"
+        "timestamp": "2025-08-26T09:28:05.613860",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1378959,
@@ -30402,7 +30412,8 @@
         "probability": 1.0,
         "odds": 2.88,
         "value": 2.88,
-        "timestamp": "2025-08-26T09:28:06.281640"
+        "timestamp": "2025-08-26T09:28:06.281640",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1378959,
@@ -30414,7 +30425,8 @@
         "probability": 1.0,
         "odds": 2.1,
         "value": 2.1,
-        "timestamp": "2025-08-26T09:28:06.281651"
+        "timestamp": "2025-08-26T09:28:06.281651",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1424398,
@@ -30426,7 +30438,8 @@
         "probability": 1.0,
         "odds": 2.5,
         "value": 2.5,
-        "timestamp": "2025-08-26T09:28:07.585294"
+        "timestamp": "2025-08-26T09:28:07.585294",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1424398,
@@ -30438,7 +30451,8 @@
         "probability": 1.0,
         "odds": 2.62,
         "value": 2.62,
-        "timestamp": "2025-08-26T09:28:07.585306"
+        "timestamp": "2025-08-26T09:28:07.585306",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1435552,
@@ -30450,7 +30464,8 @@
         "probability": 0.36538721056757034,
         "odds": 3.9,
         "value": 1.4250101212135242,
-        "timestamp": "2025-08-26T09:28:08.227006"
+        "timestamp": "2025-08-26T09:28:08.227006",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1435552,
@@ -30462,7 +30477,8 @@
         "probability": 0.8226240577602578,
         "odds": 2.25,
         "value": 1.8509041299605802,
-        "timestamp": "2025-08-26T09:28:08.227017"
+        "timestamp": "2025-08-26T09:28:08.227017",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1435552,
@@ -30474,7 +30490,8 @@
         "probability": 0.7523644052882444,
         "odds": 2.25,
         "value": 1.69281991189855,
-        "timestamp": "2025-08-26T09:28:08.227019"
+        "timestamp": "2025-08-26T09:28:08.227019",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1332829,
@@ -30486,7 +30503,8 @@
         "probability": 0.9438852299115164,
         "odds": 1.48,
         "value": 1.3969501402690443,
-        "timestamp": "2025-08-26T09:28:08.888165"
+        "timestamp": "2025-08-26T09:28:08.888165",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1332829,
@@ -30498,7 +30516,8 @@
         "probability": 0.8260174710530732,
         "odds": 1.4,
         "value": 1.1564244594743025,
-        "timestamp": "2025-08-26T09:28:08.888177"
+        "timestamp": "2025-08-26T09:28:08.888177",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1332829,
@@ -30510,6 +30529,343 @@
         "probability": 0.6446303189947109,
         "odds": 2.38,
         "value": 1.5342201592074118,
-        "timestamp": "2025-08-26T09:28:08.888179"
+        "timestamp": "2025-08-26T09:28:08.888179",
+        "outcome": "Loss"
+    },
+    {
+        "fixture_id": 1423478,
+        "match": "Roseng\u00e5rd W vs Ljuboten W",
+        "league": "UEFA Champions League Women",
+        "match_date": "2025-08-27T11:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 1.0,
+        "odds": 6.0,
+        "value": 6.0,
+        "timestamp": "2025-08-27T09:26:36.280160"
+    },
+    {
+        "fixture_id": 1405476,
+        "match": "Brann W vs Inter Milano W",
+        "league": "UEFA Champions League Women",
+        "match_date": "2025-08-27T14:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 1.0,
+        "odds": 2.5,
+        "value": 2.5,
+        "timestamp": "2025-08-27T09:26:38.729523"
+    },
+    {
+        "fixture_id": 1381447,
+        "match": "Kauno \u017dalgiris vs Hegelmann Litauen",
+        "league": "A Lyga",
+        "match_date": "2025-08-27T16:00:00+00:00",
+        "market": "1X2",
+        "bet_value": "Home",
+        "probability": 0.7677854895071896,
+        "odds": 1.7,
+        "value": 1.3052353321622223,
+        "timestamp": "2025-08-27T09:26:43.626262"
+    },
+    {
+        "fixture_id": 1381447,
+        "match": "Kauno \u017dalgiris vs Hegelmann Litauen",
+        "league": "A Lyga",
+        "match_date": "2025-08-27T16:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Over",
+        "probability": 0.5788856841409848,
+        "odds": 1.85,
+        "value": 1.070938515660822,
+        "timestamp": "2025-08-27T09:26:43.626274"
+    },
+    {
+        "fixture_id": 1381447,
+        "match": "Kauno \u017dalgiris vs Hegelmann Litauen",
+        "league": "A Lyga",
+        "match_date": "2025-08-27T16:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 0.5804041653749425,
+        "odds": 1.91,
+        "value": 1.1085719558661402,
+        "timestamp": "2025-08-27T09:26:43.626276"
+    },
+    {
+        "fixture_id": 1437231,
+        "match": "AEK Larnaca vs Brann",
+        "league": "UEFA Europa League",
+        "match_date": "2025-08-27T16:30:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 0.8768827047933552,
+        "odds": 1.9,
+        "value": 1.6660771391073748,
+        "timestamp": "2025-08-27T09:26:47.421131"
+    },
+    {
+        "fixture_id": 1437231,
+        "match": "AEK Larnaca vs Brann",
+        "league": "UEFA Europa League",
+        "match_date": "2025-08-27T16:30:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0000000000000002,
+        "odds": 2.0,
+        "value": 2.0000000000000004,
+        "timestamp": "2025-08-27T09:26:47.421143"
+    },
+    {
+        "fixture_id": 1435553,
+        "match": "Qarabag vs Ferencvarosi TC",
+        "league": "UEFA Champions League",
+        "match_date": "2025-08-27T16:45:00+00:00",
+        "market": "1X2",
+        "bet_value": "Home",
+        "probability": 0.5075382819805822,
+        "odds": 2.2,
+        "value": 1.1165842203572809,
+        "timestamp": "2025-08-27T09:26:48.819892"
+    },
+    {
+        "fixture_id": 1435553,
+        "match": "Qarabag vs Ferencvarosi TC",
+        "league": "UEFA Champions League",
+        "match_date": "2025-08-27T16:45:00+00:00",
+        "market": "1X2",
+        "bet_value": "Draw",
+        "probability": 0.33690089634606996,
+        "odds": 3.5,
+        "value": 1.179153137211245,
+        "timestamp": "2025-08-27T09:26:48.819904"
+    },
+    {
+        "fixture_id": 1435553,
+        "match": "Qarabag vs Ferencvarosi TC",
+        "league": "UEFA Champions League",
+        "match_date": "2025-08-27T16:45:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 0.8023192168353555,
+        "odds": 2.05,
+        "value": 1.6447543945124785,
+        "timestamp": "2025-08-27T09:26:48.819906"
+    },
+    {
+        "fixture_id": 1435553,
+        "match": "Qarabag vs Ferencvarosi TC",
+        "league": "UEFA Champions League",
+        "match_date": "2025-08-27T16:45:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 0.7598516422625635,
+        "odds": 2.2,
+        "value": 1.67167361297764,
+        "timestamp": "2025-08-27T09:26:48.819908"
+    },
+    {
+        "fixture_id": 1438710,
+        "match": "Riga vs Sparta Praha",
+        "league": "UEFA Europa Conference League",
+        "match_date": "2025-08-27T16:45:00+00:00",
+        "market": "1X2",
+        "bet_value": "Home",
+        "probability": 0.7957415009081426,
+        "odds": 3.7,
+        "value": 2.9442435533601277,
+        "timestamp": "2025-08-27T09:26:50.079261"
+    },
+    {
+        "fixture_id": 1438710,
+        "match": "Riga vs Sparta Praha",
+        "league": "UEFA Europa Conference League",
+        "match_date": "2025-08-27T16:45:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Over",
+        "probability": 0.6525214220029144,
+        "odds": 1.7,
+        "value": 1.1092864174049544,
+        "timestamp": "2025-08-27T09:26:50.079273"
+    },
+    {
+        "fixture_id": 1438710,
+        "match": "Riga vs Sparta Praha",
+        "league": "UEFA Europa Conference League",
+        "match_date": "2025-08-27T16:45:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 0.5396737535798419,
+        "odds": 2.25,
+        "value": 1.2142659455546443,
+        "timestamp": "2025-08-27T09:26:50.079276"
+    },
+    {
+        "fixture_id": 1405472,
+        "match": "Twente W vs Crvena zvezda",
+        "league": "UEFA Champions League Women",
+        "match_date": "2025-08-27T17:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 1.0,
+        "odds": 4.33,
+        "value": 4.33,
+        "timestamp": "2025-08-27T09:26:51.294595"
+    },
+    {
+        "fixture_id": 1405475,
+        "match": "Vllaznia vs Dinamo-BGU W",
+        "league": "UEFA Champions League Women",
+        "match_date": "2025-08-27T17:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 1.0,
+        "odds": 1.75,
+        "value": 1.75,
+        "timestamp": "2025-08-27T09:26:52.520506"
+    },
+    {
+        "fixture_id": 1429368,
+        "match": "Hammarby vs Metalist 1925 W",
+        "league": "UEFA Champions League Women",
+        "match_date": "2025-08-27T17:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 1.0,
+        "odds": 3.5,
+        "value": 3.5,
+        "timestamp": "2025-08-27T09:26:54.860216"
+    },
+    {
+        "fixture_id": 1405473,
+        "match": "Fortuna Hj\u00f8rring vs Hibernian W",
+        "league": "UEFA Champions League Women",
+        "match_date": "2025-08-27T18:30:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 1.0,
+        "odds": 2.15,
+        "value": 2.15,
+        "timestamp": "2025-08-27T09:27:00.910799"
+    },
+    {
+        "fixture_id": 1378960,
+        "match": "SV Wehen vs Bayern M\u00fcnchen",
+        "league": "DFB Pokal",
+        "match_date": "2025-08-27T18:45:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 1.0,
+        "odds": 6.0,
+        "value": 6.0,
+        "timestamp": "2025-08-27T09:27:02.290391"
+    },
+    {
+        "fixture_id": 1378960,
+        "match": "SV Wehen vs Bayern M\u00fcnchen",
+        "league": "DFB Pokal",
+        "match_date": "2025-08-27T18:45:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0,
+        "odds": 1.53,
+        "value": 1.53,
+        "timestamp": "2025-08-27T09:27:02.290403"
+    },
+    {
+        "fixture_id": 1390871,
+        "match": "Celta Vigo vs Real Betis",
+        "league": "La Liga",
+        "match_date": "2025-08-27T19:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 0.7257628337680411,
+        "odds": 2.0,
+        "value": 1.4515256675360821,
+        "timestamp": "2025-08-27T09:27:03.691354"
+    },
+    {
+        "fixture_id": 1390871,
+        "match": "Celta Vigo vs Real Betis",
+        "league": "La Liga",
+        "match_date": "2025-08-27T19:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0000000000000002,
+        "odds": 2.05,
+        "value": 2.0500000000000003,
+        "timestamp": "2025-08-27T09:27:03.691366"
+    },
+    {
+        "fixture_id": 1435554,
+        "match": "FC Copenhagen vs FC Basel 1893",
+        "league": "UEFA Champions League",
+        "match_date": "2025-08-27T19:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 1.0,
+        "odds": 2.1,
+        "value": 2.1,
+        "timestamp": "2025-08-27T09:27:05.052943"
+    },
+    {
+        "fixture_id": 1435554,
+        "match": "FC Copenhagen vs FC Basel 1893",
+        "league": "UEFA Champions League",
+        "match_date": "2025-08-27T19:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0,
+        "odds": 2.0,
+        "value": 2.0,
+        "timestamp": "2025-08-27T09:27:05.052958"
+    },
+    {
+        "fixture_id": 1435555,
+        "match": "Club Brugge KV vs Rangers",
+        "league": "UEFA Champions League",
+        "match_date": "2025-08-27T19:00:00+00:00",
+        "market": "1X2",
+        "bet_value": "Away",
+        "probability": 0.1936779230225562,
+        "odds": 5.25,
+        "value": 1.0168090958684202,
+        "timestamp": "2025-08-27T09:27:06.499393"
+    },
+    {
+        "fixture_id": 1435555,
+        "match": "Club Brugge KV vs Rangers",
+        "league": "UEFA Champions League",
+        "match_date": "2025-08-27T19:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Over",
+        "probability": 0.8780494923447656,
+        "odds": 1.57,
+        "value": 1.378537702981282,
+        "timestamp": "2025-08-27T09:27:06.499405"
+    },
+    {
+        "fixture_id": 1435555,
+        "match": "Club Brugge KV vs Rangers",
+        "league": "UEFA Champions League",
+        "match_date": "2025-08-27T19:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "Yes",
+        "probability": 0.8040136756703877,
+        "odds": 1.67,
+        "value": 1.3427028383695474,
+        "timestamp": "2025-08-27T09:27:06.499408"
+    },
+    {
+        "fixture_id": 1435556,
+        "match": "Benfica vs Fenerbahce",
+        "league": "UEFA Champions League",
+        "match_date": "2025-08-27T19:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0,
+        "odds": 1.83,
+        "value": 1.83,
+        "timestamp": "2025-08-27T09:27:07.894260"
     }
 ]
