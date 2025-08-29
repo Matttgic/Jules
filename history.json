@@ -30906,7 +30906,8 @@
         "probability": 0.7258337372888043,
         "odds": 1.75,
         "value": 1.2702090402554076,
-        "timestamp": "2025-08-28T09:26:32.128633"
+        "timestamp": "2025-08-28T09:26:32.128633",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1447008,
@@ -30918,7 +30919,8 @@
         "probability": 0.4203032419408426,
         "odds": 2.6,
         "value": 1.092788429046191,
-        "timestamp": "2025-08-28T09:26:32.128645"
+        "timestamp": "2025-08-28T09:26:32.128645",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1447008,
@@ -30930,7 +30932,8 @@
         "probability": 0.5357881973938572,
         "odds": 2.62,
         "value": 1.403765077171906,
-        "timestamp": "2025-08-28T09:26:32.128648"
+        "timestamp": "2025-08-28T09:26:32.128648",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1447009,
@@ -30942,7 +30945,8 @@
         "probability": 0.867472025166341,
         "odds": 1.62,
         "value": 1.4053046807694725,
-        "timestamp": "2025-08-28T09:26:33.087659"
+        "timestamp": "2025-08-28T09:26:33.087659",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1447009,
@@ -30954,7 +30958,8 @@
         "probability": 1.0,
         "odds": 2.38,
         "value": 2.38,
-        "timestamp": "2025-08-28T09:26:33.087672"
+        "timestamp": "2025-08-28T09:26:33.087672",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1437233,
@@ -30966,7 +30971,8 @@
         "probability": 0.9641070944608806,
         "odds": 2.15,
         "value": 2.0728302530908933,
-        "timestamp": "2025-08-28T09:26:34.313543"
+        "timestamp": "2025-08-28T09:26:34.313543",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1437233,
@@ -30978,7 +30984,8 @@
         "probability": 0.9999999999999999,
         "odds": 2.1,
         "value": 2.0999999999999996,
-        "timestamp": "2025-08-28T09:26:34.313555"
+        "timestamp": "2025-08-28T09:26:34.313555",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1438711,
@@ -30990,7 +30997,8 @@
         "probability": 1.0,
         "odds": 1.9,
         "value": 1.9,
-        "timestamp": "2025-08-28T09:26:34.890509"
+        "timestamp": "2025-08-28T09:26:34.890509",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1438711,
@@ -31002,7 +31010,8 @@
         "probability": 1.0,
         "odds": 1.67,
         "value": 1.67,
-        "timestamp": "2025-08-28T09:26:34.890519"
+        "timestamp": "2025-08-28T09:26:34.890519",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1438712,
@@ -31014,7 +31023,8 @@
         "probability": 1.0,
         "odds": 2.15,
         "value": 2.15,
-        "timestamp": "2025-08-28T09:26:35.470937"
+        "timestamp": "2025-08-28T09:26:35.470937",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1438712,
@@ -31026,7 +31036,8 @@
         "probability": 1.0,
         "odds": 2.1,
         "value": 2.1,
-        "timestamp": "2025-08-28T09:26:35.470944"
+        "timestamp": "2025-08-28T09:26:35.470944",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1438713,
@@ -31038,7 +31049,8 @@
         "probability": 1.0,
         "odds": 2.1,
         "value": 2.1,
-        "timestamp": "2025-08-28T09:26:36.146420"
+        "timestamp": "2025-08-28T09:26:36.146420",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1438713,
@@ -31050,7 +31062,8 @@
         "probability": 1.0,
         "odds": 2.1,
         "value": 2.1,
-        "timestamp": "2025-08-28T09:26:36.146429"
+        "timestamp": "2025-08-28T09:26:36.146429",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1436780,
@@ -31062,7 +31075,8 @@
         "probability": 1.0,
         "odds": 1.9,
         "value": 1.9,
-        "timestamp": "2025-08-28T09:26:36.803386"
+        "timestamp": "2025-08-28T09:26:36.803386",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1436780,
@@ -31074,7 +31088,8 @@
         "probability": 1.0,
         "odds": 2.0,
         "value": 2.0,
-        "timestamp": "2025-08-28T09:26:36.803397"
+        "timestamp": "2025-08-28T09:26:36.803397",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1437234,
@@ -31086,7 +31101,8 @@
         "probability": 1.0,
         "odds": 1.8,
         "value": 1.8,
-        "timestamp": "2025-08-28T09:26:37.376892"
+        "timestamp": "2025-08-28T09:26:37.376892",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1437234,
@@ -31098,7 +31114,8 @@
         "probability": 1.0,
         "odds": 1.91,
         "value": 1.91,
-        "timestamp": "2025-08-28T09:26:37.376903"
+        "timestamp": "2025-08-28T09:26:37.376903",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1438714,
@@ -31110,7 +31127,8 @@
         "probability": 0.511651928564043,
         "odds": 6.0,
         "value": 3.0699115713842575,
-        "timestamp": "2025-08-28T09:26:38.030282"
+        "timestamp": "2025-08-28T09:26:38.030282",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1438714,
@@ -31122,7 +31140,8 @@
         "probability": 0.8639598823365895,
         "odds": 1.44,
         "value": 1.2441022305646887,
-        "timestamp": "2025-08-28T09:26:38.030289"
+        "timestamp": "2025-08-28T09:26:38.030289",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1438714,
@@ -31134,7 +31153,8 @@
         "probability": 0.8249451708044041,
         "odds": 1.67,
         "value": 1.3776584352433547,
-        "timestamp": "2025-08-28T09:26:38.030291"
+        "timestamp": "2025-08-28T09:26:38.030291",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1438715,
@@ -31146,7 +31166,8 @@
         "probability": 1.0,
         "odds": 1.95,
         "value": 1.95,
-        "timestamp": "2025-08-28T09:26:38.593600"
+        "timestamp": "2025-08-28T09:26:38.593600",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1438715,
@@ -31158,7 +31179,8 @@
         "probability": 1.0,
         "odds": 1.83,
         "value": 1.83,
-        "timestamp": "2025-08-28T09:26:38.593607"
+        "timestamp": "2025-08-28T09:26:38.593607",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1438815,
@@ -31170,7 +31192,8 @@
         "probability": 0.7893535309102749,
         "odds": 1.4,
         "value": 1.1050949432743848,
-        "timestamp": "2025-08-28T09:26:39.159749"
+        "timestamp": "2025-08-28T09:26:39.159749",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1438815,
@@ -31182,7 +31205,8 @@
         "probability": 0.9425057585097992,
         "odds": 1.57,
         "value": 1.479734040860385,
-        "timestamp": "2025-08-28T09:26:39.159755"
+        "timestamp": "2025-08-28T09:26:39.159755",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1438815,
@@ -31194,7 +31218,8 @@
         "probability": 0.8261458743636867,
         "odds": 1.8,
         "value": 1.4870625738546361,
-        "timestamp": "2025-08-28T09:26:39.159757"
+        "timestamp": "2025-08-28T09:26:39.159757",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1436783,
@@ -31206,7 +31231,8 @@
         "probability": 1.0,
         "odds": 2.08,
         "value": 2.08,
-        "timestamp": "2025-08-28T09:26:39.862602"
+        "timestamp": "2025-08-28T09:26:39.862602",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1436783,
@@ -31218,7 +31244,8 @@
         "probability": 1.0,
         "odds": 1.62,
         "value": 1.62,
-        "timestamp": "2025-08-28T09:26:39.862613"
+        "timestamp": "2025-08-28T09:26:39.862613",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1437235,
@@ -31230,7 +31257,8 @@
         "probability": 1.0,
         "odds": 1.8,
         "value": 1.8,
-        "timestamp": "2025-08-28T09:26:40.579463"
+        "timestamp": "2025-08-28T09:26:40.579463",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1437235,
@@ -31242,7 +31270,8 @@
         "probability": 1.0,
         "odds": 1.57,
         "value": 1.57,
-        "timestamp": "2025-08-28T09:26:40.579470"
+        "timestamp": "2025-08-28T09:26:40.579470",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1438816,
@@ -31254,7 +31283,8 @@
         "probability": 1.0,
         "odds": 2.1,
         "value": 2.1,
-        "timestamp": "2025-08-28T09:26:41.283179"
+        "timestamp": "2025-08-28T09:26:41.283179",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1438816,
@@ -31266,7 +31296,8 @@
         "probability": 1.0,
         "odds": 1.8,
         "value": 1.8,
-        "timestamp": "2025-08-28T09:26:41.283190"
+        "timestamp": "2025-08-28T09:26:41.283190",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1438817,
@@ -31278,7 +31309,8 @@
         "probability": 1.0,
         "odds": 2.3,
         "value": 2.3,
-        "timestamp": "2025-08-28T09:26:41.971495"
+        "timestamp": "2025-08-28T09:26:41.971495",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1438817,
@@ -31290,7 +31322,8 @@
         "probability": 1.0,
         "odds": 2.25,
         "value": 2.25,
-        "timestamp": "2025-08-28T09:26:41.971508"
+        "timestamp": "2025-08-28T09:26:41.971508",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1438818,
@@ -31302,7 +31335,8 @@
         "probability": 0.8685102786434461,
         "odds": 1.9,
         "value": 1.6501695294225476,
-        "timestamp": "2025-08-28T09:26:42.551919"
+        "timestamp": "2025-08-28T09:26:42.551919",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1438818,
@@ -31314,7 +31348,8 @@
         "probability": 0.9999999999999999,
         "odds": 2.1,
         "value": 2.0999999999999996,
-        "timestamp": "2025-08-28T09:26:42.551931"
+        "timestamp": "2025-08-28T09:26:42.551931",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1436781,
@@ -31326,7 +31361,8 @@
         "probability": 1.0,
         "odds": 2.35,
         "value": 2.35,
-        "timestamp": "2025-08-28T09:26:43.213880"
+        "timestamp": "2025-08-28T09:26:43.213880",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1436781,
@@ -31338,7 +31374,8 @@
         "probability": 1.0,
         "odds": 2.0,
         "value": 2.0,
-        "timestamp": "2025-08-28T09:26:43.213891"
+        "timestamp": "2025-08-28T09:26:43.213891",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1436784,
@@ -31350,7 +31387,8 @@
         "probability": 1.0,
         "odds": 1.95,
         "value": 1.95,
-        "timestamp": "2025-08-28T09:26:43.813171"
+        "timestamp": "2025-08-28T09:26:43.813171",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1436784,
@@ -31362,7 +31400,8 @@
         "probability": 1.0,
         "odds": 2.0,
         "value": 2.0,
-        "timestamp": "2025-08-28T09:26:43.813182"
+        "timestamp": "2025-08-28T09:26:43.813182",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1436785,
@@ -31374,7 +31413,8 @@
         "probability": 1.0,
         "odds": 2.25,
         "value": 2.25,
-        "timestamp": "2025-08-28T09:26:44.486515"
+        "timestamp": "2025-08-28T09:26:44.486515",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1436785,
@@ -31386,7 +31426,8 @@
         "probability": 1.0,
         "odds": 2.2,
         "value": 2.2,
-        "timestamp": "2025-08-28T09:26:44.486524"
+        "timestamp": "2025-08-28T09:26:44.486524",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1437232,
@@ -31398,7 +31439,8 @@
         "probability": 0.3344390651361192,
         "odds": 7.5,
         "value": 2.508292988520894,
-        "timestamp": "2025-08-28T09:26:45.161342"
+        "timestamp": "2025-08-28T09:26:45.161342",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1437232,
@@ -31410,7 +31452,8 @@
         "probability": 0.7561070953283442,
         "odds": 1.8,
         "value": 1.3609927715910195,
-        "timestamp": "2025-08-28T09:26:45.161350"
+        "timestamp": "2025-08-28T09:26:45.161350",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1437232,
@@ -31422,7 +31465,8 @@
         "probability": 0.7393924996861432,
         "odds": 2.1,
         "value": 1.5527242493409008,
-        "timestamp": "2025-08-28T09:26:45.161352"
+        "timestamp": "2025-08-28T09:26:45.161352",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1438819,
@@ -31434,7 +31478,8 @@
         "probability": 1.0,
         "odds": 2.62,
         "value": 2.62,
-        "timestamp": "2025-08-28T09:26:45.845478"
+        "timestamp": "2025-08-28T09:26:45.845478",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1438819,
@@ -31446,7 +31491,8 @@
         "probability": 1.0,
         "odds": 1.8,
         "value": 1.8,
-        "timestamp": "2025-08-28T09:26:45.845486"
+        "timestamp": "2025-08-28T09:26:45.845486",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1438820,
@@ -31458,7 +31504,8 @@
         "probability": 0.6151757334725848,
         "odds": 2.1,
         "value": 1.2918690402924282,
-        "timestamp": "2025-08-28T09:26:46.570957"
+        "timestamp": "2025-08-28T09:26:46.570957",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1438820,
@@ -31470,7 +31517,8 @@
         "probability": 0.7082955442435227,
         "odds": 1.85,
         "value": 1.3103467568505172,
-        "timestamp": "2025-08-28T09:26:46.570969"
+        "timestamp": "2025-08-28T09:26:46.570969",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1438820,
@@ -31482,7 +31530,8 @@
         "probability": 0.7222778929663127,
         "odds": 1.91,
         "value": 1.3795507755656573,
-        "timestamp": "2025-08-28T09:26:46.570971"
+        "timestamp": "2025-08-28T09:26:46.570971",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1438821,
@@ -31494,7 +31543,8 @@
         "probability": 1.0,
         "odds": 2.75,
         "value": 2.75,
-        "timestamp": "2025-08-28T09:26:47.196377"
+        "timestamp": "2025-08-28T09:26:47.196377",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1438821,
@@ -31506,7 +31556,8 @@
         "probability": 1.0,
         "odds": 1.44,
         "value": 1.44,
-        "timestamp": "2025-08-28T09:26:47.196389"
+        "timestamp": "2025-08-28T09:26:47.196389",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1438822,
@@ -31518,7 +31569,8 @@
         "probability": 1.0,
         "odds": 1.9,
         "value": 1.9,
-        "timestamp": "2025-08-28T09:26:47.910717"
+        "timestamp": "2025-08-28T09:26:47.910717",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1438822,
@@ -31530,7 +31582,8 @@
         "probability": 1.0,
         "odds": 2.0,
         "value": 2.0,
-        "timestamp": "2025-08-28T09:26:47.910728"
+        "timestamp": "2025-08-28T09:26:47.910728",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1438823,
@@ -31542,7 +31595,8 @@
         "probability": 0.9942133538338712,
         "odds": 1.6,
         "value": 1.590741366134194,
-        "timestamp": "2025-08-28T09:26:48.463088"
+        "timestamp": "2025-08-28T09:26:48.463088",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1438823,
@@ -31554,7 +31608,8 @@
         "probability": 0.9999999999999999,
         "odds": 1.67,
         "value": 1.6699999999999997,
-        "timestamp": "2025-08-28T09:26:48.463100"
+        "timestamp": "2025-08-28T09:26:48.463100",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1438824,
@@ -31566,7 +31621,8 @@
         "probability": 0.999871264221266,
         "odds": 1.57,
         "value": 1.5697978848273877,
-        "timestamp": "2025-08-28T09:26:49.024828"
+        "timestamp": "2025-08-28T09:26:49.024828",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1438824,
@@ -31578,7 +31634,8 @@
         "probability": 1.0,
         "odds": 2.25,
         "value": 2.25,
-        "timestamp": "2025-08-28T09:26:49.024839"
+        "timestamp": "2025-08-28T09:26:49.024839",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1436782,
@@ -31590,7 +31647,8 @@
         "probability": 1.0,
         "odds": 2.0,
         "value": 2.0,
-        "timestamp": "2025-08-28T09:26:50.388914"
+        "timestamp": "2025-08-28T09:26:50.388914",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1436782,
@@ -31602,7 +31660,8 @@
         "probability": 1.0,
         "odds": 1.91,
         "value": 1.91,
-        "timestamp": "2025-08-28T09:26:50.388925"
+        "timestamp": "2025-08-28T09:26:50.388925",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1438826,
@@ -31614,7 +31673,8 @@
         "probability": 0.28023821829508555,
         "odds": 4.1,
         "value": 1.1489766950098506,
-        "timestamp": "2025-08-28T09:26:50.975186"
+        "timestamp": "2025-08-28T09:26:50.975186",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1438826,
@@ -31626,7 +31686,8 @@
         "probability": 0.6556607172735284,
         "odds": 2.15,
         "value": 1.409670542138086,
-        "timestamp": "2025-08-28T09:26:50.975195"
+        "timestamp": "2025-08-28T09:26:50.975195",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1438826,
@@ -31638,7 +31699,8 @@
         "probability": 0.6200960575776695,
         "odds": 2.0,
         "value": 1.240192115155339,
-        "timestamp": "2025-08-28T09:26:50.975197"
+        "timestamp": "2025-08-28T09:26:50.975197",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1438827,
@@ -31650,7 +31712,8 @@
         "probability": 1.0,
         "odds": 1.62,
         "value": 1.62,
-        "timestamp": "2025-08-28T09:26:51.611158"
+        "timestamp": "2025-08-28T09:26:51.611158",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1438827,
@@ -31662,7 +31725,8 @@
         "probability": 1.0,
         "odds": 1.73,
         "value": 1.73,
-        "timestamp": "2025-08-28T09:26:51.611165"
+        "timestamp": "2025-08-28T09:26:51.611165",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1437236,
@@ -31674,7 +31738,8 @@
         "probability": 1.0,
         "odds": 3.5,
         "value": 3.5,
-        "timestamp": "2025-08-28T09:26:52.190629"
+        "timestamp": "2025-08-28T09:26:52.190629",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1437236,
@@ -31686,7 +31751,8 @@
         "probability": 1.0,
         "odds": 1.57,
         "value": 1.57,
-        "timestamp": "2025-08-28T09:26:52.190640"
+        "timestamp": "2025-08-28T09:26:52.190640",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1438828,
@@ -31698,7 +31764,8 @@
         "probability": 1.0,
         "odds": 2.3,
         "value": 2.3,
-        "timestamp": "2025-08-28T09:26:52.742536"
+        "timestamp": "2025-08-28T09:26:52.742536",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1438828,
@@ -31710,7 +31777,8 @@
         "probability": 1.0,
         "odds": 2.1,
         "value": 2.1,
-        "timestamp": "2025-08-28T09:26:52.742544"
+        "timestamp": "2025-08-28T09:26:52.742544",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1438829,
@@ -31722,7 +31790,8 @@
         "probability": 1.0,
         "odds": 2.38,
         "value": 2.38,
-        "timestamp": "2025-08-28T09:26:53.493890"
+        "timestamp": "2025-08-28T09:26:53.493890",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1438829,
@@ -31734,7 +31803,8 @@
         "probability": 1.0,
         "odds": 1.91,
         "value": 1.91,
-        "timestamp": "2025-08-28T09:26:53.493898"
+        "timestamp": "2025-08-28T09:26:53.493898",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1438830,
@@ -31746,7 +31816,8 @@
         "probability": 1.0,
         "odds": 2.1,
         "value": 2.1,
-        "timestamp": "2025-08-28T09:26:54.133562"
+        "timestamp": "2025-08-28T09:26:54.133562",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1438830,
@@ -31758,7 +31829,8 @@
         "probability": 1.0,
         "odds": 2.0,
         "value": 2.0,
-        "timestamp": "2025-08-28T09:26:54.133574"
+        "timestamp": "2025-08-28T09:26:54.133574",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1438831,
@@ -31770,7 +31842,8 @@
         "probability": 0.8265672781590937,
         "odds": 1.5,
         "value": 1.2398509172386405,
-        "timestamp": "2025-08-28T09:26:54.747196"
+        "timestamp": "2025-08-28T09:26:54.747196",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1438831,
@@ -31782,7 +31855,8 @@
         "probability": 0.9999999999999999,
         "odds": 1.57,
         "value": 1.5699999999999998,
-        "timestamp": "2025-08-28T09:26:54.747203"
+        "timestamp": "2025-08-28T09:26:54.747203",
+        "outcome": "Win"
     },
     {
         "fixture_id": 1438832,
@@ -31794,7 +31868,8 @@
         "probability": 1.0,
         "odds": 2.5,
         "value": 2.5,
-        "timestamp": "2025-08-28T09:26:55.307012"
+        "timestamp": "2025-08-28T09:26:55.307012",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1438832,
@@ -31806,7 +31881,8 @@
         "probability": 1.0,
         "odds": 1.91,
         "value": 1.91,
-        "timestamp": "2025-08-28T09:26:55.307018"
+        "timestamp": "2025-08-28T09:26:55.307018",
+        "outcome": "Loss"
     },
     {
         "fixture_id": 1339178,
@@ -31818,6 +31894,1471 @@
         "probability": 0.5385749522408922,
         "odds": 1.95,
         "value": 1.05022115686974,
-        "timestamp": "2025-08-28T09:26:56.049744"
+        "timestamp": "2025-08-28T09:26:56.049744",
+        "outcome": "Loss"
+    },
+    {
+        "fixture_id": 1391439,
+        "match": "SK Poltava vs Zorya Luhansk",
+        "league": "Premier League",
+        "match_date": "2025-08-29T12:30:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 1.0,
+        "odds": 1.62,
+        "value": 1.62,
+        "timestamp": "2025-08-29T09:26:28.071426"
+    },
+    {
+        "fixture_id": 1391439,
+        "match": "SK Poltava vs Zorya Luhansk",
+        "league": "Premier League",
+        "match_date": "2025-08-29T12:30:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0,
+        "odds": 1.77,
+        "value": 1.77,
+        "timestamp": "2025-08-29T09:26:28.071437"
+    },
+    {
+        "fixture_id": 1350457,
+        "match": "Metta / LU vs FK Liepaja",
+        "league": "Virsliga",
+        "match_date": "2025-08-29T14:30:00+00:00",
+        "market": "1X2",
+        "bet_value": "Away",
+        "probability": 0.6973481796108708,
+        "odds": 1.45,
+        "value": 1.0111548604357627,
+        "timestamp": "2025-08-29T09:26:29.370463"
+    },
+    {
+        "fixture_id": 1350457,
+        "match": "Metta / LU vs FK Liepaja",
+        "league": "Virsliga",
+        "match_date": "2025-08-29T14:30:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Over",
+        "probability": 0.7881867680716259,
+        "odds": 1.7,
+        "value": 1.339917505721764,
+        "timestamp": "2025-08-29T09:26:29.370472"
+    },
+    {
+        "fixture_id": 1350457,
+        "match": "Metta / LU vs FK Liepaja",
+        "league": "Virsliga",
+        "match_date": "2025-08-29T14:30:00+00:00",
+        "market": "BTTS",
+        "bet_value": "Yes",
+        "probability": 0.6890012491144466,
+        "odds": 1.91,
+        "value": 1.315992385808593,
+        "timestamp": "2025-08-29T09:26:29.370474"
+    },
+    {
+        "fixture_id": 1350458,
+        "match": "Grobi\u0146a vs FS Jelgava",
+        "league": "Virsliga",
+        "match_date": "2025-08-29T14:30:00+00:00",
+        "market": "1X2",
+        "bet_value": "Home",
+        "probability": 0.581172484463271,
+        "odds": 2.7,
+        "value": 1.5691657080508317,
+        "timestamp": "2025-08-29T09:26:29.899597"
+    },
+    {
+        "fixture_id": 1350458,
+        "match": "Grobi\u0146a vs FS Jelgava",
+        "league": "Virsliga",
+        "match_date": "2025-08-29T14:30:00+00:00",
+        "market": "1X2",
+        "bet_value": "Draw",
+        "probability": 0.2879676920968042,
+        "odds": 3.5,
+        "value": 1.0078869223388147,
+        "timestamp": "2025-08-29T09:26:29.899609"
+    },
+    {
+        "fixture_id": 1350458,
+        "match": "Grobi\u0146a vs FS Jelgava",
+        "league": "Virsliga",
+        "match_date": "2025-08-29T14:30:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 0.734725123877492,
+        "odds": 1.85,
+        "value": 1.3592414791733602,
+        "timestamp": "2025-08-29T09:26:29.899611"
+    },
+    {
+        "fixture_id": 1350458,
+        "match": "Grobi\u0146a vs FS Jelgava",
+        "league": "Virsliga",
+        "match_date": "2025-08-29T14:30:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 0.7270638718236626,
+        "odds": 1.91,
+        "value": 1.3886919951831955,
+        "timestamp": "2025-08-29T09:26:29.899613"
+    },
+    {
+        "fixture_id": 1388056,
+        "match": "Montana vs Dobrudzha",
+        "league": "First League",
+        "match_date": "2025-08-29T14:30:00+00:00",
+        "market": "1X2",
+        "bet_value": "Home",
+        "probability": 0.6257568287490521,
+        "odds": 3.1,
+        "value": 1.9398461691220616,
+        "timestamp": "2025-08-29T09:26:30.494973"
+    },
+    {
+        "fixture_id": 1388056,
+        "match": "Montana vs Dobrudzha",
+        "league": "First League",
+        "match_date": "2025-08-29T14:30:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 0.8353867447430251,
+        "odds": 1.67,
+        "value": 1.395095863720852,
+        "timestamp": "2025-08-29T09:26:30.494985"
+    },
+    {
+        "fixture_id": 1388056,
+        "match": "Montana vs Dobrudzha",
+        "league": "First League",
+        "match_date": "2025-08-29T14:30:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 0.8727361021496862,
+        "odds": 1.83,
+        "value": 1.5971070669339258,
+        "timestamp": "2025-08-29T09:26:30.494987"
+    },
+    {
+        "fixture_id": 1384261,
+        "match": "Aluminij vs Koper",
+        "league": "1. SNL",
+        "match_date": "2025-08-29T15:30:00+00:00",
+        "market": "1X2",
+        "bet_value": "Away",
+        "probability": 0.9780554939506447,
+        "odds": 2.05,
+        "value": 2.0050137625988214,
+        "timestamp": "2025-08-29T09:26:31.633418"
+    },
+    {
+        "fixture_id": 1384261,
+        "match": "Aluminij vs Koper",
+        "league": "1. SNL",
+        "match_date": "2025-08-29T15:30:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Over",
+        "probability": 0.9850090165433304,
+        "odds": 1.7,
+        "value": 1.6745153281236616,
+        "timestamp": "2025-08-29T09:26:31.633425"
+    },
+    {
+        "fixture_id": 1384261,
+        "match": "Aluminij vs Koper",
+        "league": "1. SNL",
+        "match_date": "2025-08-29T15:30:00+00:00",
+        "market": "BTTS",
+        "bet_value": "Yes",
+        "probability": 0.6567562658926382,
+        "odds": 1.62,
+        "value": 1.063945150746074,
+        "timestamp": "2025-08-29T09:26:31.633427"
+    },
+    {
+        "fixture_id": 1341250,
+        "match": "Dinamo Tbilisi vs Gareji",
+        "league": "Erovnuli Liga",
+        "match_date": "2025-08-29T16:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 0.6050946005785685,
+        "odds": 1.9,
+        "value": 1.14967974109928,
+        "timestamp": "2025-08-29T09:26:32.164328"
+    },
+    {
+        "fixture_id": 1341251,
+        "match": "Samgurali vs Saburtalo",
+        "league": "Erovnuli Liga",
+        "match_date": "2025-08-29T16:00:00+00:00",
+        "market": "1X2",
+        "bet_value": "Home",
+        "probability": 0.2160599614376857,
+        "odds": 4.75,
+        "value": 1.026284816829007,
+        "timestamp": "2025-08-29T09:26:32.741569"
+    },
+    {
+        "fixture_id": 1341251,
+        "match": "Samgurali vs Saburtalo",
+        "league": "Erovnuli Liga",
+        "match_date": "2025-08-29T16:00:00+00:00",
+        "market": "1X2",
+        "bet_value": "Draw",
+        "probability": 0.3175617422603999,
+        "odds": 3.3,
+        "value": 1.0479537494593196,
+        "timestamp": "2025-08-29T09:26:32.741578"
+    },
+    {
+        "fixture_id": 1341251,
+        "match": "Samgurali vs Saburtalo",
+        "league": "Erovnuli Liga",
+        "match_date": "2025-08-29T16:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 0.7343518074697242,
+        "odds": 1.65,
+        "value": 1.2116804823250449,
+        "timestamp": "2025-08-29T09:26:32.741580"
+    },
+    {
+        "fixture_id": 1380438,
+        "match": "Arka Gdynia vs Wisla Plock",
+        "league": "Ekstraklasa",
+        "match_date": "2025-08-29T16:00:00+00:00",
+        "market": "1X2",
+        "bet_value": "Away",
+        "probability": 0.4348515273666815,
+        "odds": 2.55,
+        "value": 1.1088713947850377,
+        "timestamp": "2025-08-29T09:26:33.275813"
+    },
+    {
+        "fixture_id": 1422697,
+        "match": "Oued Akbou vs MC Oran",
+        "league": "Ligue 1",
+        "match_date": "2025-08-29T16:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 1.0,
+        "odds": 1.44,
+        "value": 1.44,
+        "timestamp": "2025-08-29T09:26:33.853496"
+    },
+    {
+        "fixture_id": 1422697,
+        "match": "Oued Akbou vs MC Oran",
+        "league": "Ligue 1",
+        "match_date": "2025-08-29T16:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0,
+        "odds": 1.53,
+        "value": 1.53,
+        "timestamp": "2025-08-29T09:26:33.853507"
+    },
+    {
+        "fixture_id": 1348812,
+        "match": "FC Levadia Tallinn vs Trans Narva",
+        "league": "Meistriliiga",
+        "match_date": "2025-08-29T16:30:00+00:00",
+        "market": "1X2",
+        "bet_value": "Away",
+        "probability": 0.18136483152228794,
+        "odds": 5.75,
+        "value": 1.0428477812531556,
+        "timestamp": "2025-08-29T09:26:34.420249"
+    },
+    {
+        "fixture_id": 1348812,
+        "match": "FC Levadia Tallinn vs Trans Narva",
+        "league": "Meistriliiga",
+        "match_date": "2025-08-29T16:30:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Over",
+        "probability": 0.6415677798489096,
+        "odds": 1.73,
+        "value": 1.1099122591386135,
+        "timestamp": "2025-08-29T09:26:34.420258"
+    },
+    {
+        "fixture_id": 1377875,
+        "match": "Cremonese vs Sassuolo",
+        "league": "Serie A",
+        "match_date": "2025-08-29T16:30:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 1.0,
+        "odds": 1.8,
+        "value": 1.8,
+        "timestamp": "2025-08-29T09:26:35.186843"
+    },
+    {
+        "fixture_id": 1377875,
+        "match": "Cremonese vs Sassuolo",
+        "league": "Serie A",
+        "match_date": "2025-08-29T16:30:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0,
+        "odds": 1.95,
+        "value": 1.95,
+        "timestamp": "2025-08-29T09:26:35.186855"
+    },
+    {
+        "fixture_id": 1388644,
+        "match": "Hertha BSC vs SV Elversberg",
+        "league": "2. Bundesliga",
+        "match_date": "2025-08-29T16:30:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 1.0,
+        "odds": 2.15,
+        "value": 2.15,
+        "timestamp": "2025-08-29T09:26:35.795145"
+    },
+    {
+        "fixture_id": 1388644,
+        "match": "Hertha BSC vs SV Elversberg",
+        "league": "2. Bundesliga",
+        "match_date": "2025-08-29T16:30:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0,
+        "odds": 2.38,
+        "value": 2.38,
+        "timestamp": "2025-08-29T09:26:35.795157"
+    },
+    {
+        "fixture_id": 1388647,
+        "match": "1. FC N\u00fcrnberg vs SC Paderborn 07",
+        "league": "2. Bundesliga",
+        "match_date": "2025-08-29T16:30:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 0.9356810826875813,
+        "odds": 2.1,
+        "value": 1.964930273643921,
+        "timestamp": "2025-08-29T09:26:36.501399"
+    },
+    {
+        "fixture_id": 1388647,
+        "match": "1. FC N\u00fcrnberg vs SC Paderborn 07",
+        "league": "2. Bundesliga",
+        "match_date": "2025-08-29T16:30:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 0.9999999999999999,
+        "odds": 2.2,
+        "value": 2.1999999999999997,
+        "timestamp": "2025-08-29T09:26:36.501411"
+    },
+    {
+        "fixture_id": 1341249,
+        "match": "Dinamo Batumi vs Torpedo Kutaisi",
+        "league": "Erovnuli Liga",
+        "match_date": "2025-08-29T17:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 0.641317736162178,
+        "odds": 1.7,
+        "value": 1.0902401514757025,
+        "timestamp": "2025-08-29T09:26:37.560503"
+    },
+    {
+        "fixture_id": 1379385,
+        "match": "Vejle vs Viborg",
+        "league": "Superliga",
+        "match_date": "2025-08-29T17:00:00+00:00",
+        "market": "1X2",
+        "bet_value": "Home",
+        "probability": 0.5326895675985857,
+        "odds": 2.55,
+        "value": 1.3583583973763933,
+        "timestamp": "2025-08-29T09:26:38.210616"
+    },
+    {
+        "fixture_id": 1379385,
+        "match": "Vejle vs Viborg",
+        "league": "Superliga",
+        "match_date": "2025-08-29T17:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 0.544787268033409,
+        "odds": 2.0,
+        "value": 1.089574536066818,
+        "timestamp": "2025-08-29T09:26:38.210628"
+    },
+    {
+        "fixture_id": 1379385,
+        "match": "Vejle vs Viborg",
+        "league": "Superliga",
+        "match_date": "2025-08-29T17:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 0.5250053198659854,
+        "odds": 2.2,
+        "value": 1.155011703705168,
+        "timestamp": "2025-08-29T09:26:38.210631"
+    },
+    {
+        "fixture_id": 1385812,
+        "match": "Rapid vs Uta Arad",
+        "league": "Liga I",
+        "match_date": "2025-08-29T17:30:00+00:00",
+        "market": "1X2",
+        "bet_value": "Away",
+        "probability": 0.47270459998213127,
+        "odds": 5.25,
+        "value": 2.481699149906189,
+        "timestamp": "2025-08-29T09:26:38.771264"
+    },
+    {
+        "fixture_id": 1385812,
+        "match": "Rapid vs Uta Arad",
+        "league": "Liga I",
+        "match_date": "2025-08-29T17:30:00+00:00",
+        "market": "BTTS",
+        "bet_value": "Yes",
+        "probability": 0.5576562575055767,
+        "odds": 1.8,
+        "value": 1.003781263510038,
+        "timestamp": "2025-08-29T09:26:38.771274"
+    },
+    {
+        "fixture_id": 1390842,
+        "match": "Elche vs Levante",
+        "league": "La Liga",
+        "match_date": "2025-08-29T17:30:00+00:00",
+        "market": "1X2",
+        "bet_value": "Home",
+        "probability": 0.49136825610290535,
+        "odds": 2.15,
+        "value": 1.0564417506212465,
+        "timestamp": "2025-08-29T09:26:39.806955"
+    },
+    {
+        "fixture_id": 1391274,
+        "match": "Real Sociedad II vs Almeria",
+        "league": "Segunda Divisi\u00f3n",
+        "match_date": "2025-08-29T17:30:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 1.0,
+        "odds": 1.9,
+        "value": 1.9,
+        "timestamp": "2025-08-29T09:26:40.487764"
+    },
+    {
+        "fixture_id": 1391274,
+        "match": "Real Sociedad II vs Almeria",
+        "league": "Segunda Divisi\u00f3n",
+        "match_date": "2025-08-29T17:30:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0,
+        "odds": 1.91,
+        "value": 1.91,
+        "timestamp": "2025-08-29T09:26:40.487778"
+    },
+    {
+        "fixture_id": 1380207,
+        "match": "Paks vs Kazincbarcikai",
+        "league": "NB I",
+        "match_date": "2025-08-29T18:00:00+00:00",
+        "market": "1X2",
+        "bet_value": "Home",
+        "probability": 0.7082250247138978,
+        "odds": 1.44,
+        "value": 1.0198440355880127,
+        "timestamp": "2025-08-29T09:26:41.060330"
+    },
+    {
+        "fixture_id": 1380207,
+        "match": "Paks vs Kazincbarcikai",
+        "league": "NB I",
+        "match_date": "2025-08-29T18:00:00+00:00",
+        "market": "1X2",
+        "bet_value": "Away",
+        "probability": 0.16808771649710716,
+        "odds": 6.0,
+        "value": 1.008526298982643,
+        "timestamp": "2025-08-29T09:26:41.060340"
+    },
+    {
+        "fixture_id": 1380207,
+        "match": "Paks vs Kazincbarcikai",
+        "league": "NB I",
+        "match_date": "2025-08-29T18:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Over",
+        "probability": 0.9549956885149776,
+        "odds": 1.44,
+        "value": 1.3751937914615677,
+        "timestamp": "2025-08-29T09:26:41.060343"
+    },
+    {
+        "fixture_id": 1380207,
+        "match": "Paks vs Kazincbarcikai",
+        "league": "NB I",
+        "match_date": "2025-08-29T18:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "Yes",
+        "probability": 0.8830595902574501,
+        "odds": 1.62,
+        "value": 1.4305565362170691,
+        "timestamp": "2025-08-29T09:26:41.060344"
+    },
+    {
+        "fixture_id": 1380893,
+        "match": "Groningen vs Heracles",
+        "league": "Eredivisie",
+        "match_date": "2025-08-29T18:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Over",
+        "probability": 0.8008378412020534,
+        "odds": 1.85,
+        "value": 1.4815500062237987,
+        "timestamp": "2025-08-29T09:26:41.833366"
+    },
+    {
+        "fixture_id": 1380893,
+        "match": "Groningen vs Heracles",
+        "league": "Eredivisie",
+        "match_date": "2025-08-29T18:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0,
+        "odds": 1.95,
+        "value": 1.95,
+        "timestamp": "2025-08-29T09:26:41.833377"
+    },
+    {
+        "fixture_id": 1383940,
+        "match": "Istra 1961 vs HNK Gorica",
+        "league": "HNL",
+        "match_date": "2025-08-29T18:00:00+00:00",
+        "market": "1X2",
+        "bet_value": "Away",
+        "probability": 0.5116519285640431,
+        "odds": 4.33,
+        "value": 2.2154528506823064,
+        "timestamp": "2025-08-29T09:26:42.364370"
+    },
+    {
+        "fixture_id": 1383940,
+        "match": "Istra 1961 vs HNK Gorica",
+        "league": "HNL",
+        "match_date": "2025-08-29T18:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Over",
+        "probability": 0.8639598823365895,
+        "odds": 2.08,
+        "value": 1.7970365552601062,
+        "timestamp": "2025-08-29T09:26:42.364383"
+    },
+    {
+        "fixture_id": 1383940,
+        "match": "Istra 1961 vs HNK Gorica",
+        "league": "HNL",
+        "match_date": "2025-08-29T18:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "Yes",
+        "probability": 0.824945170804404,
+        "odds": 1.91,
+        "value": 1.5756452762364115,
+        "timestamp": "2025-08-29T09:26:42.364385"
+    },
+    {
+        "fixture_id": 1389150,
+        "match": "Laval vs Clermont Foot",
+        "league": "Ligue 2",
+        "match_date": "2025-08-29T18:00:00+00:00",
+        "market": "1X2",
+        "bet_value": "Away",
+        "probability": 0.5837915941064186,
+        "odds": 3.5,
+        "value": 2.043270579372465,
+        "timestamp": "2025-08-29T09:26:43.012024"
+    },
+    {
+        "fixture_id": 1389150,
+        "match": "Laval vs Clermont Foot",
+        "league": "Ligue 2",
+        "match_date": "2025-08-29T18:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Over",
+        "probability": 0.996575077068357,
+        "odds": 2.05,
+        "value": 2.0429789079901317,
+        "timestamp": "2025-08-29T09:26:43.012035"
+    },
+    {
+        "fixture_id": 1389150,
+        "match": "Laval vs Clermont Foot",
+        "league": "Ligue 2",
+        "match_date": "2025-08-29T18:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "Yes",
+        "probability": 0.9820174254079689,
+        "odds": 1.83,
+        "value": 1.7970918884965832,
+        "timestamp": "2025-08-29T09:26:43.012037"
+    },
+    {
+        "fixture_id": 1389152,
+        "match": "Dunkerque vs Estac Troyes",
+        "league": "Ligue 2",
+        "match_date": "2025-08-29T18:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 1.0,
+        "odds": 1.67,
+        "value": 1.67,
+        "timestamp": "2025-08-29T09:26:43.683041"
+    },
+    {
+        "fixture_id": 1389152,
+        "match": "Dunkerque vs Estac Troyes",
+        "league": "Ligue 2",
+        "match_date": "2025-08-29T18:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0,
+        "odds": 1.83,
+        "value": 1.83,
+        "timestamp": "2025-08-29T09:26:43.683052"
+    },
+    {
+        "fixture_id": 1389153,
+        "match": "Nancy vs PAU",
+        "league": "Ligue 2",
+        "match_date": "2025-08-29T18:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 0.9641070944608806,
+        "odds": 1.65,
+        "value": 1.590776705860453,
+        "timestamp": "2025-08-29T09:26:44.305425"
+    },
+    {
+        "fixture_id": 1389153,
+        "match": "Nancy vs PAU",
+        "league": "Ligue 2",
+        "match_date": "2025-08-29T18:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 0.9999999999999999,
+        "odds": 1.8,
+        "value": 1.7999999999999998,
+        "timestamp": "2025-08-29T09:26:44.305436"
+    },
+    {
+        "fixture_id": 1389154,
+        "match": "RED Star FC 93 vs Annecy",
+        "league": "Ligue 2",
+        "match_date": "2025-08-29T18:00:00+00:00",
+        "market": "1X2",
+        "bet_value": "Away",
+        "probability": 0.5239175154298996,
+        "odds": 3.7,
+        "value": 1.9384948070906287,
+        "timestamp": "2025-08-29T09:26:44.938153"
+    },
+    {
+        "fixture_id": 1389154,
+        "match": "RED Star FC 93 vs Annecy",
+        "league": "Ligue 2",
+        "match_date": "2025-08-29T18:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 0.6556607172735284,
+        "odds": 1.65,
+        "value": 1.0818401835013218,
+        "timestamp": "2025-08-29T09:26:44.938165"
+    },
+    {
+        "fixture_id": 1389154,
+        "match": "RED Star FC 93 vs Annecy",
+        "league": "Ligue 2",
+        "match_date": "2025-08-29T18:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 0.6200960575776695,
+        "odds": 1.8,
+        "value": 1.1161729036398051,
+        "timestamp": "2025-08-29T09:26:44.938168"
+    },
+    {
+        "fixture_id": 1389155,
+        "match": "Rodez vs Boulogne",
+        "league": "Ligue 2",
+        "match_date": "2025-08-29T18:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 0.9942133538338712,
+        "odds": 1.8,
+        "value": 1.7895840369009681,
+        "timestamp": "2025-08-29T09:26:45.561822"
+    },
+    {
+        "fixture_id": 1389155,
+        "match": "Rodez vs Boulogne",
+        "league": "Ligue 2",
+        "match_date": "2025-08-29T18:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 0.9999999999999999,
+        "odds": 1.83,
+        "value": 1.8299999999999998,
+        "timestamp": "2025-08-29T09:26:45.561834"
+    },
+    {
+        "fixture_id": 1396828,
+        "match": "Montpellier vs Amiens",
+        "league": "Ligue 2",
+        "match_date": "2025-08-29T18:00:00+00:00",
+        "market": "1X2",
+        "bet_value": "Away",
+        "probability": 0.7955110994356921,
+        "odds": 5.5,
+        "value": 4.375311046896306,
+        "timestamp": "2025-08-29T09:26:46.259430"
+    },
+    {
+        "fixture_id": 1396828,
+        "match": "Montpellier vs Amiens",
+        "league": "Ligue 2",
+        "match_date": "2025-08-29T18:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Over",
+        "probability": 0.6681950227571121,
+        "odds": 1.85,
+        "value": 1.2361607921006574,
+        "timestamp": "2025-08-29T09:26:46.259441"
+    },
+    {
+        "fixture_id": 1422692,
+        "match": "ES Setif vs JS Saoura",
+        "league": "Ligue 1",
+        "match_date": "2025-08-29T18:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 1.0,
+        "odds": 1.5,
+        "value": 1.5,
+        "timestamp": "2025-08-29T09:26:46.902573"
+    },
+    {
+        "fixture_id": 1422692,
+        "match": "ES Setif vs JS Saoura",
+        "league": "Ligue 1",
+        "match_date": "2025-08-29T18:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0,
+        "odds": 1.53,
+        "value": 1.53,
+        "timestamp": "2025-08-29T09:26:46.902585"
+    },
+    {
+        "fixture_id": 1380440,
+        "match": "GKS Katowice vs Radomiak Radom",
+        "league": "Ekstraklasa",
+        "match_date": "2025-08-29T18:30:00+00:00",
+        "market": "1X2",
+        "bet_value": "Home",
+        "probability": 0.833052019786008,
+        "odds": 2.2,
+        "value": 1.8327144435292178,
+        "timestamp": "2025-08-29T09:26:47.428386"
+    },
+    {
+        "fixture_id": 1380440,
+        "match": "GKS Katowice vs Radomiak Radom",
+        "league": "Ekstraklasa",
+        "match_date": "2025-08-29T18:30:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Over",
+        "probability": 0.6722649766913115,
+        "odds": 1.9,
+        "value": 1.2773034557134917,
+        "timestamp": "2025-08-29T09:26:47.428399"
+    },
+    {
+        "fixture_id": 1380440,
+        "match": "GKS Katowice vs Radomiak Radom",
+        "league": "Ekstraklasa",
+        "match_date": "2025-08-29T18:30:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 0.5716212374093447,
+        "odds": 1.95,
+        "value": 1.1146614129482222,
+        "timestamp": "2025-08-29T09:26:47.428401"
+    },
+    {
+        "fixture_id": 1388320,
+        "match": "Hamburger SV vs FC St. Pauli",
+        "league": "Bundesliga",
+        "match_date": "2025-08-29T18:30:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 1.0,
+        "odds": 1.8,
+        "value": 1.8,
+        "timestamp": "2025-08-29T09:26:48.082083"
+    },
+    {
+        "fixture_id": 1388320,
+        "match": "Hamburger SV vs FC St. Pauli",
+        "league": "Bundesliga",
+        "match_date": "2025-08-29T18:30:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0,
+        "odds": 1.95,
+        "value": 1.95,
+        "timestamp": "2025-08-29T09:26:48.082095"
+    },
+    {
+        "fixture_id": 1394465,
+        "match": "Goztepe vs Konyaspor",
+        "league": "S\u00fcper Lig",
+        "match_date": "2025-08-29T18:30:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 1.0,
+        "odds": 1.85,
+        "value": 1.85,
+        "timestamp": "2025-08-29T09:26:48.761522"
+    },
+    {
+        "fixture_id": 1394465,
+        "match": "Goztepe vs Konyaspor",
+        "league": "S\u00fcper Lig",
+        "match_date": "2025-08-29T18:30:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0,
+        "odds": 1.91,
+        "value": 1.91,
+        "timestamp": "2025-08-29T09:26:48.761532"
+    },
+    {
+        "fixture_id": 1419605,
+        "match": "Reggiana vs Empoli",
+        "league": "Serie B",
+        "match_date": "2025-08-29T18:30:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 1.0,
+        "odds": 1.67,
+        "value": 1.67,
+        "timestamp": "2025-08-29T09:26:49.362673"
+    },
+    {
+        "fixture_id": 1419605,
+        "match": "Reggiana vs Empoli",
+        "league": "Serie B",
+        "match_date": "2025-08-29T18:30:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0,
+        "odds": 1.8,
+        "value": 1.8,
+        "timestamp": "2025-08-29T09:26:49.362686"
+    },
+    {
+        "fixture_id": 1340661,
+        "match": "Cork City vs Waterford",
+        "league": "Premier Division",
+        "match_date": "2025-08-29T18:45:00+00:00",
+        "market": "1X2",
+        "bet_value": "Away",
+        "probability": 0.39658017965190334,
+        "odds": 2.7,
+        "value": 1.070766485060139,
+        "timestamp": "2025-08-29T09:26:49.934011"
+    },
+    {
+        "fixture_id": 1340661,
+        "match": "Cork City vs Waterford",
+        "league": "Premier Division",
+        "match_date": "2025-08-29T18:45:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Over",
+        "probability": 0.5139569039675306,
+        "odds": 1.95,
+        "value": 1.0022159627366847,
+        "timestamp": "2025-08-29T09:26:49.934022"
+    },
+    {
+        "fixture_id": 1340662,
+        "match": "Derry City vs St Patrick's Athl.",
+        "league": "Premier Division",
+        "match_date": "2025-08-29T18:45:00+00:00",
+        "market": "1X2",
+        "bet_value": "Home",
+        "probability": 0.5471823791186078,
+        "odds": 2.5,
+        "value": 1.3679559477965195,
+        "timestamp": "2025-08-29T09:26:50.475347"
+    },
+    {
+        "fixture_id": 1340662,
+        "match": "Derry City vs St Patrick's Athl.",
+        "league": "Premier Division",
+        "match_date": "2025-08-29T18:45:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 0.6277562400735007,
+        "odds": 1.62,
+        "value": 1.0169651089190712,
+        "timestamp": "2025-08-29T09:26:50.475358"
+    },
+    {
+        "fixture_id": 1340662,
+        "match": "Derry City vs St Patrick's Athl.",
+        "league": "Premier Division",
+        "match_date": "2025-08-29T18:45:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 0.6048971849037167,
+        "odds": 1.8,
+        "value": 1.08881493282669,
+        "timestamp": "2025-08-29T09:26:50.475372"
+    },
+    {
+        "fixture_id": 1377879,
+        "match": "Lecce vs AC Milan",
+        "league": "Serie A",
+        "match_date": "2025-08-29T18:45:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 1.0,
+        "odds": 1.8,
+        "value": 1.8,
+        "timestamp": "2025-08-29T09:26:51.089818"
+    },
+    {
+        "fixture_id": 1377879,
+        "match": "Lecce vs AC Milan",
+        "league": "Serie A",
+        "match_date": "2025-08-29T18:45:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0,
+        "odds": 1.75,
+        "value": 1.75,
+        "timestamp": "2025-08-29T09:26:51.089830"
+    },
+    {
+        "fixture_id": 1382466,
+        "match": "Cercle Brugge vs St. Truiden",
+        "league": "Jupiler Pro League",
+        "match_date": "2025-08-29T18:45:00+00:00",
+        "market": "1X2",
+        "bet_value": "Away",
+        "probability": 0.6849150729999649,
+        "odds": 3.0,
+        "value": 2.0547452189998947,
+        "timestamp": "2025-08-29T09:26:51.714952"
+    },
+    {
+        "fixture_id": 1382466,
+        "match": "Cercle Brugge vs St. Truiden",
+        "league": "Jupiler Pro League",
+        "match_date": "2025-08-29T18:45:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 0.5555628421343705,
+        "odds": 2.1,
+        "value": 1.166681968482178,
+        "timestamp": "2025-08-29T09:26:51.714962"
+    },
+    {
+        "fixture_id": 1385159,
+        "match": "Larne vs Ballymena United",
+        "league": "Premiership",
+        "match_date": "2025-08-29T18:45:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 1.0,
+        "odds": 1.73,
+        "value": 1.73,
+        "timestamp": "2025-08-29T09:26:52.396565"
+    },
+    {
+        "fixture_id": 1385159,
+        "match": "Larne vs Ballymena United",
+        "league": "Premiership",
+        "match_date": "2025-08-29T18:45:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0,
+        "odds": 1.8,
+        "value": 1.8,
+        "timestamp": "2025-08-29T09:26:52.396576"
+    },
+    {
+        "fixture_id": 1385160,
+        "match": "Portadown vs Crusaders FC",
+        "league": "Premiership",
+        "match_date": "2025-08-29T18:45:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Over",
+        "probability": 0.7748951061366901,
+        "odds": 1.85,
+        "value": 1.4335559463528769,
+        "timestamp": "2025-08-29T09:26:53.073584"
+    },
+    {
+        "fixture_id": 1385160,
+        "match": "Portadown vs Crusaders FC",
+        "league": "Premiership",
+        "match_date": "2025-08-29T18:45:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0000000000000002,
+        "odds": 2.0,
+        "value": 2.0000000000000004,
+        "timestamp": "2025-08-29T09:26:53.073596"
+    },
+    {
+        "fixture_id": 1387718,
+        "match": "Lens vs Stade Brestois 29",
+        "league": "Ligue 1",
+        "match_date": "2025-08-29T18:45:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 1.0,
+        "odds": 1.91,
+        "value": 1.91,
+        "timestamp": "2025-08-29T09:26:53.857400"
+    },
+    {
+        "fixture_id": 1387718,
+        "match": "Lens vs Stade Brestois 29",
+        "league": "Ligue 1",
+        "match_date": "2025-08-29T18:45:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0,
+        "odds": 1.95,
+        "value": 1.95,
+        "timestamp": "2025-08-29T09:26:53.857412"
+    },
+    {
+        "fixture_id": 1440347,
+        "match": "Aveley vs Hashtag United",
+        "league": "FA Cup",
+        "match_date": "2025-08-29T18:45:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 1.0,
+        "odds": 2.5,
+        "value": 2.5,
+        "timestamp": "2025-08-29T09:26:54.448989"
+    },
+    {
+        "fixture_id": 1384939,
+        "match": "Cukaricki vs OFK Beograd",
+        "league": "Super Liga",
+        "match_date": "2025-08-29T19:00:00+00:00",
+        "market": "1X2",
+        "bet_value": "Home",
+        "probability": 0.8303207106058398,
+        "odds": 1.85,
+        "value": 1.5360933146208038,
+        "timestamp": "2025-08-29T09:26:55.574476"
+    },
+    {
+        "fixture_id": 1384939,
+        "match": "Cukaricki vs OFK Beograd",
+        "league": "Super Liga",
+        "match_date": "2025-08-29T19:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Over",
+        "probability": 0.8771487117568925,
+        "odds": 1.95,
+        "value": 1.7104399879259402,
+        "timestamp": "2025-08-29T09:26:55.574485"
+    },
+    {
+        "fixture_id": 1384939,
+        "match": "Cukaricki vs OFK Beograd",
+        "league": "Super Liga",
+        "match_date": "2025-08-29T19:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "Yes",
+        "probability": 0.6868572804660595,
+        "odds": 1.8,
+        "value": 1.2363431048389073,
+        "timestamp": "2025-08-29T09:26:55.574487"
+    },
+    {
+        "fixture_id": 1386587,
+        "match": "Leicester vs Birmingham",
+        "league": "Championship",
+        "match_date": "2025-08-29T19:00:00+00:00",
+        "market": "1X2",
+        "bet_value": "Away",
+        "probability": 0.46827158252983697,
+        "odds": 2.8,
+        "value": 1.3111604310835434,
+        "timestamp": "2025-08-29T09:26:56.245283"
+    },
+    {
+        "fixture_id": 1386587,
+        "match": "Leicester vs Birmingham",
+        "league": "Championship",
+        "match_date": "2025-08-29T19:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Over",
+        "probability": 0.6297531969949843,
+        "odds": 2.1,
+        "value": 1.322481713689467,
+        "timestamp": "2025-08-29T09:26:56.245296"
+    },
+    {
+        "fixture_id": 1386587,
+        "match": "Leicester vs Birmingham",
+        "league": "Championship",
+        "match_date": "2025-08-29T19:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "Yes",
+        "probability": 0.6369222279322877,
+        "odds": 1.83,
+        "value": 1.1655676771160866,
+        "timestamp": "2025-08-29T09:26:56.245298"
+    },
+    {
+        "fixture_id": 1388057,
+        "match": "Septemvri Sofia vs Lokomotiv Sofia",
+        "league": "First League",
+        "match_date": "2025-08-29T19:00:00+00:00",
+        "market": "1X2",
+        "bet_value": "Draw",
+        "probability": 0.3085569256348458,
+        "odds": 3.3,
+        "value": 1.0182378545949913,
+        "timestamp": "2025-08-29T09:26:56.835372"
+    },
+    {
+        "fixture_id": 1388057,
+        "match": "Septemvri Sofia vs Lokomotiv Sofia",
+        "league": "First League",
+        "match_date": "2025-08-29T19:00:00+00:00",
+        "market": "1X2",
+        "bet_value": "Away",
+        "probability": 0.5703174738192572,
+        "odds": 2.0,
+        "value": 1.1406349476385145,
+        "timestamp": "2025-08-29T09:26:56.835384"
+    },
+    {
+        "fixture_id": 1388057,
+        "match": "Septemvri Sofia vs Lokomotiv Sofia",
+        "league": "First League",
+        "match_date": "2025-08-29T19:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 0.7811209376341961,
+        "odds": 1.85,
+        "value": 1.445073734623263,
+        "timestamp": "2025-08-29T09:26:56.835386"
+    },
+    {
+        "fixture_id": 1388057,
+        "match": "Septemvri Sofia vs Lokomotiv Sofia",
+        "league": "First League",
+        "match_date": "2025-08-29T19:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 0.7699502904221871,
+        "odds": 1.91,
+        "value": 1.4706050547063774,
+        "timestamp": "2025-08-29T09:26:56.835388"
+    },
+    {
+        "fixture_id": 1388961,
+        "match": "FK Sarajevo vs Rudar Prijedor",
+        "league": "Premijer Liga",
+        "match_date": "2025-08-29T19:00:00+00:00",
+        "market": "1X2",
+        "bet_value": "Home",
+        "probability": 0.9531695015403537,
+        "odds": 1.12,
+        "value": 1.0675498417251963,
+        "timestamp": "2025-08-29T09:26:57.352678"
+    },
+    {
+        "fixture_id": 1388961,
+        "match": "FK Sarajevo vs Rudar Prijedor",
+        "league": "Premijer Liga",
+        "match_date": "2025-08-29T19:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Over",
+        "probability": 0.9262923327094837,
+        "odds": 1.53,
+        "value": 1.41722726904551,
+        "timestamp": "2025-08-29T09:26:57.352690"
+    },
+    {
+        "fixture_id": 1388961,
+        "match": "FK Sarajevo vs Rudar Prijedor",
+        "league": "Premijer Liga",
+        "match_date": "2025-08-29T19:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "Yes",
+        "probability": 0.5276121829304101,
+        "odds": 2.62,
+        "value": 1.3823439192776745,
+        "timestamp": "2025-08-29T09:26:57.352692"
+    },
+    {
+        "fixture_id": 1396875,
+        "match": "Atl\u00e9tico Tembetary vs Sportivo Trinidense",
+        "league": "Division Profesional - Clausura",
+        "match_date": "2025-08-29T19:00:00+00:00",
+        "market": "1X2",
+        "bet_value": "Away",
+        "probability": 0.8443479362560449,
+        "odds": 1.95,
+        "value": 1.6464784756992874,
+        "timestamp": "2025-08-29T09:26:57.967558"
+    },
+    {
+        "fixture_id": 1396875,
+        "match": "Atl\u00e9tico Tembetary vs Sportivo Trinidense",
+        "league": "Division Profesional - Clausura",
+        "match_date": "2025-08-29T19:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Over",
+        "probability": 0.5247642151003165,
+        "odds": 2.1,
+        "value": 1.1020048517106646,
+        "timestamp": "2025-08-29T09:26:57.967568"
+    },
+    {
+        "fixture_id": 1396875,
+        "match": "Atl\u00e9tico Tembetary vs Sportivo Trinidense",
+        "league": "Division Profesional - Clausura",
+        "match_date": "2025-08-29T19:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 0.7487416311209089,
+        "odds": 1.8,
+        "value": 1.347734936017636,
+        "timestamp": "2025-08-29T09:26:57.967570"
+    },
+    {
+        "fixture_id": 1396267,
+        "match": "GIL Vicente vs Moreirense",
+        "league": "Primeira Liga",
+        "match_date": "2025-08-29T19:15:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 1.0000000000000002,
+        "odds": 1.57,
+        "value": 1.5700000000000005,
+        "timestamp": "2025-08-29T09:26:59.610655"
+    },
+    {
+        "fixture_id": 1390848,
+        "match": "Valencia vs Getafe",
+        "league": "La Liga",
+        "match_date": "2025-08-29T19:30:00+00:00",
+        "market": "1X2",
+        "bet_value": "Away",
+        "probability": 0.7345246068882423,
+        "odds": 3.9,
+        "value": 2.8646459668641446,
+        "timestamp": "2025-08-29T09:27:00.281244"
+    },
+    {
+        "fixture_id": 1390848,
+        "match": "Valencia vs Getafe",
+        "league": "La Liga",
+        "match_date": "2025-08-29T19:30:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Over",
+        "probability": 0.3706266379824442,
+        "odds": 3.0,
+        "value": 1.1118799139473325,
+        "timestamp": "2025-08-29T09:27:00.281256"
+    },
+    {
+        "fixture_id": 1390848,
+        "match": "Valencia vs Getafe",
+        "league": "La Liga",
+        "match_date": "2025-08-29T19:30:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 0.7484440047945956,
+        "odds": 1.57,
+        "value": 1.1750570875275153,
+        "timestamp": "2025-08-29T09:27:00.281258"
+    },
+    {
+        "fixture_id": 1391278,
+        "match": "Sporting Gijon vs Cultural Leonesa",
+        "league": "Segunda Divisi\u00f3n",
+        "match_date": "2025-08-29T19:30:00+00:00",
+        "market": "1X2",
+        "bet_value": "Home",
+        "probability": 0.9865397066848172,
+        "odds": 1.67,
+        "value": 1.6475213101636446,
+        "timestamp": "2025-08-29T09:27:00.974755"
+    },
+    {
+        "fixture_id": 1391278,
+        "match": "Sporting Gijon vs Cultural Leonesa",
+        "league": "Segunda Divisi\u00f3n",
+        "match_date": "2025-08-29T19:30:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Over",
+        "probability": 0.9867915740714881,
+        "odds": 2.05,
+        "value": 2.0229227268465504,
+        "timestamp": "2025-08-29T09:27:00.974766"
+    },
+    {
+        "fixture_id": 1391278,
+        "match": "Sporting Gijon vs Cultural Leonesa",
+        "league": "Segunda Divisi\u00f3n",
+        "match_date": "2025-08-29T19:30:00+00:00",
+        "market": "BTTS",
+        "bet_value": "Yes",
+        "probability": 0.596619041851562,
+        "odds": 2.0,
+        "value": 1.193238083703124,
+        "timestamp": "2025-08-29T09:27:00.974768"
+    },
+    {
+        "fixture_id": 1396872,
+        "match": "Sportivo Ameliano vs Nacional Asuncion",
+        "league": "Division Profesional - Clausura",
+        "match_date": "2025-08-29T21:30:00+00:00",
+        "market": "1X2",
+        "bet_value": "Away",
+        "probability": 0.660730906783084,
+        "odds": 2.25,
+        "value": 1.486644540261939,
+        "timestamp": "2025-08-29T09:27:01.628163"
+    },
+    {
+        "fixture_id": 1396872,
+        "match": "Sportivo Ameliano vs Nacional Asuncion",
+        "league": "Division Profesional - Clausura",
+        "match_date": "2025-08-29T21:30:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 0.8228002738864013,
+        "odds": 1.48,
+        "value": 1.217744405351874,
+        "timestamp": "2025-08-29T09:27:01.628174"
+    },
+    {
+        "fixture_id": 1396872,
+        "match": "Sportivo Ameliano vs Nacional Asuncion",
+        "league": "Division Profesional - Clausura",
+        "match_date": "2025-08-29T21:30:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 0.8866035229449969,
+        "odds": 1.62,
+        "value": 1.436297707170895,
+        "timestamp": "2025-08-29T09:27:01.628176"
+    },
+    {
+        "fixture_id": 1339177,
+        "match": "Union La Calera vs Palestino",
+        "league": "Primera Divisi\u00f3n",
+        "match_date": "2025-08-29T23:00:00+00:00",
+        "market": "1X2",
+        "bet_value": "Away",
+        "probability": 0.5134880637172582,
+        "odds": 2.3,
+        "value": 1.1810225465496937,
+        "timestamp": "2025-08-29T09:27:02.191590"
+    },
+    {
+        "fixture_id": 1339177,
+        "match": "Union La Calera vs Palestino",
+        "league": "Primera Divisi\u00f3n",
+        "match_date": "2025-08-29T23:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 0.6806416197954657,
+        "odds": 1.62,
+        "value": 1.1026394240686546,
+        "timestamp": "2025-08-29T09:27:02.191603"
+    },
+    {
+        "fixture_id": 1339177,
+        "match": "Union La Calera vs Palestino",
+        "league": "Primera Divisi\u00f3n",
+        "match_date": "2025-08-29T23:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 0.6390177671414674,
+        "odds": 1.8,
+        "value": 1.1502319808546413,
+        "timestamp": "2025-08-29T09:27:02.191605"
+    },
+    {
+        "fixture_id": 1392426,
+        "match": "Junior vs Llaneros",
+        "league": "Primera A",
+        "match_date": "2025-08-29T23:00:00+00:00",
+        "market": "1X2",
+        "bet_value": "Draw",
+        "probability": 0.27595763600005974,
+        "odds": 3.8,
+        "value": 1.0486390168002269,
+        "timestamp": "2025-08-29T09:27:02.814131"
+    },
+    {
+        "fixture_id": 1392426,
+        "match": "Junior vs Llaneros",
+        "league": "Primera A",
+        "match_date": "2025-08-29T23:00:00+00:00",
+        "market": "1X2",
+        "bet_value": "Away",
+        "probability": 0.1961687538740598,
+        "odds": 6.5,
+        "value": 1.2750969001813888,
+        "timestamp": "2025-08-29T09:27:02.814139"
+    },
+    {
+        "fixture_id": 1392426,
+        "match": "Junior vs Llaneros",
+        "league": "Primera A",
+        "match_date": "2025-08-29T23:00:00+00:00",
+        "market": "O/U 2.5",
+        "bet_value": "Under",
+        "probability": 0.64316866858581,
+        "odds": 1.73,
+        "value": 1.1126817966534512,
+        "timestamp": "2025-08-29T09:27:02.814142"
+    },
+    {
+        "fixture_id": 1392426,
+        "match": "Junior vs Llaneros",
+        "league": "Primera A",
+        "match_date": "2025-08-29T23:00:00+00:00",
+        "market": "BTTS",
+        "bet_value": "No",
+        "probability": 0.610320546968246,
+        "odds": 1.67,
+        "value": 1.0192353134369707,
+        "timestamp": "2025-08-29T09:27:02.814143"
     }
 ]
